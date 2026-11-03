@@ -1,36 +1,58 @@
-# Data sources and collection notes
+# Data Sources
 
-## 1. India state/year biomedical-waste quantities (primary quantitative source)
+Project: MED-WASTE-SEGREGATION (Data Analytics & Visualization)
+Issue: Data Collection, Medical Waste Dataset (#2)
+Date accessed: 3 November 2026
 
-- **Dataset page:** https://dataful.in/datasets/19381/
-- **Underlying official source:** Central Pollution Control Board (CPCB), *Annual Report - Inventory on Bio Medical Waste Management*: https://cpcb.nic.in/status-of-bmw-management/
-- **Publisher/citation shown on Dataful:** Ministry of Environment, Forest and Climate Change. (2026). *Medical Waste: Year- and State-wise Quantity of Bio-Medical Waste Generated, Treated and Disposed* [Dataset]. Dataful. https://dataful.in/datasets/19381
-- **Attributes:** `year`, `state`, `category`, `value`, `unit`, `note`.
-- **Coverage/granularity:** 2008–2024, yearly by state/territory; publisher page reports 1,260 rows and 6 columns, updated 29 July 2026.
-- **License/terms:** No explicit open-data license was verified on the dataset page during collection. Treat reuse rights as **not confirmed**; review Dataful terms and CPCB source terms before redistribution. Attribution is included here. The official source is the preferred source for obtaining original annual-report material.
-- **Collection method in this repository:** A 10-row excerpt was transcribed from the public Dataful page preview on 2026-10-27. This is a preview extract, **not** the complete dataset. No synthetic rows were added; no source values were imputed or normalized.
-- **Limitations:** The preview excerpt contains only five states/territories and year 2024, so it cannot support national or temporal trend conclusions. Some values are absent in the full source. The publisher notes that CPCB wording for “treated” and “treated and disposed” varies by year. The `value` field is described as a string in the publisher metadata despite representing quantities; validate types during preprocessing.
+## 1. Primary source (included in `data/raw/`)
 
-## 2. WHO healthcare-waste categories and characteristics (classification reference)
+| Item | Details |
+|---|---|
+| Title | Annual Report on Biomedical Waste Management for the year 2023 |
+| Publisher | Central Pollution Control Board (CPCB), Ministry of Environment, Forest & Climate Change, Government of India |
+| URL | https://cpcb.nic.in/uploads/Projects/Bio-Medical-Waste/AR_BMWM_2023.pdf |
+| Format | PDF, 42 pages |
+| Data used | Annexure-I, State/UT-wise status of biomedical waste management (report pages 39-41) |
+| Coverage | 36 States/UTs plus DGAFMS (Armed Forces Medical Services), calendar year 2023 |
+| Raw files | `data/raw/AR_BMWM_2023.pdf` (original, untouched) and `data/raw/medical_waste.csv` (extracted table) |
 
-- **Source:** World Health Organization, *Health-care waste*, fact sheet updated 24 October 2024.
-- **URL:** https://www.who.int/news-room/fact-sheets/detail/health-care-waste
-- **Use:** Category definitions and examples for infectious, pathological, sharps, chemical, pharmaceutical/cytotoxic, radioactive, and general non-hazardous waste; general context on hazardous versus non-hazardous waste.
-- **License/terms:** WHO copyright applies; the fact sheet is a reference, not a downloadable tabular dataset. This repository links to and summarizes the source rather than reproducing the full publication. Check the source's reuse terms for downstream redistribution.
-- **Collection method:** Reviewed the published fact sheet on 2026-10-27 and recorded category names/examples in documentation. No WHO quantitative observations are inserted into `medical_waste.csv`.
-- **Limitations:** WHO's broad international categories are not identical to India's statutory color-coded biomedical-waste segregation rules. Use the applicable Indian Biomedical Waste Management Rules and local institutional SOPs for operational segregation.
+**Why this source:** it is the official national compilation. State Pollution Control Boards submit annual reports to CPCB under the Bio-Medical Waste Management Rules, 2016, and CPCB compiles them. It is free to download and covers every State/UT, so it suits comparison, ranking and mapping in the analytics and visualization stages.
 
-## 3. India official biomedical-waste reporting index
+## 2. License and terms of use
 
-- **Source:** CPCB, Status of Biomedical Waste Management.
-- **URL:** https://cpcb.nic.in/status-of-bmw-management/
-- **Use:** Official entry point for CPCB annual reports/inventory material and validation against the secondary compiled dataset.
-- **License/terms:** No explicit dataset license confirmed here; consult CPCB terms and the individual reports.
-- **Collection method:** Source link recorded for follow-up verification; no annual report was downloaded or transformed for this commit.
+The report states no license. It is a Government of India publication that CPCB makes freely available on its website. It is used here for academic, non-commercial coursework with full attribution to CPCB. Check CPCB's website terms if the project is ever published or used commercially.
 
-## Reproducibility and data integrity
+## 3. Collection method
 
-- `data/raw/medical_waste.csv` is a manually transcribed preview excerpt, not a full source-file mirror. The file's schema follows the six fields shown by Dataful.
-- Do not describe this excerpt as the complete CPCB dataset.
-- For a complete raw-data release, download the full CSV from the Dataful dataset page or retrieve CPCB annual reports, preserve the downloaded file unchanged, and record retrieval date, source filename, license/terms, and SHA-256 checksum.
-- Derived/cleaned tables should be stored under `data/processed/`; never overwrite raw source files.
+1. The PDF was downloaded from the CPCB URL above and stored unchanged.
+2. The Annexure-I table was extracted into CSV with Python (`pdfplumber`). Extraction used AI assistance (Claude); mention this if your course requires it.
+3. Only these changes were made: headings rewritten in `snake_case`, three State names rejoined where the PDF had split them across lines, and the printed `total` row left out of the CSV.
+4. The extraction was verified: for all 21 numeric columns, the sum of the 37 rows matches the printed total row (rounding differences of at most 0.01).
+
+## 4. Other datasets identified (not included in `data/raw/`)
+
+| Dataset | Type | Relevance | License note |
+|---|---|---|---|
+| "medicwaste" dataset on Roboflow Universe | Images with object labels | Used to train this project's YOLO waste-detection model | Not verified here. Check the license on the Roboflow dataset page. |
+| "Medical Waste" image dataset on Kaggle (user sumn2u) | Images with COCO / Pascal VOC annotations | Public reference dataset for medical-waste object detection (13 categories) | A mirror site lists CC BY 4.0. Confirm on the Kaggle page before relying on it. |
+| Dataful, State-wise Bio-Medical Waste Generated, Treated and Disposed (2008-2024) | Tabular, state-wise | Multi-year version of similar CPCB data | Paid download, so not used. |
+
+## 5. Limitations
+
+1. **Aggregated, one year.** Each row is one State/UT total for 2023. There are no item-level, hospital-level or time-series records, and no breakdown by colour category (yellow, red, white, blue). It supports state-level analytics, not training an image classifier.
+2. **Self-reported.** Figures were submitted by State Pollution Control Boards / Pollution Control Committees. CPCB notes that 14 States/UTs submitted late (after July 2024) and that it flagged gaps and discrepancies to the States.
+3. **Generation vs treatment gaps.** CPCB reports that waste generated exceeds waste treated in several States/UTs (Assam, Bihar, Jharkhand, Karnataka, Kerala, Madhya Pradesh, Manipur, Mizoram, Nagaland, Puducherry). Some States attribute this to incomplete information, so the gap may partly be a reporting gap.
+4. **Missing and coded values.** The table contains `INP`, `NIL`, `NA`, two blank cells and two text notes in numeric columns (see `data/raw/README.md`). The report does not define `INP` or `NA`.
+5. **Inconsistencies inside the report**, for example:
+   - The text says 743 tons/day of waste was generated in one place and 859 tons/day in another (section 3.2).
+   - Arunachal Pradesh has 450 HCFs in Annexure-I (324 non-bedded), but the State section (9.3) lists 159 HCFs (33 non-bedded).
+   - Maharashtra's HCFs granted authorization is 2,173 in Annexure-I and 2,186 in section 9.21.
+   - Ladakh's table shows no CBWTF but its narrative mentions 4 operational CBWTFs.
+   - The Annexure-I column headed "COEMS" appears to mean OCEMS (Online Continuous Emission Monitoring System), as used elsewhere in the report.
+   - Column numbering in the Annexure header is irregular (XII follows X, and XVI appears twice).
+6. **Units.** Waste quantities in the table are kg/day, while the report text sometimes uses tons/day.
+7. **Combined entity.** Daman & Diu and Dadra & Nagar Haveli are a single row.
+
+## 6. Suggested citation
+
+Central Pollution Control Board. (n.d.). *Annual Report on Biomedical Waste Management for the year 2023*. Ministry of Environment, Forest & Climate Change, Government of India. https://cpcb.nic.in/uploads/Projects/Bio-Medical-Waste/AR_BMWM_2023.pdf
