@@ -1,0 +1,21 @@
+section,metric,statistic,category,value,unit
+aggregate,reporting_entities,value,,37,entities
+aggregate,bmw_generated_kg_day_total,value,,743147.531,kg/day
+aggregate,bmw_treated_disposed_kg_day_total,value,,694353.322,kg/day
+aggregate,treated_to_generated_percent,value,,93.4341154395,percent
+aggregate,treated_minus_generated_kg_day,value,,-48794.209,kg/day
+aggregate,generation_mean_per_entity,value,,20085.0684,kg/day
+aggregate,generation_median_per_entity,value,,8776.51,kg/day
+aggregate,bmw_treated_captive_kg_day,sum,,22656.631,kg/day
+aggregate,bmw_treated_cbwtf_kg_day,sum,,671696.582,kg/day
+aggregate,captive_share_of_treated_percent,value,,3.263,percent approximately
+aggregate,cbwtf_share_of_treated_percent,value,,96.737,percent approximately
+infrastructure,total_hcfs,sum,,435257,facilities
+infrastructure,total_beds,sum,,3091847,beds
+infrastructure,cbwtfs_operational,sum,,234,facilities
+infrastructure,cbwtfs_under_construction,sum,,30,facilities
+top_generation,bmw_generated_kg_day,state_value,Uttar Pradesh,99115.08,kg/day
+top_generation,bmw_generated_kg_day,state_value,Maharashtra,77862,kg/day
+top_generation,bmw_generated_kg_day,state_value,Karnataka,74013.82,kg/day
+top_generation,bmw_generated_kg_day,state_value,Kerala,68122.53,kg/day
+top_generation,bmw_generated_kg_day,state_value,Tamil Nadu,59261.04,kg/day
