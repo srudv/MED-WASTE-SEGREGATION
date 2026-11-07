@@ -52,8 +52,9 @@ No license is stated. The file was supplied by a team member for this academic, 
 
 1. **Simulated, not real.** See section 2. Patterns in the data reflect how it was generated, not how a real hospital behaves.
 2. **One month only.** All records are from October 2026, so seasonal or long-term trends cannot be studied.
-3. **Uncleaned by design.** 201 blank cells, 11 reused Record_IDs, 5 unusable timestamps, text in numeric columns, impossible numbers and inconsistent labels (see `data/README.md`). Cleaning is the job of the next issue.
-4. **Reused Record_IDs.** 11 IDs appear twice with different content, so `Record_ID` cannot be used as a unique key until it is fixed.
+3. **Uncleaned by design.** 201 blank cells, 11 reused Record_IDs, 18 repeated records, 5 unusable timestamps, text in numeric columns, impossible numbers and inconsistent labels (see `data/README.md`). Cleaning is the job of the next issue.
+4. **Reused Record_IDs.** 11 IDs appear twice with different content, so `Record_ID` cannot be used as a unique key.
+   **Repeated records.** 18 pairs of rows are identical in every field except `Record_ID`, so they look like the same record entered twice.
 5. **Ambiguous values.** `07/10/2026 14:30` could be 7 October or 10 July. Labels such as `Pending`, `Maybe`, `Other` and `Medical Waste` have no clear standard value.
 6. **No codebook.** Column meanings in `data/reference/data_dictionary.xlsx` were inferred from names and values, not from source documentation.
 7. **Small categories.** Some categories (for example `Purple Bin`, `BIN_99`, `Floor 9`) occur only once, so they are likely entry errors.
