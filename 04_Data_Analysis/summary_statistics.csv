@@ -1,0 +1,931 @@
+section,variable,group,statistic,value,unit
+overview,dataset,,records,1482.0,count
+overview,dataset,,columns,19.0,count
+overview,dataset,,calendar_days,30.0,count
+overview,dataset,,records_with_timestamp,1480.0,count
+overview,dataset,,cells_missing_in_analysed_columns,257.0,count
+category_distribution,Waste_Category,Contaminated Recyclable Plastics,count,89.0,records
+category_distribution,Waste_Category,Contaminated Recyclable Plastics,share_pct,6.09,percent
+category_distribution,Waste_Category,Expired Medications,count,86.0,records
+category_distribution,Waste_Category,Expired Medications,share_pct,5.88,percent
+category_distribution,Waste_Category,Blades,count,85.0,records
+category_distribution,Waste_Category,Blades,share_pct,5.81,percent
+category_distribution,Waste_Category,Surgical Waste,count,84.0,records
+category_distribution,Waste_Category,Surgical Waste,share_pct,5.75,percent
+category_distribution,Waste_Category,Food Waste,count,83.0,records
+category_distribution,Waste_Category,Food Waste,share_pct,5.68,percent
+category_distribution,Waste_Category,Non-Infectious Waste,count,83.0,records
+category_distribution,Waste_Category,Non-Infectious Waste,share_pct,5.68,percent
+category_distribution,Waste_Category,Glassware,count,82.0,records
+category_distribution,Waste_Category,Glassware,share_pct,5.61,percent
+category_distribution,Waste_Category,Office Trash,count,82.0,records
+category_distribution,Waste_Category,Office Trash,share_pct,5.61,percent
+category_distribution,Waste_Category,Hazardous Chemicals,count,79.0,records
+category_distribution,Waste_Category,Hazardous Chemicals,share_pct,5.4,percent
+category_distribution,Waste_Category,IV Bags/Tubes,count,77.0,records
+category_distribution,Waste_Category,IV Bags/Tubes,share_pct,5.27,percent
+category_distribution,Waste_Category,Used Bandages,count,75.0,records
+category_distribution,Waste_Category,Used Bandages,share_pct,5.13,percent
+category_distribution,Waste_Category,Chemical Containers,count,75.0,records
+category_distribution,Waste_Category,Chemical Containers,share_pct,5.13,percent
+category_distribution,Waste_Category,Urine/Body Fluids,count,73.0,records
+category_distribution,Waste_Category,Urine/Body Fluids,share_pct,4.99,percent
+category_distribution,Waste_Category,Cotton Swabs,count,73.0,records
+category_distribution,Waste_Category,Cotton Swabs,share_pct,4.99,percent
+category_distribution,Waste_Category,Needles,count,72.0,records
+category_distribution,Waste_Category,Needles,share_pct,4.92,percent
+category_distribution,Waste_Category,Anatomical Waste,count,71.0,records
+category_distribution,Waste_Category,Anatomical Waste,share_pct,4.86,percent
+category_distribution,Waste_Category,Syringes,count,70.0,records
+category_distribution,Waste_Category,Syringes,share_pct,4.79,percent
+category_distribution,Waste_Category,Paper Wrappers,count,66.0,records
+category_distribution,Waste_Category,Paper Wrappers,share_pct,4.51,percent
+category_distribution,Waste_Category,Metallic & Plastic Waste,count,57.0,records
+category_distribution,Waste_Category,Metallic & Plastic Waste,share_pct,3.9,percent
+category_distribution,Target_Bin_Color,Yellow Bin,count,318.0,records
+category_distribution,Target_Bin_Color,Yellow Bin,share_pct,21.47,percent
+category_distribution,Target_Bin_Color,Black Bin,count,311.0,records
+category_distribution,Target_Bin_Color,Black Bin,share_pct,21.0,percent
+category_distribution,Target_Bin_Color,Red Bin,count,238.0,records
+category_distribution,Target_Bin_Color,Red Bin,share_pct,16.07,percent
+category_distribution,Target_Bin_Color,Green Bin,count,235.0,records
+category_distribution,Target_Bin_Color,Green Bin,share_pct,15.87,percent
+category_distribution,Target_Bin_Color,Blue Bin,count,211.0,records
+category_distribution,Target_Bin_Color,Blue Bin,share_pct,14.25,percent
+category_distribution,Target_Bin_Color,White Bin,count,168.0,records
+category_distribution,Target_Bin_Color,White Bin,share_pct,11.34,percent
+category_distribution,Hospital_Ward,General Ward,count,200.0,records
+category_distribution,Hospital_Ward,General Ward,share_pct,13.85,percent
+category_distribution,Hospital_Ward,OPD,count,192.0,records
+category_distribution,Hospital_Ward,OPD,share_pct,13.3,percent
+category_distribution,Hospital_Ward,Pediatrics,count,184.0,records
+category_distribution,Hospital_Ward,Pediatrics,share_pct,12.74,percent
+category_distribution,Hospital_Ward,Emergency,count,183.0,records
+category_distribution,Hospital_Ward,Emergency,share_pct,12.67,percent
+category_distribution,Hospital_Ward,Laboratory,count,183.0,records
+category_distribution,Hospital_Ward,Laboratory,share_pct,12.67,percent
+category_distribution,Hospital_Ward,OT,count,182.0,records
+category_distribution,Hospital_Ward,OT,share_pct,12.6,percent
+category_distribution,Hospital_Ward,Radiology,count,162.0,records
+category_distribution,Hospital_Ward,Radiology,share_pct,11.22,percent
+category_distribution,Hospital_Ward,ICU,count,158.0,records
+category_distribution,Hospital_Ward,ICU,share_pct,10.94,percent
+category_distribution,Floor_Number,Floor 3,count,305.0,records
+category_distribution,Floor_Number,Floor 3,share_pct,20.96,percent
+category_distribution,Floor_Number,Ground,count,301.0,records
+category_distribution,Floor_Number,Ground,share_pct,20.69,percent
+category_distribution,Floor_Number,Floor 1,count,298.0,records
+category_distribution,Floor_Number,Floor 1,share_pct,20.48,percent
+category_distribution,Floor_Number,Floor 2,count,290.0,records
+category_distribution,Floor_Number,Floor 2,share_pct,19.93,percent
+category_distribution,Floor_Number,Floor 4,count,261.0,records
+category_distribution,Floor_Number,Floor 4,share_pct,17.94,percent
+category_distribution,Bin_ID,BIN_07,count,142.0,records
+category_distribution,Bin_ID,BIN_07,share_pct,9.73,percent
+category_distribution,Bin_ID,BIN_03,count,135.0,records
+category_distribution,Bin_ID,BIN_03,share_pct,9.25,percent
+category_distribution,Bin_ID,BIN_11,count,131.0,records
+category_distribution,Bin_ID,BIN_11,share_pct,8.98,percent
+category_distribution,Bin_ID,BIN_10,count,131.0,records
+category_distribution,Bin_ID,BIN_10,share_pct,8.98,percent
+category_distribution,Bin_ID,BIN_12,count,130.0,records
+category_distribution,Bin_ID,BIN_12,share_pct,8.91,percent
+category_distribution,Bin_ID,BIN_09,count,121.0,records
+category_distribution,Bin_ID,BIN_09,share_pct,8.29,percent
+category_distribution,Bin_ID,BIN_05,count,120.0,records
+category_distribution,Bin_ID,BIN_05,share_pct,8.22,percent
+category_distribution,Bin_ID,BIN_08,count,116.0,records
+category_distribution,Bin_ID,BIN_08,share_pct,7.95,percent
+category_distribution,Bin_ID,BIN_02,count,113.0,records
+category_distribution,Bin_ID,BIN_02,share_pct,7.75,percent
+category_distribution,Bin_ID,BIN_06,count,109.0,records
+category_distribution,Bin_ID,BIN_06,share_pct,7.47,percent
+category_distribution,Bin_ID,BIN_04,count,106.0,records
+category_distribution,Bin_ID,BIN_04,share_pct,7.27,percent
+category_distribution,Bin_ID,BIN_01,count,105.0,records
+category_distribution,Bin_ID,BIN_01,share_pct,7.2,percent
+category_distribution,Segregation_Status,Correctly Segregated,count,1365.0,records
+category_distribution,Segregation_Status,Correctly Segregated,share_pct,93.3,percent
+category_distribution,Segregation_Status,Misclassified,count,98.0,records
+category_distribution,Segregation_Status,Misclassified,share_pct,6.7,percent
+category_distribution,Alert_Triggered,No,count,1144.0,records
+category_distribution,Alert_Triggered,No,share_pct,77.98,percent
+category_distribution,Alert_Triggered,Yes,count,323.0,records
+category_distribution,Alert_Triggered,Yes,share_pct,22.02,percent
+uniformity_test,Waste_Category,,chi2,14.749658002735977,
+uniformity_test,Waste_Category,,p_value,0.6790787587656756,
+uniformity_test,Target_Bin_Color,,chi2,68.46252532072924,
+uniformity_test,Target_Bin_Color,,p_value,2.1401175730387608e-13,
+uniformity_test,Hospital_Ward,,chi2,7.689750692520777,
+uniformity_test,Hospital_Ward,,p_value,0.3607445371565644,
+uniformity_test,Floor_Number,,chi2,4.281786941580756,
+uniformity_test,Floor_Number,,p_value,0.36921130132800467,
+uniformity_test,Bin_ID,,chi2,13.39753255654558,
+uniformity_test,Bin_ID,,p_value,0.268138565272778,
+numeric_descriptives,Weight_Grams,,count,1451.0,
+numeric_descriptives,Weight_Grams,,missing,31.0,
+numeric_descriptives,Weight_Grams,,mean,275.568366643694,
+numeric_descriptives,Weight_Grams,,median,200.6,
+numeric_descriptives,Weight_Grams,,std,265.9415352887625,
+numeric_descriptives,Weight_Grams,,min,14.3,
+numeric_descriptives,Weight_Grams,,q1,115.8,
+numeric_descriptives,Weight_Grams,,q3,333.4,
+numeric_descriptives,Weight_Grams,,max,4155.5,
+numeric_descriptives,Weight_Grams,,iqr,217.59999999999997,
+numeric_descriptives,Weight_Grams,,skewness,4.0690995176992395,
+numeric_descriptives,Weight_Grams,,sum,399849.7,
+numeric_descriptives,AI_Confidence_Score,,count,1460.0,
+numeric_descriptives,AI_Confidence_Score,,missing,22.0,
+numeric_descriptives,AI_Confidence_Score,,mean,0.8448013698630136,
+numeric_descriptives,AI_Confidence_Score,,median,0.85,
+numeric_descriptives,AI_Confidence_Score,,std,0.08424662055876483,
+numeric_descriptives,AI_Confidence_Score,,min,0.7,
+numeric_descriptives,AI_Confidence_Score,,q1,0.77,
+numeric_descriptives,AI_Confidence_Score,,q3,0.92,
+numeric_descriptives,AI_Confidence_Score,,max,0.99,
+numeric_descriptives,AI_Confidence_Score,,iqr,0.15000000000000002,
+numeric_descriptives,AI_Confidence_Score,,skewness,-0.014254661965552598,
+numeric_descriptives,AI_Confidence_Score,,sum,1233.4099999999999,
+numeric_descriptives,Bin_Fill_Level_Percentage,,count,1457.0,
+numeric_descriptives,Bin_Fill_Level_Percentage,,missing,25.0,
+numeric_descriptives,Bin_Fill_Level_Percentage,,mean,52.777625257378176,
+numeric_descriptives,Bin_Fill_Level_Percentage,,median,53.0,
+numeric_descriptives,Bin_Fill_Level_Percentage,,std,28.062576642536992,
+numeric_descriptives,Bin_Fill_Level_Percentage,,min,0.0,
+numeric_descriptives,Bin_Fill_Level_Percentage,,q1,28.0,
+numeric_descriptives,Bin_Fill_Level_Percentage,,q3,78.0,
+numeric_descriptives,Bin_Fill_Level_Percentage,,max,100.0,
+numeric_descriptives,Bin_Fill_Level_Percentage,,iqr,50.0,
+numeric_descriptives,Bin_Fill_Level_Percentage,,skewness,-0.008996356122085937,
+numeric_descriptives,Bin_Fill_Level_Percentage,,sum,76897.0,
+correlation_spearman,AI_Confidence_Score vs Weight_Grams,,rho,-0.010112852328304656,
+correlation_spearman,AI_Confidence_Score vs Bin_Fill_Level_Percentage,,rho,0.04478253511199289,
+correlation_spearman,Bin_Fill_Level_Percentage vs Weight_Grams,,rho,0.04640001080754325,
+weight_by_group,Waste_Category,Syringes,n,70.0,
+weight_by_group,Waste_Category,Syringes,mean,286.22999999999996,grams
+weight_by_group,Waste_Category,Syringes,median,234.5,grams
+weight_by_group,Waste_Category,Syringes,std,207.61705784965002,grams
+weight_by_group,Waste_Category,Syringes,total,20036.1,grams
+weight_by_group,Waste_Category,Syringes,share_of_total_pct,5.056366495404851,
+weight_by_group,Waste_Category,Chemical Containers,n,73.0,
+weight_by_group,Waste_Category,Chemical Containers,mean,324.63150684931503,grams
+weight_by_group,Waste_Category,Chemical Containers,median,232.8,grams
+weight_by_group,Waste_Category,Chemical Containers,std,295.5785545505592,grams
+weight_by_group,Waste_Category,Chemical Containers,total,23698.1,grams
+weight_by_group,Waste_Category,Chemical Containers,share_of_total_pct,5.980519105252704,
+weight_by_group,Waste_Category,Anatomical Waste,n,70.0,
+weight_by_group,Waste_Category,Anatomical Waste,mean,347.5,grams
+weight_by_group,Waste_Category,Anatomical Waste,median,227.60000000000002,grams
+weight_by_group,Waste_Category,Anatomical Waste,std,384.87953771371707,grams
+weight_by_group,Waste_Category,Anatomical Waste,total,24325.0,grams
+weight_by_group,Waste_Category,Anatomical Waste,share_of_total_pct,6.138725350777997,
+weight_by_group,Waste_Category,Cotton Swabs,n,73.0,
+weight_by_group,Waste_Category,Cotton Swabs,mean,322.39589041095894,grams
+weight_by_group,Waste_Category,Cotton Swabs,median,220.9,grams
+weight_by_group,Waste_Category,Cotton Swabs,std,342.7808785176343,grams
+weight_by_group,Waste_Category,Cotton Swabs,total,23534.9,grams
+weight_by_group,Waste_Category,Cotton Swabs,share_of_total_pct,5.93933349467729,
+weight_by_group,Waste_Category,Metallic & Plastic Waste,n,56.0,
+weight_by_group,Waste_Category,Metallic & Plastic Waste,mean,265.5982142857143,grams
+weight_by_group,Waste_Category,Metallic & Plastic Waste,median,219.95,grams
+weight_by_group,Waste_Category,Metallic & Plastic Waste,std,265.8758661077975,grams
+weight_by_group,Waste_Category,Metallic & Plastic Waste,total,14873.5,grams
+weight_by_group,Waste_Category,Metallic & Plastic Waste,share_of_total_pct,3.753518253023495,
+weight_by_group,Waste_Category,Hazardous Chemicals,n,77.0,
+weight_by_group,Waste_Category,Hazardous Chemicals,mean,265.1727272727273,grams
+weight_by_group,Waste_Category,Hazardous Chemicals,median,207.5,grams
+weight_by_group,Waste_Category,Hazardous Chemicals,std,217.51794156875016,grams
+weight_by_group,Waste_Category,Hazardous Chemicals,total,20418.3,grams
+weight_by_group,Waste_Category,Hazardous Chemicals,share_of_total_pct,5.152819561348011,
+weight_by_group,Waste_Category,Non-Infectious Waste,n,80.0,
+weight_by_group,Waste_Category,Non-Infectious Waste,mean,273.94375,grams
+weight_by_group,Waste_Category,Non-Infectious Waste,median,202.65,grams
+weight_by_group,Waste_Category,Non-Infectious Waste,std,242.26296249822778,grams
+weight_by_group,Waste_Category,Non-Infectious Waste,total,21915.5,grams
+weight_by_group,Waste_Category,Non-Infectious Waste,share_of_total_pct,5.530657160327859,
+weight_by_group,Waste_Category,Urine/Body Fluids,n,73.0,
+weight_by_group,Waste_Category,Urine/Body Fluids,mean,247.40273972602742,grams
+weight_by_group,Waste_Category,Urine/Body Fluids,median,201.5,grams
+weight_by_group,Waste_Category,Urine/Body Fluids,std,186.32616114148593,grams
+weight_by_group,Waste_Category,Urine/Body Fluids,total,18060.4,grams
+weight_by_group,Waste_Category,Urine/Body Fluids,share_of_total_pct,4.557773291888631,
+weight_by_group,Waste_Category,Contaminated Recyclable Plastics,n,86.0,
+weight_by_group,Waste_Category,Contaminated Recyclable Plastics,mean,267.5325581395349,grams
+weight_by_group,Waste_Category,Contaminated Recyclable Plastics,median,201.0,grams
+weight_by_group,Waste_Category,Contaminated Recyclable Plastics,std,225.4290004006011,grams
+weight_by_group,Waste_Category,Contaminated Recyclable Plastics,total,23007.8,grams
+weight_by_group,Waste_Category,Contaminated Recyclable Plastics,share_of_total_pct,5.806313057579855,
+weight_by_group,Waste_Category,Surgical Waste,n,83.0,
+weight_by_group,Waste_Category,Surgical Waste,mean,315.9602409638554,grams
+weight_by_group,Waste_Category,Surgical Waste,median,200.7,grams
+weight_by_group,Waste_Category,Surgical Waste,std,293.6402004194594,grams
+weight_by_group,Waste_Category,Surgical Waste,total,26224.7,grams
+weight_by_group,Waste_Category,Surgical Waste,share_of_total_pct,6.618138980741942,
+weight_by_group,Waste_Category,IV Bags/Tubes,n,75.0,
+weight_by_group,Waste_Category,IV Bags/Tubes,mean,245.06,grams
+weight_by_group,Waste_Category,IV Bags/Tubes,median,199.7,grams
+weight_by_group,Waste_Category,IV Bags/Tubes,std,203.6088924410746,grams
+weight_by_group,Waste_Category,IV Bags/Tubes,total,18379.5,grams
+weight_by_group,Waste_Category,IV Bags/Tubes,share_of_total_pct,4.638302264527202,
+weight_by_group,Waste_Category,Paper Wrappers,n,64.0,
+weight_by_group,Waste_Category,Paper Wrappers,mean,290.4375,grams
+weight_by_group,Waste_Category,Paper Wrappers,median,197.14999999999998,grams
+weight_by_group,Waste_Category,Paper Wrappers,std,245.66827000833644,grams
+weight_by_group,Waste_Category,Paper Wrappers,total,18588.0,grams
+weight_by_group,Waste_Category,Paper Wrappers,share_of_total_pct,4.690919910391013,
+weight_by_group,Waste_Category,Glassware,n,81.0,
+weight_by_group,Waste_Category,Glassware,mean,236.82345679012346,grams
+weight_by_group,Waste_Category,Glassware,median,193.8,grams
+weight_by_group,Waste_Category,Glassware,std,191.5623190189063,grams
+weight_by_group,Waste_Category,Glassware,total,19182.7,grams
+weight_by_group,Waste_Category,Glassware,share_of_total_pct,4.841000073437578,
+weight_by_group,Waste_Category,Needles,n,71.0,
+weight_by_group,Waste_Category,Needles,mean,249.0676056338028,grams
+weight_by_group,Waste_Category,Needles,median,193.0,grams
+weight_by_group,Waste_Category,Needles,std,211.9366992926007,grams
+weight_by_group,Waste_Category,Needles,total,17683.8,grams
+weight_by_group,Waste_Category,Needles,share_of_total_pct,4.462733457680901,
+weight_by_group,Waste_Category,Expired Medications,n,84.0,
+weight_by_group,Waste_Category,Expired Medications,mean,256.74880952380954,grams
+weight_by_group,Waste_Category,Expired Medications,median,191.2,grams
+weight_by_group,Waste_Category,Expired Medications,std,225.26042197733955,grams
+weight_by_group,Waste_Category,Expired Medications,total,21566.9,grams
+weight_by_group,Waste_Category,Expired Medications,share_of_total_pct,5.442683484797286,
+weight_by_group,Waste_Category,Office Trash,n,78.0,
+weight_by_group,Waste_Category,Office Trash,mean,252.69230769230768,grams
+weight_by_group,Waste_Category,Office Trash,median,189.7,grams
+weight_by_group,Waste_Category,Office Trash,std,200.5485864434739,grams
+weight_by_group,Waste_Category,Office Trash,total,19710.0,grams
+weight_by_group,Waste_Category,Office Trash,share_of_total_pct,4.974070983096992,
+weight_by_group,Waste_Category,Food Waste,n,80.0,
+weight_by_group,Waste_Category,Food Waste,mean,259.41999999999996,grams
+weight_by_group,Waste_Category,Food Waste,median,183.7,grams
+weight_by_group,Waste_Category,Food Waste,std,204.22526430948366,grams
+weight_by_group,Waste_Category,Food Waste,total,20753.6,grams
+weight_by_group,Waste_Category,Food Waste,share_of_total_pct,5.237436811506936,
+weight_by_group,Waste_Category,Used Bandages,n,73.0,
+weight_by_group,Waste_Category,Used Bandages,mean,266.0397260273973,grams
+weight_by_group,Waste_Category,Used Bandages,median,182.1,grams
+weight_by_group,Waste_Category,Used Bandages,std,221.36768793352616,grams
+weight_by_group,Waste_Category,Used Bandages,total,19420.9,grams
+weight_by_group,Waste_Category,Used Bandages,share_of_total_pct,4.901112894755371,
+weight_by_group,Waste_Category,Blades,n,84.0,
+weight_by_group,Waste_Category,Blades,mean,296.1333333333333,grams
+weight_by_group,Waste_Category,Blades,median,170.3,grams
+weight_by_group,Waste_Category,Blades,std,487.8010589291188,grams
+weight_by_group,Waste_Category,Blades,total,24875.2,grams
+weight_by_group,Waste_Category,Blades,share_of_total_pct,6.277575368784083,
+weight_by_group,Hospital_Ward,Pediatrics,n,180.0,
+weight_by_group,Hospital_Ward,Pediatrics,mean,290.0805555555556,grams
+weight_by_group,Hospital_Ward,Pediatrics,median,208.2,grams
+weight_by_group,Hospital_Ward,Pediatrics,std,373.098161495633,grams
+weight_by_group,Hospital_Ward,Pediatrics,total,52214.5,grams
+weight_by_group,Hospital_Ward,Pediatrics,share_of_total_pct,13.502477740674953,
+weight_by_group,Hospital_Ward,Radiology,n,157.0,
+weight_by_group,Hospital_Ward,Radiology,mean,270.42929936305734,grams
+weight_by_group,Hospital_Ward,Radiology,median,206.3,grams
+weight_by_group,Hospital_Ward,Radiology,std,234.52124043030204,grams
+weight_by_group,Hospital_Ward,Radiology,total,42457.4,grams
+weight_by_group,Hospital_Ward,Radiology,share_of_total_pct,10.979327551291936,
+weight_by_group,Hospital_Ward,General Ward,n,196.0,
+weight_by_group,Hospital_Ward,General Ward,mean,279.4158163265306,grams
+weight_by_group,Hospital_Ward,General Ward,median,203.7,grams
+weight_by_group,Hospital_Ward,General Ward,std,258.9941316132461,grams
+weight_by_group,Hospital_Ward,General Ward,total,54765.5,grams
+weight_by_group,Hospital_Ward,General Ward,share_of_total_pct,14.162156962279331,
+weight_by_group,Hospital_Ward,Emergency,n,180.0,
+weight_by_group,Hospital_Ward,Emergency,mean,270.4327777777778,grams
+weight_by_group,Hospital_Ward,Emergency,median,203.05,grams
+weight_by_group,Hospital_Ward,Emergency,std,242.7000827125228,grams
+weight_by_group,Hospital_Ward,Emergency,total,48677.9,grams
+weight_by_group,Hospital_Ward,Emergency,share_of_total_pct,12.58792598249148,
+weight_by_group,Hospital_Ward,Laboratory,n,175.0,
+weight_by_group,Hospital_Ward,Laboratory,mean,270.4297142857143,grams
+weight_by_group,Hospital_Ward,Laboratory,median,199.5,grams
+weight_by_group,Hospital_Ward,Laboratory,std,240.03639409743084,grams
+weight_by_group,Hospital_Ward,Laboratory,total,47325.2,grams
+weight_by_group,Hospital_Ward,Laboratory,share_of_total_pct,12.238122735504318,
+weight_by_group,Hospital_Ward,OPD,n,191.0,
+weight_by_group,Hospital_Ward,OPD,mean,269.848167539267,grams
+weight_by_group,Hospital_Ward,OPD,median,197.6,grams
+weight_by_group,Hospital_Ward,OPD,std,232.22561938609616,grams
+weight_by_group,Hospital_Ward,OPD,total,51541.0,grams
+weight_by_group,Hospital_Ward,OPD,share_of_total_pct,13.328313116703747,
+weight_by_group,Hospital_Ward,ICU,n,154.0,
+weight_by_group,Hospital_Ward,ICU,mean,277.57142857142856,grams
+weight_by_group,Hospital_Ward,ICU,median,193.15,grams
+weight_by_group,Hospital_Ward,ICU,std,287.63365332440367,grams
+weight_by_group,Hospital_Ward,ICU,total,42746.0,grams
+weight_by_group,Hospital_Ward,ICU,share_of_total_pct,11.053958450294296,
+weight_by_group,Hospital_Ward,OT,n,181.0,
+weight_by_group,Hospital_Ward,OT,mean,259.53370165745855,grams
+weight_by_group,Hospital_Ward,OT,median,191.3,grams
+weight_by_group,Hospital_Ward,OT,std,210.05563237204956,grams
+weight_by_group,Hospital_Ward,OT,total,46975.6,grams
+weight_by_group,Hospital_Ward,OT,share_of_total_pct,12.147717460759948,
+weight_by_group,Floor_Number,Floor 4,n,250.0,
+weight_by_group,Floor_Number,Floor 4,mean,264.64320000000004,grams
+weight_by_group,Floor_Number,Floor 4,median,207.95,grams
+weight_by_group,Floor_Number,Floor 4,std,211.31956342303283,grams
+weight_by_group,Floor_Number,Floor 4,total,66160.8,grams
+weight_by_group,Floor_Number,Floor 4,share_of_total_pct,16.844259947375054,
+weight_by_group,Floor_Number,Floor 3,n,300.0,
+weight_by_group,Floor_Number,Floor 3,mean,282.9116666666667,grams
+weight_by_group,Floor_Number,Floor 3,median,203.5,grams
+weight_by_group,Floor_Number,Floor 3,std,325.3706801411903,grams
+weight_by_group,Floor_Number,Floor 3,total,84873.5,grams
+weight_by_group,Floor_Number,Floor 3,share_of_total_pct,21.60843424873243,
+weight_by_group,Floor_Number,Ground,n,296.0,
+weight_by_group,Floor_Number,Ground,mean,271.5219594594595,grams
+weight_by_group,Floor_Number,Ground,median,202.55,grams
+weight_by_group,Floor_Number,Ground,std,246.17712300095815,grams
+weight_by_group,Floor_Number,Ground,total,80370.5,grams
+weight_by_group,Floor_Number,Ground,share_of_total_pct,20.461989487740578,
+weight_by_group,Floor_Number,Floor 1,n,292.0,
+weight_by_group,Floor_Number,Floor 1,mean,286.5390410958904,grams
+weight_by_group,Floor_Number,Floor 1,median,200.39999999999998,grams
+weight_by_group,Floor_Number,Floor 1,std,285.48566393512556,grams
+weight_by_group,Floor_Number,Floor 1,total,83669.4,grams
+weight_by_group,Floor_Number,Floor 1,share_of_total_pct,21.301875479753907,
+weight_by_group,Floor_Number,Floor 2,n,286.0,
+weight_by_group,Floor_Number,Floor 2,mean,271.69685314685313,grams
+weight_by_group,Floor_Number,Floor 2,median,195.1,grams
+weight_by_group,Floor_Number,Floor 2,std,238.22894360049938,grams
+weight_by_group,Floor_Number,Floor 2,total,77705.3,grams
+weight_by_group,Floor_Number,Floor 2,share_of_total_pct,19.783440836398032,
+weight_by_group,Target_Bin_Color,Yellow Bin,n,314.0,
+weight_by_group,Target_Bin_Color,Yellow Bin,mean,310.36942675159236,grams
+weight_by_group,Target_Bin_Color,Yellow Bin,median,214.15,grams
+weight_by_group,Target_Bin_Color,Yellow Bin,std,306.3130394999884,grams
+weight_by_group,Target_Bin_Color,Yellow Bin,total,97456.0,grams
+weight_by_group,Target_Bin_Color,Yellow Bin,share_of_total_pct,24.3931803419841,
+weight_by_group,Target_Bin_Color,White Bin,n,163.0,
+weight_by_group,Target_Bin_Color,White Bin,mean,270.37055214723927,grams
+weight_by_group,Target_Bin_Color,White Bin,median,203.5,grams
+weight_by_group,Target_Bin_Color,White Bin,std,228.87148017197993,grams
+weight_by_group,Target_Bin_Color,White Bin,total,44070.4,grams
+weight_by_group,Target_Bin_Color,White Bin,share_of_total_pct,11.03079558922361,
+weight_by_group,Target_Bin_Color,Blue Bin,n,208.0,
+weight_by_group,Target_Bin_Color,Blue Bin,mean,264.45576923076925,grams
+weight_by_group,Target_Bin_Color,Blue Bin,median,202.75,grams
+weight_by_group,Target_Bin_Color,Blue Bin,std,242.78055351412073,grams
+weight_by_group,Target_Bin_Color,Blue Bin,total,55006.8,grams
+weight_by_group,Target_Bin_Color,Blue Bin,share_of_total_pct,13.768170173570136,
+weight_by_group,Target_Bin_Color,Red Bin,n,234.0,
+weight_by_group,Target_Bin_Color,Red Bin,mean,258.83589743589744,grams
+weight_by_group,Target_Bin_Color,Red Bin,median,200.14999999999998,grams
+weight_by_group,Target_Bin_Color,Red Bin,std,220.12452502391076,grams
+weight_by_group,Target_Bin_Color,Red Bin,total,60567.6,grams
+weight_by_group,Target_Bin_Color,Red Bin,share_of_total_pct,15.160035192098547,
+weight_by_group,Target_Bin_Color,Green Bin,n,233.0,
+weight_by_group,Target_Bin_Color,Green Bin,mean,271.193991416309,grams
+weight_by_group,Target_Bin_Color,Green Bin,median,195.5,grams
+weight_by_group,Target_Bin_Color,Green Bin,std,332.57894546068496,grams
+weight_by_group,Target_Bin_Color,Green Bin,total,63188.2,grams
+weight_by_group,Target_Bin_Color,Green Bin,share_of_total_pct,15.815969853937773,
+weight_by_group,Target_Bin_Color,Black Bin,n,298.0,
+weight_by_group,Target_Bin_Color,Black Bin,mean,265.8808724832215,grams
+weight_by_group,Target_Bin_Color,Black Bin,median,187.85,grams
+weight_by_group,Target_Bin_Color,Black Bin,std,224.98609654740946,grams
+weight_by_group,Target_Bin_Color,Black Bin,total,79232.5,grams
+weight_by_group,Target_Bin_Color,Black Bin,share_of_total_pct,19.83184884918584,
+weight_by_group,Bin_ID,BIN_09,n,118.0,
+weight_by_group,Bin_ID,BIN_09,mean,292.4957627118644,grams
+weight_by_group,Bin_ID,BIN_09,median,244.4,grams
+weight_by_group,Bin_ID,BIN_09,std,228.8854665973766,grams
+weight_by_group,Bin_ID,BIN_09,total,34514.5,grams
+weight_by_group,Bin_ID,BIN_09,share_of_total_pct,8.775538483639224,
+weight_by_group,Bin_ID,BIN_02,n,112.0,
+weight_by_group,Bin_ID,BIN_02,mean,327.33214285714286,grams
+weight_by_group,Bin_ID,BIN_02,median,237.75,grams
+weight_by_group,Bin_ID,BIN_02,std,281.3416057708301,grams
+weight_by_group,Bin_ID,BIN_02,total,36661.2,grams
+weight_by_group,Bin_ID,BIN_02,share_of_total_pct,9.32135106857681,
+weight_by_group,Bin_ID,BIN_10,n,127.0,
+weight_by_group,Bin_ID,BIN_10,mean,278.7062992125984,grams
+weight_by_group,Bin_ID,BIN_10,median,212.1,grams
+weight_by_group,Bin_ID,BIN_10,std,256.7759123561908,grams
+weight_by_group,Bin_ID,BIN_10,total,35395.7,grams
+weight_by_group,Bin_ID,BIN_10,share_of_total_pct,8.999589375634844,
+weight_by_group,Bin_ID,BIN_04,n,105.0,
+weight_by_group,Bin_ID,BIN_04,mean,303.90285714285716,grams
+weight_by_group,Bin_ID,BIN_04,median,211.1,grams
+weight_by_group,Bin_ID,BIN_04,std,425.6096761518303,grams
+weight_by_group,Bin_ID,BIN_04,total,31909.8,grams
+weight_by_group,Bin_ID,BIN_04,share_of_total_pct,8.113276388336232,
+weight_by_group,Bin_ID,BIN_01,n,105.0,
+weight_by_group,Bin_ID,BIN_01,mean,275.38,grams
+weight_by_group,Bin_ID,BIN_01,median,206.4,grams
+weight_by_group,Bin_ID,BIN_01,std,237.61794253672136,grams
+weight_by_group,Bin_ID,BIN_01,total,28914.9,grams
+weight_by_group,Bin_ID,BIN_01,share_of_total_pct,7.351803378307083,
+weight_by_group,Bin_ID,BIN_12,n,126.0,
+weight_by_group,Bin_ID,BIN_12,mean,264.1468253968254,grams
+weight_by_group,Bin_ID,BIN_12,median,197.75,grams
+weight_by_group,Bin_ID,BIN_12,std,240.9444715071115,grams
+weight_by_group,Bin_ID,BIN_12,total,33282.5,grams
+weight_by_group,Bin_ID,BIN_12,share_of_total_pct,8.462294385887741,
+weight_by_group,Bin_ID,BIN_07,n,139.0,
+weight_by_group,Bin_ID,BIN_07,mean,260.3028776978417,grams
+weight_by_group,Bin_ID,BIN_07,median,195.2,grams
+weight_by_group,Bin_ID,BIN_07,std,233.2517443097541,grams
+weight_by_group,Bin_ID,BIN_07,total,36182.1,grams
+weight_by_group,Bin_ID,BIN_07,share_of_total_pct,9.199536744524266,
+weight_by_group,Bin_ID,BIN_05,n,120.0,
+weight_by_group,Bin_ID,BIN_05,mean,288.7375,grams
+weight_by_group,Bin_ID,BIN_05,median,193.0,grams
+weight_by_group,Bin_ID,BIN_05,std,307.7232998233993,grams
+weight_by_group,Bin_ID,BIN_05,total,34648.5,grams
+weight_by_group,Bin_ID,BIN_05,share_of_total_pct,8.809608864401154,
+weight_by_group,Bin_ID,BIN_06,n,105.0,
+weight_by_group,Bin_ID,BIN_06,mean,271.6904761904762,grams
+weight_by_group,Bin_ID,BIN_06,median,189.6,grams
+weight_by_group,Bin_ID,BIN_06,std,273.44623663803054,grams
+weight_by_group,Bin_ID,BIN_06,total,28527.5,grams
+weight_by_group,Bin_ID,BIN_06,share_of_total_pct,7.253304381984904,
+weight_by_group,Bin_ID,BIN_08,n,113.0,
+weight_by_group,Bin_ID,BIN_08,mean,242.70973451327436,grams
+weight_by_group,Bin_ID,BIN_08,median,189.4,grams
+weight_by_group,Bin_ID,BIN_08,std,195.2434016466012,grams
+weight_by_group,Bin_ID,BIN_08,total,27426.2,grams
+weight_by_group,Bin_ID,BIN_08,share_of_total_pct,6.973291618304947,
+weight_by_group,Bin_ID,BIN_03,n,132.0,
+weight_by_group,Bin_ID,BIN_03,mean,279.59999999999997,grams
+weight_by_group,Bin_ID,BIN_03,median,186.25,grams
+weight_by_group,Bin_ID,BIN_03,std,262.31132077673203,grams
+weight_by_group,Bin_ID,BIN_03,total,36907.2,grams
+weight_by_group,Bin_ID,BIN_03,share_of_total_pct,9.383898185497966,
+weight_by_group,Bin_ID,BIN_11,n,126.0,
+weight_by_group,Bin_ID,BIN_11,mean,229.63015873015874,grams
+weight_by_group,Bin_ID,BIN_11,median,177.8,grams
+weight_by_group,Bin_ID,BIN_11,std,202.57199106286782,grams
+weight_by_group,Bin_ID,BIN_11,total,28933.4,grams
+weight_by_group,Bin_ID,BIN_11,share_of_total_pct,7.356507124904812,
+weight_group_test,Waste_Category,,kruskal_h,11.255780584626947,
+weight_group_test,Waste_Category,,p_value,0.8831888334208013,
+weight_group_test,Hospital_Ward,,kruskal_h,0.5174184207236378,
+weight_group_test,Hospital_Ward,,p_value,0.9993801696038606,
+weight_group_test,Floor_Number,,kruskal_h,0.29470584033332103,
+weight_group_test,Floor_Number,,p_value,0.9901533591919955,
+weight_group_test,Target_Bin_Color,,kruskal_h,3.259997143893692,
+weight_group_test,Target_Bin_Color,,p_value,0.6599714451798961,
+weight_group_test,Bin_ID,,kruskal_h,14.646338923735188,
+weight_group_test,Bin_ID,,p_value,0.19926684812237352,
+misclassification,all_records,,misclassified,98.0,
+misclassification,all_records,,known_status,1463.0,
+misclassification,all_records,,rate_pct,6.698564593301436,
+misclassification,all_records,,ci_low_pct,5.527573218848765,
+misclassification,all_records,,ci_high_pct,8.096365453193261,
+misclassification_by_group,Waste_Category,Syringes,n,70.0,
+misclassification_by_group,Waste_Category,Syringes,misclassified,7.0,
+misclassification_by_group,Waste_Category,Syringes,rate_pct,10.0,
+misclassification_by_group,Waste_Category,Syringes,ci_low_pct,4.928867510614622,
+misclassification_by_group,Waste_Category,Syringes,ci_high_pct,19.233122478768056,
+misclassification_by_group,Waste_Category,Glassware,n,82.0,
+misclassification_by_group,Waste_Category,Glassware,misclassified,8.0,
+misclassification_by_group,Waste_Category,Glassware,rate_pct,9.75609756097561,
+misclassification_by_group,Waste_Category,Glassware,ci_low_pct,5.026808709378501,
+misclassification_by_group,Waste_Category,Glassware,ci_high_pct,18.08739233067667,
+misclassification_by_group,Waste_Category,Metallic & Plastic Waste,n,57.0,
+misclassification_by_group,Waste_Category,Metallic & Plastic Waste,misclassified,5.0,
+misclassification_by_group,Waste_Category,Metallic & Plastic Waste,rate_pct,8.771929824561402,
+misclassification_by_group,Waste_Category,Metallic & Plastic Waste,ci_low_pct,3.805111076663829,
+misclassification_by_group,Waste_Category,Metallic & Plastic Waste,ci_high_pct,18.945112454604246,
+misclassification_by_group,Waste_Category,Urine/Body Fluids,n,73.0,
+misclassification_by_group,Waste_Category,Urine/Body Fluids,misclassified,6.0,
+misclassification_by_group,Waste_Category,Urine/Body Fluids,rate_pct,8.21917808219178,
+misclassification_by_group,Waste_Category,Urine/Body Fluids,ci_low_pct,3.821322997342026,
+misclassification_by_group,Waste_Category,Urine/Body Fluids,ci_high_pct,16.794593381286216,
+misclassification_by_group,Waste_Category,IV Bags/Tubes,n,76.0,
+misclassification_by_group,Waste_Category,IV Bags/Tubes,misclassified,6.0,
+misclassification_by_group,Waste_Category,IV Bags/Tubes,rate_pct,7.894736842105263,
+misclassification_by_group,Waste_Category,IV Bags/Tubes,ci_low_pct,3.668350552145426,
+misclassification_by_group,Waste_Category,IV Bags/Tubes,ci_high_pct,16.17293519363121,
+misclassification_by_group,Waste_Category,Paper Wrappers,n,64.0,
+misclassification_by_group,Waste_Category,Paper Wrappers,misclassified,5.0,
+misclassification_by_group,Waste_Category,Paper Wrappers,rate_pct,7.8125,
+misclassification_by_group,Waste_Category,Paper Wrappers,ci_low_pct,3.383067809543547,
+misclassification_by_group,Waste_Category,Paper Wrappers,ci_high_pct,17.019752878647772,
+misclassification_by_group,Waste_Category,Hazardous Chemicals,n,78.0,
+misclassification_by_group,Waste_Category,Hazardous Chemicals,misclassified,6.0,
+misclassification_by_group,Waste_Category,Hazardous Chemicals,rate_pct,7.6923076923076925,
+misclassification_by_group,Waste_Category,Hazardous Chemicals,ci_low_pct,3.572997725324493,
+misclassification_by_group,Waste_Category,Hazardous Chemicals,ci_high_pct,15.783417594024105,
+misclassification_by_group,Waste_Category,Office Trash,n,82.0,
+misclassification_by_group,Waste_Category,Office Trash,misclassified,6.0,
+misclassification_by_group,Waste_Category,Office Trash,rate_pct,7.317073170731707,
+misclassification_by_group,Waste_Category,Office Trash,ci_low_pct,3.396431451476119,
+misclassification_by_group,Waste_Category,Office Trash,ci_high_pct,15.058024197067244,
+misclassification_by_group,Waste_Category,Food Waste,n,82.0,
+misclassification_by_group,Waste_Category,Food Waste,misclassified,6.0,
+misclassification_by_group,Waste_Category,Food Waste,rate_pct,7.317073170731707,
+misclassification_by_group,Waste_Category,Food Waste,ci_low_pct,3.396431451476119,
+misclassification_by_group,Waste_Category,Food Waste,ci_high_pct,15.058024197067244,
+misclassification_by_group,Waste_Category,Expired Medications,n,83.0,
+misclassification_by_group,Waste_Category,Expired Medications,misclassified,6.0,
+misclassification_by_group,Waste_Category,Expired Medications,rate_pct,7.228915662650602,
+misclassification_by_group,Waste_Category,Expired Medications,ci_low_pct,3.3549838417288065,
+misclassification_by_group,Waste_Category,Expired Medications,ci_high_pct,14.886964717487055,
+misclassification_by_group,Waste_Category,Anatomical Waste,n,71.0,
+misclassification_by_group,Waste_Category,Anatomical Waste,misclassified,5.0,
+misclassification_by_group,Waste_Category,Anatomical Waste,rate_pct,7.042253521126761,
+misclassification_by_group,Waste_Category,Anatomical Waste,ci_low_pct,3.045315340626454,
+misclassification_by_group,Waste_Category,Anatomical Waste,ci_high_pct,15.44921176729214,
+misclassification_by_group,Waste_Category,Needles,n,72.0,
+misclassification_by_group,Waste_Category,Needles,misclassified,5.0,
+misclassification_by_group,Waste_Category,Needles,rate_pct,6.944444444444445,
+misclassification_by_group,Waste_Category,Needles,ci_low_pct,3.002493884382272,
+misclassification_by_group,Waste_Category,Needles,ci_high_pct,15.248175932710195,
+misclassification_by_group,Waste_Category,Cotton Swabs,n,73.0,
+misclassification_by_group,Waste_Category,Cotton Swabs,misclassified,4.0,
+misclassification_by_group,Waste_Category,Cotton Swabs,rate_pct,5.47945205479452,
+misclassification_by_group,Waste_Category,Cotton Swabs,ci_low_pct,2.151214924893479,
+misclassification_by_group,Waste_Category,Cotton Swabs,ci_high_pct,13.25918777364481,
+misclassification_by_group,Waste_Category,Used Bandages,n,74.0,
+misclassification_by_group,Waste_Category,Used Bandages,misclassified,4.0,
+misclassification_by_group,Waste_Category,Used Bandages,rate_pct,5.405405405405405,
+misclassification_by_group,Waste_Category,Used Bandages,ci_low_pct,2.1218668760240083,
+misclassification_by_group,Waste_Category,Used Bandages,ci_high_pct,13.090564523125032,
+misclassification_by_group,Waste_Category,Surgical Waste,n,80.0,
+misclassification_by_group,Waste_Category,Surgical Waste,misclassified,4.0,
+misclassification_by_group,Waste_Category,Surgical Waste,rate_pct,5.0,
+misclassification_by_group,Waste_Category,Surgical Waste,ci_low_pct,1.9613237127295569,
+misclassification_by_group,Waste_Category,Surgical Waste,ci_high_pct,12.1624525510822,
+misclassification_by_group,Waste_Category,Non-Infectious Waste,n,82.0,
+misclassification_by_group,Waste_Category,Non-Infectious Waste,misclassified,4.0,
+misclassification_by_group,Waste_Category,Non-Infectious Waste,rate_pct,4.878048780487805,
+misclassification_by_group,Waste_Category,Non-Infectious Waste,ci_low_pct,1.91307559738843,
+misclassification_by_group,Waste_Category,Non-Infectious Waste,ci_high_pct,11.881634659643126,
+misclassification_by_group,Waste_Category,Blades,n,84.0,
+misclassification_by_group,Waste_Category,Blades,misclassified,4.0,
+misclassification_by_group,Waste_Category,Blades,rate_pct,4.761904761904762,
+misclassification_by_group,Waste_Category,Blades,ci_low_pct,1.8671444654442906,
+misclassification_by_group,Waste_Category,Blades,ci_high_pct,11.613484302702007,
+misclassification_by_group,Waste_Category,Contaminated Recyclable Plastics,n,87.0,
+misclassification_by_group,Waste_Category,Contaminated Recyclable Plastics,misclassified,3.0,
+misclassification_by_group,Waste_Category,Contaminated Recyclable Plastics,rate_pct,3.4482758620689653,
+misclassification_by_group,Waste_Category,Contaminated Recyclable Plastics,ci_low_pct,1.1795606761416901,
+misclassification_by_group,Waste_Category,Contaminated Recyclable Plastics,ci_high_pct,9.654242339216914,
+misclassification_by_group,Waste_Category,Chemical Containers,n,74.0,
+misclassification_by_group,Waste_Category,Chemical Containers,misclassified,2.0,
+misclassification_by_group,Waste_Category,Chemical Containers,rate_pct,2.7027027027027026,
+misclassification_by_group,Waste_Category,Chemical Containers,ci_low_pct,0.7443196562309684,
+misclassification_by_group,Waste_Category,Chemical Containers,ci_high_pct,9.329471221654376,
+misclassification_by_group,Hospital_Ward,Emergency,n,180.0,
+misclassification_by_group,Hospital_Ward,Emergency,misclassified,15.0,
+misclassification_by_group,Hospital_Ward,Emergency,rate_pct,8.333333333333332,
+misclassification_by_group,Hospital_Ward,Emergency,ci_low_pct,5.114940634159579,
+misclassification_by_group,Hospital_Ward,Emergency,ci_high_pct,13.293080183761937,
+misclassification_by_group,Hospital_Ward,Radiology,n,159.0,
+misclassification_by_group,Hospital_Ward,Radiology,misclassified,12.0,
+misclassification_by_group,Hospital_Ward,Radiology,rate_pct,7.547169811320755,
+misclassification_by_group,Hospital_Ward,Radiology,ci_low_pct,4.369701922530143,
+misclassification_by_group,Hospital_Ward,Radiology,ci_high_pct,12.727649122902967,
+misclassification_by_group,Hospital_Ward,OPD,n,189.0,
+misclassification_by_group,Hospital_Ward,OPD,misclassified,13.0,
+misclassification_by_group,Hospital_Ward,OPD,rate_pct,6.878306878306878,
+misclassification_by_group,Hospital_Ward,OPD,ci_low_pct,4.0634093125979165,
+misclassification_by_group,Hospital_Ward,OPD,ci_high_pct,11.411260053348022,
+misclassification_by_group,Hospital_Ward,Laboratory,n,182.0,
+misclassification_by_group,Hospital_Ward,Laboratory,misclassified,12.0,
+misclassification_by_group,Hospital_Ward,Laboratory,rate_pct,6.593406593406594,
+misclassification_by_group,Hospital_Ward,Laboratory,ci_low_pct,3.811559898191012,
+misclassification_by_group,Hospital_Ward,Laboratory,ci_high_pct,11.169800572231111,
+misclassification_by_group,Hospital_Ward,OT,n,179.0,
+misclassification_by_group,Hospital_Ward,OT,misclassified,11.0,
+misclassification_by_group,Hospital_Ward,OT,rate_pct,6.145251396648044,
+misclassification_by_group,Hospital_Ward,OT,ci_low_pct,3.4656830404909043,
+misclassification_by_group,Hospital_Ward,OT,ci_high_pct,10.667643292247378,
+misclassification_by_group,Hospital_Ward,General Ward,n,199.0,
+misclassification_by_group,Hospital_Ward,General Ward,misclassified,12.0,
+misclassification_by_group,Hospital_Ward,General Ward,rate_pct,6.030150753768844,
+misclassification_by_group,Hospital_Ward,General Ward,ci_low_pct,3.4827678662827197,
+misclassification_by_group,Hospital_Ward,General Ward,ci_high_pct,10.243016193791744,
+misclassification_by_group,Hospital_Ward,ICU,n,155.0,
+misclassification_by_group,Hospital_Ward,ICU,misclassified,9.0,
+misclassification_by_group,Hospital_Ward,ICU,rate_pct,5.806451612903226,
+misclassification_by_group,Hospital_Ward,ICU,ci_low_pct,3.0845051413480333,
+misclassification_by_group,Hospital_Ward,ICU,ci_high_pct,10.666048869691895,
+misclassification_by_group,Hospital_Ward,Pediatrics,n,183.0,
+misclassification_by_group,Hospital_Ward,Pediatrics,misclassified,10.0,
+misclassification_by_group,Hospital_Ward,Pediatrics,rate_pct,5.46448087431694,
+misclassification_by_group,Hospital_Ward,Pediatrics,ci_low_pct,2.9949173888395455,
+misclassification_by_group,Hospital_Ward,Pediatrics,ci_high_pct,9.765410075707964,
+misclassification_by_group,Floor_Number,Ground,n,298.0,
+misclassification_by_group,Floor_Number,Ground,misclassified,23.0,
+misclassification_by_group,Floor_Number,Ground,rate_pct,7.718120805369128,
+misclassification_by_group,Floor_Number,Ground,ci_low_pct,5.197747568728531,
+misclassification_by_group,Floor_Number,Ground,ci_high_pct,11.314754352809125,
+misclassification_by_group,Floor_Number,Floor 4,n,260.0,
+misclassification_by_group,Floor_Number,Floor 4,misclassified,19.0,
+misclassification_by_group,Floor_Number,Floor 4,rate_pct,7.307692307692308,
+misclassification_by_group,Floor_Number,Floor 4,ci_low_pct,4.727892150474329,
+misclassification_by_group,Floor_Number,Floor 4,ci_high_pct,11.130713922260222,
+misclassification_by_group,Floor_Number,Floor 1,n,293.0,
+misclassification_by_group,Floor_Number,Floor 1,misclassified,21.0,
+misclassification_by_group,Floor_Number,Floor 1,rate_pct,7.167235494880546,
+misclassification_by_group,Floor_Number,Floor 1,ci_low_pct,4.73525516190762,
+misclassification_by_group,Floor_Number,Floor 1,ci_high_pct,10.707863322833063,
+misclassification_by_group,Floor_Number,Floor 3,n,300.0,
+misclassification_by_group,Floor_Number,Floor 3,misclassified,17.0,
+misclassification_by_group,Floor_Number,Floor 3,rate_pct,5.666666666666666,
+misclassification_by_group,Floor_Number,Floor 3,ci_low_pct,3.5677175913187766,
+misclassification_by_group,Floor_Number,Floor 3,ci_high_pct,8.886666535147118,
+misclassification_by_group,Floor_Number,Floor 2,n,286.0,
+misclassification_by_group,Floor_Number,Floor 2,misclassified,16.0,
+misclassification_by_group,Floor_Number,Floor 2,rate_pct,5.594405594405594,
+misclassification_by_group,Floor_Number,Floor 2,ci_low_pct,3.472523953464621,
+misclassification_by_group,Floor_Number,Floor 2,ci_high_pct,8.89340281481157,
+misclassification_by_group,Target_Bin_Color,Blue Bin,n,210.0,
+misclassification_by_group,Target_Bin_Color,Blue Bin,misclassified,16.0,
+misclassification_by_group,Target_Bin_Color,Blue Bin,rate_pct,7.6190476190476195,
+misclassification_by_group,Target_Bin_Color,Blue Bin,ci_low_pct,4.7438977513945835,
+misclassification_by_group,Target_Bin_Color,Blue Bin,ci_high_pct,12.016919601262712,
+misclassification_by_group,Target_Bin_Color,White Bin,n,164.0,
+misclassification_by_group,Target_Bin_Color,White Bin,misclassified,12.0,
+misclassification_by_group,Target_Bin_Color,White Bin,rate_pct,7.317073170731707,
+misclassification_by_group,Target_Bin_Color,White Bin,ci_low_pct,4.2348877592859555,
+misclassification_by_group,Target_Bin_Color,White Bin,ci_high_pct,12.353133327262315,
+misclassification_by_group,Target_Bin_Color,Green Bin,n,234.0,
+misclassification_by_group,Target_Bin_Color,Green Bin,misclassified,17.0,
+misclassification_by_group,Target_Bin_Color,Green Bin,rate_pct,7.264957264957266,
+misclassification_by_group,Target_Bin_Color,Green Bin,ci_low_pct,4.58500834605796,
+misclassification_by_group,Target_Bin_Color,Green Bin,ci_high_pct,11.32541270728174,
+misclassification_by_group,Target_Bin_Color,Black Bin,n,307.0,
+misclassification_by_group,Target_Bin_Color,Black Bin,misclassified,22.0,
+misclassification_by_group,Target_Bin_Color,Black Bin,rate_pct,7.166123778501629,
+misclassification_by_group,Target_Bin_Color,Black Bin,ci_low_pct,4.779680420668354,
+misclassification_by_group,Target_Bin_Color,Black Bin,ci_high_pct,10.611309717073826,
+misclassification_by_group,Target_Bin_Color,Red Bin,n,234.0,
+misclassification_by_group,Target_Bin_Color,Red Bin,misclassified,15.0,
+misclassification_by_group,Target_Bin_Color,Red Bin,rate_pct,6.41025641025641,
+misclassification_by_group,Target_Bin_Color,Red Bin,ci_low_pct,3.922795977413022,
+misclassification_by_group,Target_Bin_Color,Red Bin,ci_high_pct,10.305833496993474,
+misclassification_by_group,Target_Bin_Color,Yellow Bin,n,313.0,
+misclassification_by_group,Target_Bin_Color,Yellow Bin,misclassified,16.0,
+misclassification_by_group,Target_Bin_Color,Yellow Bin,rate_pct,5.111821086261981,
+misclassification_by_group,Target_Bin_Color,Yellow Bin,ci_low_pct,3.1706577629155506,
+misclassification_by_group,Target_Bin_Color,Yellow Bin,ci_high_pct,8.141493166760352,
+misclassification_by_group,Bin_ID,BIN_10,n,130.0,
+misclassification_by_group,Bin_ID,BIN_10,misclassified,13.0,
+misclassification_by_group,Bin_ID,BIN_10,rate_pct,10.0,
+misclassification_by_group,Bin_ID,BIN_10,ci_low_pct,5.937492270353047,
+misclassification_by_group,Bin_ID,BIN_10,ci_high_pct,16.35871458909872,
+misclassification_by_group,Bin_ID,BIN_07,n,141.0,
+misclassification_by_group,Bin_ID,BIN_07,misclassified,14.0,
+misclassification_by_group,Bin_ID,BIN_07,rate_pct,9.929078014184398,
+misclassification_by_group,Bin_ID,BIN_07,ci_low_pct,6.006952557748608,
+misclassification_by_group,Bin_ID,BIN_07,ci_high_pct,15.976786920412364,
+misclassification_by_group,Bin_ID,BIN_01,n,103.0,
+misclassification_by_group,Bin_ID,BIN_01,misclassified,8.0,
+misclassification_by_group,Bin_ID,BIN_01,rate_pct,7.766990291262135,
+misclassification_by_group,Bin_ID,BIN_01,ci_low_pct,3.9879879368479614,
+misclassification_by_group,Bin_ID,BIN_01,ci_high_pct,14.583055551830604,
+misclassification_by_group,Bin_ID,BIN_12,n,129.0,
+misclassification_by_group,Bin_ID,BIN_12,misclassified,10.0,
+misclassification_by_group,Bin_ID,BIN_12,rate_pct,7.751937984496124,
+misclassification_by_group,Bin_ID,BIN_12,ci_low_pct,4.264931398826816,
+misclassification_by_group,Bin_ID,BIN_12,ci_high_pct,13.682458575398126,
+misclassification_by_group,Bin_ID,BIN_06,n,103.0,
+misclassification_by_group,Bin_ID,BIN_06,misclassified,7.0,
+misclassification_by_group,Bin_ID,BIN_06,rate_pct,6.796116504854369,
+misclassification_by_group,Bin_ID,BIN_06,ci_low_pct,3.330731523877016,
+misclassification_by_group,Bin_ID,BIN_06,ci_high_pct,13.368381930058531,
+misclassification_by_group,Bin_ID,BIN_04,n,104.0,
+misclassification_by_group,Bin_ID,BIN_04,misclassified,7.0,
+misclassification_by_group,Bin_ID,BIN_04,rate_pct,6.730769230769231,
+misclassification_by_group,Bin_ID,BIN_04,ci_low_pct,3.2983269269930093,
+misclassification_by_group,Bin_ID,BIN_04,ci_high_pct,13.24593799489242,
+misclassification_by_group,Bin_ID,BIN_11,n,127.0,
+misclassification_by_group,Bin_ID,BIN_11,misclassified,8.0,
+misclassification_by_group,Bin_ID,BIN_11,rate_pct,6.299212598425196,
+misclassification_by_group,Bin_ID,BIN_11,ci_low_pct,3.2261301754602045,
+misclassification_by_group,Bin_ID,BIN_11,ci_high_pct,11.938465794017395,
+misclassification_by_group,Bin_ID,BIN_02,n,113.0,
+misclassification_by_group,Bin_ID,BIN_02,misclassified,7.0,
+misclassification_by_group,Bin_ID,BIN_02,rate_pct,6.1946902654867255,
+misclassification_by_group,Bin_ID,BIN_02,ci_low_pct,3.0327788623800847,
+misclassification_by_group,Bin_ID,BIN_02,ci_high_pct,12.23712500747449,
+misclassification_by_group,Bin_ID,BIN_03,n,135.0,
+misclassification_by_group,Bin_ID,BIN_03,misclassified,7.0,
+misclassification_by_group,Bin_ID,BIN_03,rate_pct,5.185185185185185,
+misclassification_by_group,Bin_ID,BIN_03,ci_low_pct,2.5340849260581777,
+misclassification_by_group,Bin_ID,BIN_03,ci_high_pct,10.316242353373925,
+misclassification_by_group,Bin_ID,BIN_08,n,116.0,
+misclassification_by_group,Bin_ID,BIN_08,misclassified,6.0,
+misclassification_by_group,Bin_ID,BIN_08,rate_pct,5.172413793103448,
+misclassification_by_group,Bin_ID,BIN_08,ci_low_pct,2.3918327403612367,
+misclassification_by_group,Bin_ID,BIN_08,ci_high_pct,10.826949385378072,
+misclassification_by_group,Bin_ID,BIN_05,n,118.0,
+misclassification_by_group,Bin_ID,BIN_05,misclassified,6.0,
+misclassification_by_group,Bin_ID,BIN_05,rate_pct,5.084745762711865,
+misclassification_by_group,Bin_ID,BIN_05,ci_low_pct,2.350931087576136,
+misclassification_by_group,Bin_ID,BIN_05,ci_high_pct,10.650867969560341,
+misclassification_by_group,Bin_ID,BIN_09,n,121.0,
+misclassification_by_group,Bin_ID,BIN_09,misclassified,4.0,
+misclassification_by_group,Bin_ID,BIN_09,rate_pct,3.3057851239669422,
+misclassification_by_group,Bin_ID,BIN_09,ci_low_pct,1.2928972216889398,
+misclassification_by_group,Bin_ID,BIN_09,ci_high_pct,8.192402550181974,
+misclassification_test,Waste_Category,,chi2,8.788362493021813,
+misclassification_test,Waste_Category,,dof,18.0,
+misclassification_test,Waste_Category,,p_value,0.9644454213268888,
+misclassification_test,Waste_Category,,share_cells_expected_below_5,0.23684210526315788,
+misclassification_test,Hospital_Ward,,chi2,1.8404072443706554,
+misclassification_test,Hospital_Ward,,dof,7.0,
+misclassification_test,Hospital_Ward,,p_value,0.968143028346977,
+misclassification_test,Hospital_Ward,,share_cells_expected_below_5,0.0,
+misclassification_test,Floor_Number,,chi2,1.8258049396893392,
+misclassification_test,Floor_Number,,dof,4.0,
+misclassification_test,Floor_Number,,p_value,0.767757950970863,
+misclassification_test,Floor_Number,,share_cells_expected_below_5,0.0,
+misclassification_test,Target_Bin_Color,,chi2,1.9033593088604803,
+misclassification_test,Target_Bin_Color,,dof,5.0,
+misclassification_test,Target_Bin_Color,,p_value,0.8623490333036525,
+misclassification_test,Target_Bin_Color,,share_cells_expected_below_5,0.0,
+misclassification_test,Bin_ID,,chi2,8.717544147132926,
+misclassification_test,Bin_ID,,dof,11.0,
+misclassification_test,Bin_ID,,p_value,0.6479460132598613,
+misclassification_test,Bin_ID,,share_cells_expected_below_5,0.0,
+confidence_by_status,AI_Confidence_Score,,n_correct,1344.0,
+confidence_by_status,AI_Confidence_Score,,n_misclassified,98.0,
+confidence_by_status,AI_Confidence_Score,,median_correct,0.85,
+confidence_by_status,AI_Confidence_Score,,median_misclassified,0.83,
+confidence_by_status,AI_Confidence_Score,,mean_correct,0.8456101190476191,
+confidence_by_status,AI_Confidence_Score,,mean_misclassified,0.8390816326530612,
+confidence_by_status,AI_Confidence_Score,,u,68801.5,
+confidence_by_status,AI_Confidence_Score,,p_value,0.4590308430756891,
+alert_analysis,Alert_Triggered,,records_with_alert_known,1467.0,
+alert_analysis,Alert_Triggered,,alerts,323.0,
+alert_analysis,Alert_Triggered,,alert_rate_pct,22.01772324471711,
+alert_analysis,Alert_Triggered,,records_used,1424.0,
+alert_analysis,Alert_Triggered,,alerts_used,313.0,
+alert_analysis,Alert_Triggered,,alerts_misclassified,96.0,
+alert_analysis,Alert_Triggered,,alerts_correct_and_fill_above_85,217.0,
+alert_analysis,Alert_Triggered,,alerts_correct_and_fill_85_or_below,0.0,
+alert_analysis,Alert_Triggered,,misclassified_with_alert_pct,100.0,
+alert_analysis,Alert_Triggered,,misclassified_used,96.0,
+alert_analysis,Alert_Triggered,,correct_fill_above_85_alert_pct,99.54128440366972,
+alert_analysis,Alert_Triggered,,correct_fill_above_85_n,218.0,
+alert_analysis,Alert_Triggered,,correct_fill_85_or_below_alert_pct,0.0,
+alert_analysis,Alert_Triggered,,correct_fill_85_or_below_n,1110.0,
+alert_by_fill_band,Bin_Fill_Level_Percentage,0 to 50,n,677.0,
+alert_by_fill_band,Bin_Fill_Level_Percentage,0 to 50,alerts,41.0,
+alert_by_fill_band,Bin_Fill_Level_Percentage,0 to 50,alert_rate_pct,6.056129985228951,
+alert_by_fill_band,Bin_Fill_Level_Percentage,over 50 to 70,n,296.0,
+alert_by_fill_band,Bin_Fill_Level_Percentage,over 50 to 70,alerts,27.0,
+alert_by_fill_band,Bin_Fill_Level_Percentage,over 50 to 70,alert_rate_pct,9.121621621621621,
+alert_by_fill_band,Bin_Fill_Level_Percentage,over 70 to 80,n,158.0,
+alert_by_fill_band,Bin_Fill_Level_Percentage,over 70 to 80,alerts,9.0,
+alert_by_fill_band,Bin_Fill_Level_Percentage,over 70 to 80,alert_rate_pct,5.69620253164557,
+alert_by_fill_band,Bin_Fill_Level_Percentage,over 80 to 85,n,73.0,
+alert_by_fill_band,Bin_Fill_Level_Percentage,over 80 to 85,alerts,1.0,
+alert_by_fill_band,Bin_Fill_Level_Percentage,over 80 to 85,alert_rate_pct,1.36986301369863,
+alert_by_fill_band,Bin_Fill_Level_Percentage,over 85 to 90,n,78.0,
+alert_by_fill_band,Bin_Fill_Level_Percentage,over 85 to 90,alerts,78.0,
+alert_by_fill_band,Bin_Fill_Level_Percentage,over 85 to 90,alert_rate_pct,100.0,
+alert_by_fill_band,Bin_Fill_Level_Percentage,over 90 to 95,n,84.0,
+alert_by_fill_band,Bin_Fill_Level_Percentage,over 90 to 95,alerts,84.0,
+alert_by_fill_band,Bin_Fill_Level_Percentage,over 90 to 95,alert_rate_pct,100.0,
+alert_by_fill_band,Bin_Fill_Level_Percentage,over 95 to 100,n,77.0,
+alert_by_fill_band,Bin_Fill_Level_Percentage,over 95 to 100,alerts,76.0,
+alert_by_fill_band,Bin_Fill_Level_Percentage,over 95 to 100,alert_rate_pct,98.7012987012987,
+fill_level_by_bin,Bin_ID,BIN_01,n,104.0,
+fill_level_by_bin,Bin_ID,BIN_01,mean,54.96153846153846,
+fill_level_by_bin,Bin_ID,BIN_01,median,56.5,
+fill_level_by_bin,Bin_ID,BIN_01,share_above_85,20.192307692307693,
+fill_level_by_bin,Bin_ID,BIN_01,alert_rate_pct,27.184466019417474,
+fill_level_by_bin,Bin_ID,BIN_02,n,112.0,
+fill_level_by_bin,Bin_ID,BIN_02,mean,54.92857142857143,
+fill_level_by_bin,Bin_ID,BIN_02,median,57.5,
+fill_level_by_bin,Bin_ID,BIN_02,share_above_85,16.964285714285715,
+fill_level_by_bin,Bin_ID,BIN_02,alert_rate_pct,23.008849557522122,
+fill_level_by_bin,Bin_ID,BIN_03,n,131.0,
+fill_level_by_bin,Bin_ID,BIN_03,mean,51.396946564885496,
+fill_level_by_bin,Bin_ID,BIN_03,median,52.0,
+fill_level_by_bin,Bin_ID,BIN_03,share_above_85,13.740458015267176,
+fill_level_by_bin,Bin_ID,BIN_03,alert_rate_pct,17.293233082706767,
+fill_level_by_bin,Bin_ID,BIN_04,n,103.0,
+fill_level_by_bin,Bin_ID,BIN_04,mean,55.94174757281554,
+fill_level_by_bin,Bin_ID,BIN_04,median,56.0,
+fill_level_by_bin,Bin_ID,BIN_04,share_above_85,16.50485436893204,
+fill_level_by_bin,Bin_ID,BIN_04,alert_rate_pct,20.754716981132077,
+fill_level_by_bin,Bin_ID,BIN_05,n,118.0,
+fill_level_by_bin,Bin_ID,BIN_05,mean,49.40677966101695,
+fill_level_by_bin,Bin_ID,BIN_05,median,50.0,
+fill_level_by_bin,Bin_ID,BIN_05,share_above_85,10.16949152542373,
+fill_level_by_bin,Bin_ID,BIN_05,alert_rate_pct,15.384615384615385,
+fill_level_by_bin,Bin_ID,BIN_06,n,107.0,
+fill_level_by_bin,Bin_ID,BIN_06,mean,57.177570093457945,
+fill_level_by_bin,Bin_ID,BIN_06,median,62.0,
+fill_level_by_bin,Bin_ID,BIN_06,share_above_85,20.5607476635514,
+fill_level_by_bin,Bin_ID,BIN_06,alert_rate_pct,27.358490566037734,
+fill_level_by_bin,Bin_ID,BIN_07,n,140.0,
+fill_level_by_bin,Bin_ID,BIN_07,mean,49.357142857142854,
+fill_level_by_bin,Bin_ID,BIN_07,median,48.0,
+fill_level_by_bin,Bin_ID,BIN_07,share_above_85,17.142857142857142,
+fill_level_by_bin,Bin_ID,BIN_07,alert_rate_pct,26.056338028169012,
+fill_level_by_bin,Bin_ID,BIN_08,n,114.0,
+fill_level_by_bin,Bin_ID,BIN_08,mean,52.60526315789474,
+fill_level_by_bin,Bin_ID,BIN_08,median,54.0,
+fill_level_by_bin,Bin_ID,BIN_08,share_above_85,14.035087719298245,
+fill_level_by_bin,Bin_ID,BIN_08,alert_rate_pct,18.103448275862068,
+fill_level_by_bin,Bin_ID,BIN_09,n,118.0,
+fill_level_by_bin,Bin_ID,BIN_09,mean,53.067796610169495,
+fill_level_by_bin,Bin_ID,BIN_09,median,54.0,
+fill_level_by_bin,Bin_ID,BIN_09,share_above_85,16.101694915254235,
+fill_level_by_bin,Bin_ID,BIN_09,alert_rate_pct,19.166666666666668,
+fill_level_by_bin,Bin_ID,BIN_10,n,129.0,
+fill_level_by_bin,Bin_ID,BIN_10,mean,54.92248062015504,
+fill_level_by_bin,Bin_ID,BIN_10,median,58.0,
+fill_level_by_bin,Bin_ID,BIN_10,share_above_85,20.155038759689923,
+fill_level_by_bin,Bin_ID,BIN_10,alert_rate_pct,25.954198473282442,
+fill_level_by_bin,Bin_ID,BIN_11,n,130.0,
+fill_level_by_bin,Bin_ID,BIN_11,mean,47.62307692307692,
+fill_level_by_bin,Bin_ID,BIN_11,median,43.0,
+fill_level_by_bin,Bin_ID,BIN_11,share_above_85,13.076923076923078,
+fill_level_by_bin,Bin_ID,BIN_11,alert_rate_pct,19.379844961240313,
+fill_level_by_bin,Bin_ID,BIN_12,n,128.0,
+fill_level_by_bin,Bin_ID,BIN_12,mean,54.8125,
+fill_level_by_bin,Bin_ID,BIN_12,median,53.0,
+fill_level_by_bin,Bin_ID,BIN_12,share_above_85,19.53125,
+fill_level_by_bin,Bin_ID,BIN_12,alert_rate_pct,26.5625,
+fill_level_by_bin_test,Bin_ID,,kruskal_h,15.174831511188774,
+fill_level_by_bin_test,Bin_ID,,p_value,0.1746321655003406,
+weekday,Weekday,Monday,days,4.0,
+weekday,Weekday,Monday,records,194.0,
+weekday,Weekday,Monday,records_per_day,48.5,
+weekday,Weekday,Tuesday,days,4.0,
+weekday,Weekday,Tuesday,records,195.0,
+weekday,Weekday,Tuesday,records_per_day,48.75,
+weekday,Weekday,Wednesday,days,4.0,
+weekday,Weekday,Wednesday,records,217.0,
+weekday,Weekday,Wednesday,records_per_day,54.25,
+weekday,Weekday,Thursday,days,5.0,
+weekday,Weekday,Thursday,records,246.0,
+weekday,Weekday,Thursday,records_per_day,49.2,
+weekday,Weekday,Friday,days,5.0,
+weekday,Weekday,Friday,records,270.0,
+weekday,Weekday,Friday,records_per_day,54.0,
+weekday,Weekday,Saturday,days,4.0,
+weekday,Weekday,Saturday,records,172.0,
+weekday,Weekday,Saturday,records_per_day,43.0,
+weekday,Weekday,Sunday,days,4.0,
+weekday,Weekday,Sunday,records,186.0,
+weekday,Weekday,Sunday,records_per_day,46.5,
+weekday_test,Weekday,,chi2,8.156081081081085,
+weekday_test,Weekday,,p_value,0.22689002478693313,
+hourly,Hour,0,records,66.0,
+hourly,Hour,1,records,60.0,
+hourly,Hour,2,records,52.0,
+hourly,Hour,3,records,59.0,
+hourly,Hour,4,records,66.0,
+hourly,Hour,5,records,70.0,
+hourly,Hour,6,records,73.0,
+hourly,Hour,7,records,54.0,
+hourly,Hour,8,records,51.0,
+hourly,Hour,9,records,71.0,
+hourly,Hour,10,records,69.0,
+hourly,Hour,11,records,52.0,
+hourly,Hour,12,records,52.0,
+hourly,Hour,13,records,67.0,
+hourly,Hour,14,records,54.0,
+hourly,Hour,15,records,54.0,
+hourly,Hour,16,records,73.0,
+hourly,Hour,17,records,75.0,
+hourly,Hour,18,records,52.0,
+hourly,Hour,19,records,62.0,
+hourly,Hour,20,records,66.0,
+hourly,Hour,21,records,62.0,
+hourly,Hour,22,records,65.0,
+hourly,Hour,23,records,55.0,
+hourly_test,Hour,,chi2,23.664864864864867,
+hourly_test,Hour,,p_value,0.42255578422468076,
+weekly,Week_start,2026-09-28,days_covered,4.0,
+weekly,Week_start,2026-09-28,records,184.0,
+weekly,Week_start,2026-09-28,records_per_day,46.0,
+weekly,Week_start,2026-09-28,total_weight_g,43527.9,
+weekly,Week_start,2026-10-05,days_covered,7.0,
+weekly,Week_start,2026-10-05,records,320.0,
+weekly,Week_start,2026-10-05,records_per_day,45.714285714285715,
+weekly,Week_start,2026-10-05,total_weight_g,95275.8,
+weekly,Week_start,2026-10-12,days_covered,7.0,
+weekly,Week_start,2026-10-12,records,374.0,
+weekly,Week_start,2026-10-12,records_per_day,53.42857142857143,
+weekly,Week_start,2026-10-12,total_weight_g,103215.3,
+weekly,Week_start,2026-10-19,days_covered,7.0,
+weekly,Week_start,2026-10-19,records,349.0,
+weekly,Week_start,2026-10-19,records_per_day,49.857142857142854,
+weekly,Week_start,2026-10-19,total_weight_g,90714.2,
+weekly,Week_start,2026-10-26,days_covered,5.0,
+weekly,Week_start,2026-10-26,records,253.0,
+weekly,Week_start,2026-10-26,records_per_day,50.6,
+weekly,Week_start,2026-10-26,total_weight_g,66605.2,
+trend_test,records,,slope_per_day,0.18331479421579525,
+trend_test,records,,r,0.2169476500270243,
+trend_test,records,,p_value,0.24950221627010163,
+trend_test,total_weight_g,,slope_per_day,28.351991101223582,
+trend_test,total_weight_g,,r,0.07545374808196924,
+trend_test,total_weight_g,,p_value,0.6918968913464789,
+trend_test,misclassified_rate_pct,,slope_per_day,-0.058921603460363,
+trend_test,misclassified_rate_pct,,r,-0.14719981022133694,
+trend_test,misclassified_rate_pct,,p_value,0.43761287174144,
