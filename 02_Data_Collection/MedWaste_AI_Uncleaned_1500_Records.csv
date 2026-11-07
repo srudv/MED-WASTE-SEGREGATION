@@ -1,0 +1,1501 @@
+Record_ID,Timestamp,Hospital_Ward,Floor_Number,Waste_Category,Target_Bin_Color,Bin_ID,Weight_Grams,AI_Confidence_Score,Segregation_Status,Bin_Fill_Level_Percentage,Alert_Triggered
+REC0001,2026-10-07 08:24:00,Emergency,Floor 4,Surgical Waste,Yellow Bin,BIN_02,283.5,0.87,Correctly Segregated,33.0,No
+REC0002,2026-10-28 09:33:00,ICU,Floor 4,Used Bandages,Yellow Bin,BIN_04,170.6,0.91,Correctly Segregated,69.0,No
+REC0003,2026-10-01 07:05:00,OT,Floor 3,Expired Medications,White Bin,BIN_06,319.9,0.78,Correctly Segregated,40.0,No
+REC0004,2026-10-18 06:58:00,Emergency,Floor 2,Urine/Body Fluids,Red Bin,BIN_06,644.5,0.88,Misclassified,16.0,Yes
+REC0005,2026-10-04 14:04:00,Pediatrics,Floor 4,Used Bandages,Yellow Bin,BIN_06,,0.87,Correctly Segregated,53.0,No
+REC0006,2026-10-04 15:09:00,OPD,Ground,,Yellow Bin,BIN_07,158.0,0.78,Correctly Segregated,42.0,No
+REC0007,2026-10-13 03:36:00,Emergency,Floor 4,Paper Wrappers,Black Bin ,BIN_11,674.1,0.75,Correctly Segregated,90.0,Yes
+REC0008,2026-10-26 08:20:00,OPD,Floor 2,Glassware,Blue Bin,BIN_01,352.1,0.77,Correctly Segregated,86.0,Yes
+REC0009,2026-10-10 14:26:00,General Ward,Floor 1,Used Bandages,yellow bin,BIN_11,130.9,0.84,Correctly Segregated,13.0,No
+REC0010,2026-10-26 13:09:00,Pediatrics,Floor 4,Needles,Green Bin,BIN_07,294.1,0.96,Correctly Segregated,100.0,YES
+REC0011,2026-10-24 04:32:00,Laboratory,Ground,Food Waste,Black Bin,BIN_01,131.5,0.95,Correctly Segregated,22.0,No
+REC0012,2026-10-28 03:26:00,Emergency,Floor 3,Contaminated Recyclable Plastics,Red Bin,BIN_07,131.3,0.87,Correctly Segregated,59.0,No
+REC0013,2026-10-06 05:07:00,Pediatrics,floor-2,Needles,Green Bin,BIN_02,231.3,0.79,Correctly Segregated,6.0,no
+ REC0014 ,2026-10-12 23:41:00,OT,Floor 4,IV Bags/Tubes,Red Bin,BIN_02,41.2,0.95,Correctly Segregated,97.0,Yes
+REC0015,2026-10-07 22:56:00,General Ward,Floor 1,Chemical Containers,Blue Bin,bin_3,47.9,0.98,Correctly Segregated,30.0,No
+REC0016,2026-10-01 21:16:00,Emergency,Floor 2,Blades,Green Bin,BIN_05,121.5,0.77,Correct,67.0,No
+REC0017,2026-10-23 02:49:00,Emergency,Floor 4,Glassware,Blue Bin,BIN_03,84.8,0.74,Correctly Segregated,15.0,no
+REC0018,2026-10-28 14:33:00,Radiology,Floor 1,Syringes,Green Bin,BIN_09,245.0,0.92,Correctly Segregated,72.0,No
+REC0019,2026-10-30 13:50:00, General Ward ,Floor 3,Urine/Body Fluids,Red Bin,BIN_09,92.2,0.83,Correctly Segregated,90.0,Yes
+REC0020,2026-10-26 05:01:00,OPD,Fourth Floor,Glassware,Blue Bin,BIN_04,61.6,0.7,Correct,80.0,No
+REC0021,2026-10-04 05:23:00,OPD,Floor 2,Used Bandages,Yellow Bin,BIN_11,615.6,0.84,Correct,47.0,No
+REC0022,2026-10-27 05:22:00,Lab,Floor 1,Expired Medications,White Bin,BIN_08,159.1,0.93,Correctly Segregated,78.0,No
+REC0023,2026-10-20 06:39:00,Radiology,,Urine/Body Fluids,Red Bin,,201.1,,Correctly Segregated,50.0,No
+REC0024,2026-10-12 07:35:00, OPD ,Floor 1,Surgical Waste,Yellow Bin,BIN_09,61.0,0.83,Correctly Segregated,18.0,No
+REC0025,2026-10-21 04:01:00,Emergency,Ground,Office Trash,Black Bin,BIN_11,123.3,0.99,Correctly Segregated,14.0,No
+REC0026,2026-10-08 13:39:00,Radiology,Floor 3,Anatomical Waste,Yellow Bin,BIN_08,208.2,0.76,Misclassified / Override Required,35.0,Yes
+REC0027,2026-10-18 18:26:00,Pediatrics,Floor 3,Food Waste,Black Bin,BIN_05,75.9,0.82,Correctly Segregated,5.0,no
+REC0028,2026-10-14 12:05:00,OPD,Ground,Expired Medications,White Bin,BIN_10,257.4,0.91,Correctly Segregated,29.0,No
+REC0029,2026-10-22 16:46:00,OT,ground floor,Used Bandages,Yellow Bin,BIN_09,117.9,0.72,Correctly Segregated,79.0,No
+REC0030,2026-10-19 09:01:00,Emergency,Floor 4,IV Bags/Tubes,RED BIN,BIN_04,150.9,0.87,Correctly Segregated,35.0,No
+REC0031,2026-10-26 17:22:00,General Ward,Floor 2,Used Bandages,Yellow Bin,BIN_04,117.8,0.89,Correctly Segregated,79.0,No
+REC0032,2026-10-30 09:03:00,Pediatrics,Floor 3,Non-Infectious Waste,Black Bin,BIN_06,838.7,0.97,Correct,90.0,Yes
+REC0033,2026-10-09 07:44:00,Emergency,Floor 3,Metallic & Plastic Waste,Blue Bin,BIN_07,259.1,0.98,Correctly Segregated,48.0,No
+REC0034,2026-10-17 19:37:00,Pediatrics,Floor 1,Contaminated Recyclable Plastics,Red Bin,BIN_99,81.8,0.94,Correctly Segregated,36.0,no
+REC0035,2026-10-25 01:44:00,ICU,,Chemical Containers,Blue Bin,BIN_05,368.0,0.97,Correctly Segregated,88.0,Yes
+REC0036,2026-10-15 02:13:00,General Ward,F3, Hazardous Chemicals ,WHITE BIN,BIN_09,233.6,0.77,Correctly Segregated,73.0,No
+REC0037,2026-10-24 00:02:00,,Floor 2,Non-Infectious Waste,Black Bin ,BIN_01,225.2,0.73,Correctly Segregated,38.0,No
+REC0038,2026-10-29 23:53:00,Pediatrics,Floor 1,Office Trash,Red Bin,BIN_12,39.7,0.83,Correctly Segregated,21.0,no
+REC0039,2026-10-07 18:48:00,ICU,Floor 2,Office Trash,Black Bin,BIN_10,65.9,0.86,Correctly Segregated,93.0,Yes
+REC0040,2026-10-17 06:49:00,OPD,Floor 1,Office Trash,Black Bin ,BIN_11,223.1,0.73,Correctly Segregated,10.0,No
+ REC0041 ,2026-10-08 00:48:00,OPD,Floor 1,Expired Medications,White Bin,BIN_03,344.0,0.96,Correctly Segregated,84.0,No
+REC0042,2026-10-12 07:03:00,,Floor 1,Anatomical Waste,Yellow Bin,BIN_12,218.6,0.73,Correctly Segregated,57.0,No
+REC0043,2026-10-16 21:55:00,Pediatrics,1st Floor,used bandages,Yellow Bin,BIN_04,173.7,,Correctly Segregated,63.0,no
+REC0044,2026-10-13 16:52:00,General Ward,Floor 4,Urine/Body Fluids,Red Bin,BIN_07,149.8,0.9,Correctly Segregated,13.0,No
+REC0045,2026-10-27 10:09:00,Pediatrics,Ground,Expired Medications,Blue Bin,BIN_02,58.4,0.87,Correctly Segregated,27.0,No
+ REC0046 ,2026-10-24 06:36:00,Emergency,Floor 3,Paper Wrappers,Black Bin,BIN_10,107.1,0.76,Correctly Segregated,82.0,No
+REC0047,2026-10-09 23:12:00,General Ward,Floor 3,Used Bandages,White Bin,BIN_02,131.8,0.98,Correctly Segregated,73.0,No
+REC0048,2026-10-14 16:01:00,Pediatrics,Floor 3,Non-Infectious Waste,Black Bin,BIN_06,443.9,0.82,Correctly Segregated,20.0,no
+REC0049,2026-10-18 06:07:00,Operation Theater,Fourth Floor,Chemical Containers,Blue Bin,BIN_10,250.9,0.79,Correctly Segregated,90.0,Yes
+REC0050,2026-10-20 13:33:00,General Ward,Floor 3, Expired Medications ,WHITE BIN,BIN_08,46.5,0.83,Correctly Segregated,31.0,No
+REC0051,2026-10-08 17:20:00,Emergency,,Urine/Body Fluids,RED BIN,BIN_09,247.0,0.89,Correctly Segregated,99.0,Yes
+REC0052,2026-10-15 03:03:00,OPD,Floor 1,Non-Infectious Waste,Black Bin ,BIN_03,140.0,0.71,Correctly Segregated,35.0,No
+REC0053,2026-10-21 17:26:00,Radiology,Floor 4,Glassware,Blue Bin,BIN_04,110.9,0.91,Misclassified / Override Required,14.0,Yes
+REC0054,2026-10-01 06:03:00,Emergency,Floor 3,Food Waste,Black Bin,BIN_04,310.9,0.75,Correct,88.0,Yes
+REC0055,2026-10-21 18:34:00,OT,Floor 3,Blades,Green Bin,BIN_11,434.8,0.85,Correctly Segregated,20.0,No
+REC0056,2026-10-28 21:10:00,radiology,Floor 4,Expired Medications,White Bin,BIN_08,401.4,0.96,Correctly Segregated,61.0,No
+REC0057,2026-10-13 14:53:00,Laboratory,Floor 1,Syringes,Green Bin,BIN_05,97.4,0.83,Correctly Segregated,86.0,Yes
+REC0058,2026-10-04 16:00:00,OT,Floor 1,Chemical Containers,Blue Bin,BIN_04,148.8,0.81,Correctly Segregated,74.0,No
+REC0059,2026-10-16 01:24:00,Laboratory,F3,Contaminated Recyclable Plastics,Red Bin,BIN_01,248.4,0.76,Correctly Segregated,57.0,No
+REC0060,2026-10-01 21:20:00,Radiology,F3,Office Trash,Black Bin,BIN_01,415.9,0.97,Correctly Segregated,94.0,YES
+REC0061,2026-10-25 11:52:00,OPD,Floor 3,Chemical Containers,Blue Bin,BIN_04,129.9,0.78,Correctly Segregated,,no
+REC0062,2026-10-19 09:37:00,OT,Floor 3,,Green Bin,BIN_03,164.3,0.98,Correctly Segregated,91.0,Yes
+REC0063,2026-10-02 05:36:00,Emergency,Floor 3,Expired Medications,White Bin,BIN_03,78.6,0.95,Correctly Segregated,77.0,no
+REC0064,2026-10-21 16:39:00,General Ward,Floor 2,IV Bags/Tubes,Red Bin,BIN_07,73.2,0.78,Correctly Segregated,32.0,No
+REC0065,2026-10-25 13:11:00,ICU,floor-2,Office Trash,Black Bin,BIN_04,365.0,0.89,Correctly Segregated,7.0,No
+REC0066,2026-10-01 22:15:00,OT,Floor 1,Used Bandages,Yellow Bin,BIN_03,564.0,0.84,Correctly Segregated,30.0,No
+REC0067,2026-10-12 15:53:00,General Ward,Floor 1,Surgical Waste,Yellow Bin,BIN_10,179.9,0.88,Correct,94.0,Yes
+REC0068,2026-10-05 22:04:00,ICU,Floor 2,Surgical Waste,Yellow Bin,BIN_10,425.3,0.9,Correctly Segregated,44.0,no
+REC0069,2026-10-27 22:43:00, OPD ,Ground,Food Waste,Black Bin,BIN_12,254.5,0.92,Correctly Segregated,14.0,No
+REC0070,2026-10-16 19:14:00,Radiology,Floor 2,Surgical Waste,Yellow Bin,BIN_02,113.7,0.85,Correctly Segregated,10.0,No
+REC0071,2026-10-05 19:16:00,Radiology,Floor 2,Non-Infectious Waste,Black Bin,BIN_11,254.5,0.96,Correctly Segregated,67.0,no
+REC0072,2026-10-24 17:53:00,,Floor 4,Needles,Green Bin,BIN_09,652.3,0.92,Correctly Segregated,98.0,Yes
+REC0073,2026-10-15 16:02:00,OPD,Ground,Needles,Green Bin,BIN_05,185.2,0.96,Correctly Segregated,39.0,No
+REC0074,2026-10-18 05:57:00,General Ward,Ground,Glassware,Blue Bin,BIN_08,666.3,0.95,Correctly Segregated,90.0,Yes
+REC0075,2026-10-16 11:44:00,Pediatrics,Floor 4,IV Bags/Tubes,Red Bin,BIN_12,23.4,0.96,Correctly Segregated,38.0,No
+REC0076,2026-10-11 23:37:00,Radiology,F3,Expired Medications,White Bin,BIN_09,367.8,0.92,Correctly Segregated,15.0,no
+REC0077,2026-10-05 05:38:00,Pediatrics,Floor 1,Syringes,Green Bin,BIN_07,204.3,0.9,Correctly Segregated,7.0,No
+REC0078,2026-10-25 03:54:00,General Ward,Floor 3,Chemical Containers,Blue Bin,BIN_12,150.0,0.86,Correct,75.0,No
+REC0079,2026-10-11 11:48:00,Emergency,Floor 1,Paper Wrappers,Black Bin,BIN_06,205.1,0.73,,37.0,No
+REC0080,2026-10-10 20:20:00,,,Expired Medications,White Bin,BIN_12,38.9,0.87,Misclassified / Override Required,29.0,Yes
+REC0081,2026-10-14 11:34:00,OPD,Floor 2,Blades,Green Bin,BIN_03,159.9,0.79,Correctly Segregated,29.0,No
+REC0082,2026-10-14 07:05:00,OT,Floor 3,Expired Medications,Yellow Bin,BIN_02,253.6,0.95,Correctly Segregated,75.0,No
+REC0083,2026-10-09 09:22:00,ICU,floor-2,Hazardous Chemicals,White Bin,BIN_08,621.6,0.73,Correctly Segregated,48.0,No
+REC0084,2026-10-03 10:33:00,OT,Floor 1,Cotton Swabs,Yellow Bin,BIN_10,125.9,0.98,Correctly Segregated,85.0,No
+REC0085,2026-10-28 14:15:00,OPD,Floor 4,Cotton Swabs,yellow bin,BIN_07,99.8,0.83,Misclassified / Override Required,58.0,Yes
+REC0086,2026-10-14 21:33:00,ICU,Floor 4,Needles,green,BIN_12,127.6,0.73,Correctly Segregated,59.0,no
+REC0087,2026-10-08 03:32:00,OPD,Floor 1,Urine/Body Fluids,Red Bin,BIN_09,396.4,0.72,Correctly Segregated,15.0,No
+REC0088,2026-10-14 06:07:00,ICU,Floor 1,Anatomical Waste,Yellow Bin,BIN_05,247.9,0.91,Correctly Segregated,65.0,No
+REC0089,2026-10-29 10:43:00,OPD,Floor 3,Needles,Green Bin,BIN_02,124.7,0.86,Correctly Segregated,38.0,no
+REC0090,2026-10-03 17:08:00,OT,Floor 2,Contaminated Recyclable Plastics,Red Bin,BIN_10,287.3,0.92,Correctly Segregated,14.0,No
+REC0091,2026-10-14 20:08:00,Radiology,Floor 2,Hazardous Chemicals,White Bin,BIN_09,206.0,0.86,Correctly Segregated,64.0,No
+REC0092,2026-10-15 16:03:00,Paediatrics,Ground,Needles,Black Bin,BIN_02,413.6,0.77,Correctly Segregated,99.0,Yes
+REC0093,2026-10-02 19:56:00, OT ,F3,Hazardous Chemicals,Blue Bin,BIN_09,108.7,0.89,Correctly Segregated,78.0,No
+REC0094,2026-10-23 09:05:00,Emergency,Floor 3,Metallic & Plastic Waste,Blue Bin,BIN_06,146.6,0.82,Correctly Segregated,86.0,Yes
+REC0095,2026-10-19 17:37:00,Laboratory,Floor 2,Non infectious waste,Black Bin,BIN_11,,0.97,Correctly Segregated,47.0,No
+REC0096,2026-10-15 17:06:00,Emergency,Floor 3,Expired Medications,White Bin,,59.1,0.94,Correct,37.0,No
+REC0097,2026-10-03 11:12:00,OPD,Floor 4,Anatomical Waste,Yellow Bin,BIN_06,241.5,0.88,Correctly Segregated,57.0,No
+REC0098,2026-10-13 03:41:00,OT,floor-2,Syringes,green,BIN_08,234.8,1.4,Correctly Segregated,31.0,No
+REC0099,2026-10-11 21:22:00,OT,Floor 2,Syringes,Green Bin,BIN_09,191.3,0.7,Correct,82.0,No
+REC0100,2026-10-22 00:01:00,Emergency,Floor 1,Office Trash,Black Bin,BIN_08,158.0,0.97,Correctly Segregated,19.0,no
+REC0101,2026-10-22 11:47:00,OPD,Floor 3,Chemical Containers,Blue Bin,BIN_09,61.4,0.74,Correctly Segregated,66.0,No
+REC0102,2026-10-04 04:15:00,Pediatrics,,Urine/Body Fluids,Red Bin,BIN_06,136.1,0.97,Correctly Segregated,22.0,No
+REC0103,2026-10-27 09:25:00,Laboratory,Floor 1,Blades,Blue Bin,BIN_08,144.9,0.86,Correct,80.0,No
+REC0104,2026-10-21 17:21:00,General Ward,Floor 1,Paper Wrappers,Black Bin,BIN_12,100.3,0.77,Correctly Segregated,53.0,No
+REC0105,2026-10-15 11:32:00,Laboratory,Floor 3,Food Waste,Black Bin,BIN_07,167.5,0.99,Correctly Segregated,10.0,No
+REC0106,2026-10-21 00:55:00,Emergency,Floor 4,Contaminated Recyclable Plastics,Black Bin,BIN_08,263.3,0.7,Correctly Segregated,17.0,no
+REC0107,2026-10-04 09:43:00,Laboratory,Floor 2,Contaminated Recyclable Plastics,Red Bin,BIN_06,861.7,0.88,Correctly Segregated,24.0,no
+REC0108,2026-10-25 06:51:00,radiology,Floor 2,Food Waste,Black Bin,BIN_11,,0.91,Correctly Segregated,91.0,Yes
+REC0109,2026-10-29 17:23:00,Pediatrics,Floor 1,Syringes,Yellow Bin,BIN_12,234.2,0.73,Correctly Segregated,35.0,No
+REC0110,2026-10-21 04:36:00,Operation Theater,Floor 2,Surgical Waste,Yellow Bin,BIN_01,179.5,0.71,Correctly Segregated,17.0,No
+REC0111,2026-10-12 02:43:00,Radiology,Fourth Floor,Used Bandages,Yellow Bin,BIN_11,41.1,0.93,Correctly Segregated,23.0,No
+REC0112,2026-10-29 04:53:00, OPD ,Floor 3,IV Bags/Tubes,Red Bin,BIN_10,186.6,0.74,Correctly Segregated,53.0,No
+REC0113,2026-10-01 10:15:00,Lab,Floor 2,Needles,Green Bin,BIN_11,200.0,0.86,Correctly Segregated,90.0,Yes
+ REC0114 ,2026-10-14 14:45:00,Radiology,Floor 2,Cotton Swabs,Yellow Bin,BIN_08,1367.3,0.95,Correctly Segregated,80.0,No
+REC0115,2026-10-11 19:05:00,Radiology,Floor 4,Urine/Body Fluids,Red Bin,BIN_06,163.4,0.87,Misclassified / Override Required,18.0,Yes
+REC0116,2026-10-13 11:48:00,icu,Fourth Floor,Chemical Containers,Blue Bin,BIN_11,242.6,0.93,Correctly Segregated,55.0,No
+REC0117,2026-10-11 11:21:00,General Ward,Floor 1,Used Bandages,yellow bin,BIN_11,185.3,0.76,Correctly Segregated,41.0,no
+ REC0118 ,2026-10-07 05:23:00,Emergency,Ground,Metallic & Plastic Waste,Blue Bin,BIN_05,74.8,0.93,Correctly Segregated,89.0,Yes
+REC0119,2026-10-14 10:20:00,General Ward,Floor 3,Used Bandages,Yellow Bin,BIN_03,475.4,0.76,Correctly Segregated,16.0,No
+REC0120,2026-10-13 09:40:00,OT,Floor 2,Expired Medications,White Bin,BIN_08,347.8,0.98,Correctly Segregated,69.0,No
+REC0121,2026-10-22 07:32:00,,Floor 1,Chemical Containers,Blue Bin,BIN_04,358.8,0.95,Correctly Segregated,19.0,No
+REC0122,2026-10-05 02:38:00,radiology,ground floor,Food Waste,Black Bin,BIN_05,92.1,0.86,Misclassified / Override Required,51.0,Yes
+REC0123,2026-10-27 14:29:00,Radiology,Floor 2,Needles,Green Bin,BIN_02,585.4,0.9,Correctly Segregated,38.0,No
+REC0124,2026-10-15 22:16:00,OPD,Ground,Syringes,Green Bin,BIN_11,62.1,0.94,Correctly Segregated,76.0,no
+REC0125,2026-10-02 16:38:00,Pediatrics,Floor 3,Chemical Containers,Blue Bin,BIN_02,304.7,0.73,Correctly Segregated,10.0,No
+REC0126,2026-10-25 14:02:00,Radiology,Floor 4,Expired Medications,White Bin,BIN_12,1099.2,0.91,Correctly Segregated,90.0,Yes
+REC0127,2026-10-19 13:46:00,Pediatrics,Ground, Office Trash ,Black Bin,BIN_12,86.3,0.81,Correctly Segregated,83.0,No
+REC0128,2026-10-05 12:31:00,General Ward,Floor 4,Needles,Green Bin,BIN_11,121.1,0.8,Correctly Segregated,51.0,No
+REC0129,2026-10-05 04:07:00,OPD,Floor 4,Food Waste,Black Bin ,BIN_01,206.4,0.71,Correctly Segregated,63.0,No
+REC0130,2026-10-10 08:08:00,,Fourth Floor,Non-Infectious Waste,Black Bin,BIN_04,127.4,,Correct,77.0,No
+REC0131,2026-10-01 03:05:00,Pediatrics,Floor 1,Glassware,Blue Bin,BIN_03,55.1,0.86,Correctly Segregated,81.0,No
+REC0132,2026-10-01 16:13:00,General Ward,Floor 1,IV Bags/Tubes,RED BIN,BIN_10,201.3,0.79,Correctly Segregated,21.0,No
+REC0133,2026-10-24 22:37:00,Emergency,Ground,IV Bags/Tubes,Red Bin,BIN_08,81.5,0.83,Correctly Segregated,58.0,No
+REC0134,2026-10-11 01:59:00,icu,Floor 4,Paper Wrappers,Black Bin,BIN_05,278.3,0.83,Correctly Segregated,69.0,No
+REC0135,2026-10-20 09:36:00,Emergency,Floor 3,Anatomical Waste,yellow bin,BIN_12,91.3,0.96,Correct,56.0,No
+REC0136,2026-10-03 23:44:00,OT,floor-2,Cotton Swabs,Yellow Bin,BIN_10,658.5,0.88,Correctly Segregated,23.0,No
+REC0137,2026-10-25 03:30:00,Pediatrics,Floor 3,Expired Medications,White Bin,BIN_09,,0.88,Correctly Segregated,81.0,No
+REC0138,2026-10-30 14:58:00,OPD,F3,Surgical Waste,Yellow Bin,BIN_08,147.3,0.96,Correctly Segregated,88.0,Yes
+REC0139,2026-10-05 07:51:00, General Ward ,Floor 3,Office Trash,Black Bin,BIN_06,365.3,0.89,Correctly Segregated,58.0,No
+REC0140,2026-10-04 01:19:00,Emergency,Ground,Paper Wrappers,Black Bin,BIN_02,71.2,0.83,Misclassified / Override Required,65.0,Yes
+REC0141,2026-10-26 13:24:00,General Ward,Ground,Paper Wrappers,Black Bin,BIN_07,228.6,0.8,Correctly Segregated,80.0,No
+REC0142,2026-10-28 07:48:00,Pediatrics,Floor 2,Office Trash,Black Bin,BIN_02,542.2,0.87,Correctly Segregated,41.0,no
+REC0143,2026-10-16 22:25:00,General Ward,Ground,Urine/Body Fluids,Red Bin,BIN_05,52.7,0.87,Correctly Segregated,18.0,No
+REC0144,2026-10-28 22:11:00,,Floor 4,Office Trash,Black Bin ,BIN_11,250000.0,0.94,Correct,84.0,No
+REC0145,2026-10-16 11:10:00,General Ward,Ground,Metallic & Plastic Waste,Blue Bin,BIN_03,234.6,0.95,Correctly Segregated,44.0,no
+REC0146,2026-10-29 19:35:00,ICU,Ground,Hazardous Chemicals,White Bin,BIN_12,356.2,0.85,Correctly Segregated,99.0,Yes
+REC0147,2026-10-15 04:23:00,General Ward,Floor 4,Food Waste,Black Bin,BIN_10,70.8,0.72,Correctly Segregated,52.0,No
+REC0148,2026-10-04 17:06:00,Pediatrics,Floor 3,Used Bandages,Yellow Bin,BIN_11,66.3,0.82,Correctly Segregated,11.0,No
+REC0149,10-15-2026 19:45,General Ward,Floor 3,Needles,Green Bin,BIN_02,289.3,0.78,Correctly Segregated,70.0,No
+REC0150,2026-10-11 00:51:00,,Floor 4,Hazardous Chemicals,White Bin,BIN_01,241.7,0.7,Correctly Segregated,10.0,No
+REC0151,2026-10-14 04:09:00, General Ward ,Ground,Chemical Containers,Blue Bin,BIN_01,232.8,0.84,Correctly Segregated,37.0,No
+REC0152,2026-10-11 11:20:00,,Ground,Office Trash,Black Bin ,BIN_07,251.4,0.95,Correctly Segregated,95.0,Yes
+REC0153,2026-10-15 05:56:00,Radiology,Floor 4,Used Bandages,Yellow Bin,BIN_07,110.6,0.91,Correctly Segregated,14.0,No
+REC0154,2026-10-08 19:43:00,Lab,Floor 2,Office Trash,Black Bin,BIN_02,229.5,0.83,Correctly Segregated,46.0,No
+REC0155,2026-10-04 13:54:00,Radiology,Floor 2, Surgical Waste ,yellow bin,BIN_12,240.9,0.8,Correctly Segregated,72.0,No
+REC0156,2026-10-06 04:32:00,OPD,Floor 2,Non-Infectious Waste,Black Bin ,BIN_06,107.6,0.91,Correctly Segregated,86.0,Yes
+REC0157,2026-10-08 21:30:00,OT,Ground,Contaminated Recyclable Plastics,Red Bin,BIN_03,847.8,0.98,Correctly Segregated,30.0,No
+REC0158,2026-10-21 10:19:00,,Floor 2,Syringes,Green Bin,BIN_03,278.4,0.83,Correctly Segregated,79.0,No
+REC0159,2026-10-27 21:59:00,ICU,Floor 2,Syringes,Green Bin,BIN_09,73.5,0.72,Correctly Segregated,40.0,No
+REC0160,2026-10-04 11:48:00,Emergency,Floor 4,Needles,Green Bin,BIN_10,322.2,0.85,Correctly Segregated,,No
+REC0161,2026-10-02 20:48:00,Lab,Floor 4,Needles,Green Bin,BIN_11,87.4,0.75,Correctly Segregated,99.0,Yes
+REC0162,2026-10-05 17:03:00,General Ward,Ground,Syringes,green,BIN_09,357.7,0.89,Correctly Segregated,62.0,No
+REC0163,2026-10-24 20:25:00,Operation Theater,Floor 2, Used Bandages ,Yellow Bin,BIN_06,481.5,0.97,Correctly Segregated,61.0,No
+REC0164,2026-10-03 09:11:00,General Ward,Ground,Food Waste,Black Bin,BIN_06,98.8,0.73,Correctly Segregated,81.0,No
+REC0165,2026-10-28 10:18:00,OT,Floor 2,Food Waste,Black Bin,BIN_02,411.9,0.87,Correctly Segregated,89.0,Yes
+REC0166,2026-10-18 20:07:00,OT,Floor 4,Contaminated Recyclable Plastics,RED BIN, BIN_12 ,265.1,0.97,Correctly Segregated,88.0,Yes
+REC0167,2026-10-06 19:35:00,Emergency,Floor 3,Chemical Containers,Blue Bin,BIN_09,367.8,0.8,Correct,47.0,No
+REC0168,2026-10-23 03:08:00,OPD,Floor 1,Paper Wrappers,Black Bin,BIN_03,869.1,0.74,Correctly Segregated,48.0,No
+REC0169,2026-10-24 23:06:00,ICU,Floor 2,Chemical Containers,Blue,BIN_10,156.6,0.74,Correctly Segregated,74.0,No
+REC0170,2026-10-29 10:22:00,OT,F3,Food Waste,Black Bin ,BIN_01,104.3,0.82,Correctly Segregated,93.0,Yes
+REC0171,2026-10-21 10:20:00,OPD,Floor 4,Glassware,Blue Bin,BIN_04,93.5,0.79,Misclassified / Override Required,100.0,YES
+REC0172,2026-10-26 23:03:00,Laboratory,Floor 3,Syringes,green,BIN_05,99.2,0.93,Correctly Segregated,91.0,Yes
+REC0173,2026-10-28 12:27:00,OT,Floor 2,Blades,Green Bin,BIN_01,179.2,0.89,Correct,30.0,No
+REC0174,2026-10-06 16:10:00,Pediatrics,Ground,Paper Wrappers,Black Bin,BIN_03,250.4,0.78,Correctly Segregated,71.0,No
+REC0175,2026-10-21 12:45:00,General Ward,Ground,Blades,Green Bin,BIN_07,237.8,0.72,Correctly Segregated,33.0,No
+REC0176,2026-10-18 01:30:00,OPD,Ground,Blades,Green Bin,BIN_06,369.4,0.97,Correctly Segregated,15.0,No
+REC0177,2026-10-22 12:02:00,OT,Floor 3,Non-Infectious Waste,Black Bin,BIN_08,192.6,0.88,Correctly Segregated,41.0,No
+REC0178,2026-10-25 23:26:00,Radiology,,Cotton Swabs,yellow bin,BIN_05,609.6,0.77,Correctly Segregated,24.0,No
+REC0179,2026-10-21 19:17:00,Emergency,ground floor,Surgical Waste,Yellow Bin,BIN_08,154.2,0.87,Correctly Segregated,84.0,No
+REC0180,2026-10-07 12:49:00,,Floor 3,Anatomical Waste,Yellow Bin,BIN_01,1679.3,0.88,Correctly Segregated,96.0,Yes
+REC0181,2026-10-04 21:30:00,General Ward,Ground,Glassware,Blue Bin,BIN_09,314.4,0.86,Correct,90.0,Yes
+REC0182,2026-10-02 23:33:00,Radiology,Floor 2, Blades ,Green Bin,BIN_05,96.0,0.92,Correctly Segregated,65.0,
+REC0183,2026-10-30 21:43:00,Emergency,Floor 4,Paper Wrappers,Black Bin ,BIN_12,80.9,0.92,Correctly Segregated,98.0,YES
+REC0184,2026-10-08 23:14:00,Laboratory,Floor 3,Contaminated Recyclable Plastics,Red Bin,BIN_11,280.3,0.75,Correctly Segregated,87.0,YES
+REC0185,2026-10-02 16:23:00,Pediatrics,Floor 1,Contaminated Recyclable Plastics,Red Bin, BIN_01 ,159.4,0.93,Correct,63.0,No
+REC0186,2026-10-25 17:08:00,Emergency Deptt,Floor 2,Used Bandages,Yellow Bin,BIN_01,337.4,0.92,Correctly Segregated,55.0,No
+REC0187,2026-10-30 20:14:00, General Ward ,Floor 2,Urine/Body Fluids,Red Bin,BIN_02,278.3,0.93,Correctly Segregated,11.0,No
+REC0188,2026-10-16 10:19:00,OT,Floor 3,Office Trash,Black Bin,BIN_12,179.8,0.84,Correctly Segregated,54.0,no
+REC0189,2026-10-15 08:46:00,icu,Ground,Needles,Green Bin,BIN_11,197.9,0.76,Misclassified,63.0,Yes
+REC0190,2026-10-14 22:46:00,Laboratory,Floor 4,Non infectious waste,Black Bin,BIN_12,,0.82,Correctly Segregated,42.0,No
+REC0191,2026-10-20 19:04:00,Pediatrics,Ground,Needles,Black Bin,BIN_02,133.3,0.89,Correctly Segregated,83.0,No
+REC0192,2026-10-08 06:44:00,ICU,Floor 1,Food Waste,Black Bin,BIN_10,378.1,0.9,Correctly Segregated,91.0,Yes
+REC0193,2026-10-17 16:07:00,General Ward,Floor 3,Needles,Green Bin,BIN_10,226.2,0.71,Correctly Segregated,87.0,Yes
+REC0194,2026-10-21 04:54:00,Emergency,Floor 4,Contaminated Recyclable Plastics,Red Bin,BIN_03,70.3,0.85,Correctly Segregated,52.0,No
+REC0195,2026-10-02 04:18:00,OT,Floor 3,Food Waste,Black Bin,BIN_09,218.9,0.81,Correctly Segregated,19.0,No
+REC0196,2026-10-21 07:26:00,OPD,Floor 4,Expired Medications,White Bin,BIN_05,259.4,0.9,Correctly Segregated,95.0,Yes
+REC0197,2026-10-21 13:45:00,OT,Floor 3,Syringes,Green Bin,BIN_02,94.0,0.94,Correctly Segregated,14.0,No
+REC0198,2026-10-25 16:11:00,Pediatrics,floor-2,Non-Infectious Waste,Black Bin,BIN_03,215.5,0.91,Correctly Segregated,75.0,No
+REC0199,2026-10-10 03:31:00,Operation Theater,Floor 1,IV Bags/Tubes,Red Bin,BIN_08,199.7,0.71,Correctly Segregated,20.0,No
+REC0200,2026-10-06 21:44:00,,Ground,Expired Medications,WHITE BIN,BIN_05,76.4,0.82,Correct,75.0,No
+REC0201,2026-10-26 06:56:00,Laboratory,Ground,IV Bags/Tubes,RED BIN,BIN_04,77.6,0.74,Correctly Segregated,24.0,No
+REC0202,2026-10-30 02:49:00,Operation Theater,Floor 1,Needles,Green Bin,BIN_07,298.5,0.85,Correct,75.0,No
+REC0203,2026-10-08 11:50:00,OT,Floor 2,Used Bandages,Yellow Bin,BIN_12,453.2,0.77,Correctly Segregated,43.0,No
+REC0204,2026-10-09 22:24:00,Pediatrics,Floor 1,Blades,Green Bin,BIN_11,442.8,0.79,Correctly Segregated,37.0,No
+REC0205,2026-10-27 10:13:00,OT,1st Floor,Expired Medications,White Bin,BIN_11,63.3,0.88,Correctly Segregated,80.0,1
+REC0206,2026-10-04 16:43:00,ICU,Floor 4,Non infectious waste,Black Bin,BIN_05,90.0,0.89,Correct,8.0,No
+REC0207,2026-10-29 13:01:00,Pediatrics,Floor 2,Hazardous Chemicals,White Bin,BIN_08,287.7,0.77,Correctly Segregated,68.0,No
+REC0208,2026-10-08 04:39:00,Laboratory,Floor 3,Food Waste,Black Bin,BIN_08,287.4,0.83,Correctly Segregated,12.0,no
+REC0209,2026-10-15 12:46:00,General Ward,Floor 3,Non-Infectious Waste,Black Bin,BIN_03,287.7,0.92,Correctly Segregated,96.0,Yes
+REC0210,2026-10-06 13:49:00,Pediatrics,Floor 3,Blades,green,BIN_04,4155.5,0.74,Correctly Segregated,64.0,No
+REC0211,2026-10-20 00:42:00,OPD,Floor 1,Used Bandages,yellow bin,BIN_06,300.9,0.97,Correctly Segregated,83.0,No
+REC0212,2026-10-22 05:53:00,Laboratory,Floor 2,Non-Infectious Waste,Black Bin,BIN_08,472.7,0.71,Correctly Segregated,70.0,No
+REC0213,2026-10-27 13:10:00,General Ward,Ground,Food Waste,Black Bin, BIN_01 ,408.8,0.78,Correct,32.0,No
+REC0214,2026-10-07 02:17:00,Paediatrics,floor-2,Syringes,Yellow Bin,BIN_07,320.9,,Correctly Segregated,60.0,no
+REC0215,2026-10-26 04:16:00,Pediatrics,Ground,Food Waste,Black Bin,BIN_07,148.1,0.85,Correctly Segregated,51.0,No
+REC0216,2026-10-28 19:25:00,Emergency,Floor 1,Expired Medications,White Bin,BIN_02,349.7,0.81,Correctly Segregated,92.0,Yes
+REC0217,2026-10-10 01:25:00,radiology,Floor 4,Non-Infectious Waste,Black Bin,BIN_01,102.7,0.71,Correct,23.0,No
+REC0218,2026-10-21 19:09:00,OT,Floor 4,Contaminated Recyclable Plastics,Red Bin,BIN_09,157.7,0.74,Correctly Segregated,,No
+REC0219,2026-10-14 14:50:00,General Ward,Floor 4,Non-Infectious Waste,Black Bin,BIN_09,129.2,2.5,Correctly Segregated,99.0,Yes
+REC0220,2026-10-16 01:48:00,Emergency,Floor 3,Hazardous Chemicals,White Bin,BIN_10,203.5,,Correctly Segregated,52.0,No
+REC0221,2026-10-27 07:50:00,OPD,Ground,Anatomical Waste,yellow bin,BIN_10,1214.1,0.84,Correctly Segregated,88.0,Yes
+REC0222,2026-10-07 17:24:00,OPD,Ground,Blades,Green Bin,BIN_10,42.8,0.97,Correct,53.0,No
+REC0223,2026-10-07 21:24:00,Radiology,Floor 1,Surgical Waste,Yellow Bin,BIN_07,330.0,0.85,Correctly Segregated,58.0,No
+ REC0224 ,2026-10-07 06:49:00,OPD,Floor 4,Syringes,green,BIN_06,52.4,0.99,Correctly Segregated,12.0,No
+REC0225,2026-10-21 22:04:00, General Ward ,Floor 4,Syringes,Green Bin,BIN_06,130.6,0.9,Correctly Segregated,27.0,No
+REC0226,2026-10-13 16:44:00,Pediatrics,Floor 1,Metallic & Plastic Waste,Blue Bin, BIN_05 ,455.4,0.92,Correctly Segregated,36.0,no
+REC0227,2026-10-16 20:59:00,Pediatrics,Floor 2,Urine/Body Fluids,Red Bin,BIN_02,200.6,0.87,Correctly Segregated,66.0,No
+REC0228,2026-10-07 15:59:00,Pediatrics,Ground,Expired Medications,White Bin,BIN_05,80.5,0.98,Correctly Segregated,49.0,No
+REC0229,2026-10-22 19:16:00,OPD,Floor 1,Cotton Swabs,Yellow Bin,BIN_09,107.5,0.78,Correctly Segregated,,no
+REC0230,2026-10-27 16:58:00,OPD,1st Floor,Expired Medications,Purple Bin,BIN_01,328.2,0.89,Correctly Segregated,83.0,No
+REC0231,2026-10-19 19:26:00,General Ward,Floor 3,Blades,Green Bin,BIN_02,106.2,0.9,Correctly Segregated,17.0,No
+REC0232,2026-10-19 12:27:00,Laboratory,Floor 3,Contaminated Recyclable Plastics,Red Bin,BIN_11,226.6,0.76,Correct,25.0,no
+REC0233,2026-10-30 16:29:00,opd,Floor 4,Chemical Containers,Blue,BIN_12,197.6,0.91,Correctly Segregated,16.0,No
+REC0234,2026-10-02 15:41:00,Radiology,Floor 3,used bandages,Yellow Bin,BIN_03,113.2,0.97,Correctly Segregated,27.0,No
+REC0235,2026-10-13 22:49:00,Laboratory,Floor 4,Chemical Containers,Yellow Bin,BIN_09,1059.1,0.84,Correctly Segregated,47.0,No
+REC0236,2026-10-06 03:02:00, General Ward ,1st Floor,Contaminated Recyclable Plastics,Red Bin,BIN_12,316.4,0.83,Correctly Segregated,29.0,No
+REC0237,2026-10-26 20:10:00,OPD,Floor 1,Metallic & Plastic Waste,Black Bin,BIN_10,37.7,0.95,Correctly Segregated,42.0,no
+REC0238,2026-10-19 05:49:00,Emergency,Floor 1,Food Waste,Black Bin,BIN_03,221.2,0.84,Correctly Segregated,16.0,No
+REC0239,2026-10-13 03:37:00,General Ward,Floor 2,Glassware,Blue Bin,BIN_10,112.2,0.91,Correctly Segregated,62.0,No
+REC0240,2026-10-03 19:51:00,Emergency,Floor 3,Anatomical Waste,Yellow Bin,BIN_05,376.9,0.75,Correctly Segregated,35.0,No
+REC0241,2026-10-06 08:14:00,Pediatrics,Floor 2,Blades,Green Bin,BIN_10,101.1,0.76,Correctly Segregated,44.0,No
+REC0242,2026-10-18 00:05:00,Radiology,Fourth Floor,Contaminated Recyclable Plastics,Red Bin,,173.9,0.92,Correctly Segregated,82.0,No
+REC0243,2026-10-04 17:25:00,Laboratory,Floor 4,Urine/Body Fluids,Red Bin,BIN_12,285.4,0.8,Correctly Segregated,81.0,No
+REC0244,2026-10-10 04:48:00,OT,1st Floor,Hazardous Chemicals,WHITE BIN,BIN_06,380.9,0.95,Correctly Segregated,69.0,No
+REC0245,2026-10-23 05:55:00,Emergency,Floor 4,Needles,Green Bin,BIN_08,72.9,0.93,Correctly Segregated,79.0,No
+REC0246,2026-10-03 15:03:00,Laboratory,Floor 2,Needles,Green Bin,BIN_12,145.8,0.71,Correct,77.0,No
+REC0247,2026-10-04 07:46:00,ICU,Floor 3,Metallic & Plastic Waste,Blue Bin,BIN_06,130.3,0.9,Correctly Segregated,79.0,no
+REC0248,2026-10-22 11:37:00,ICU,Floor 2,Expired Medications,White Bin,BIN_07,113.0,0.75,Misclassified / Override Required,13.0,Yes
+REC0249,2026-10-20 03:08:00,,Floor 3,Contaminated Recyclable Plastics,Red Bin,BIN_08,782.4,0.95,Correctly Segregated,87.0,Yes
+REC0250,2026-10-25 13:03:00,OT,Floor 2,Food Waste,Black Bin,BIN_02,263.5,0.75,Correctly Segregated,89.0,Yes
+REC0251,2026-10-01 03:47:00,ICU,Floor 2,Expired Medications,White Bin,BIN_08,69.5,0.9,Correctly Segregated,33.0,No
+REC0252,2026-10-12 06:20:00,Laboratory,Floor 2,Expired Medications,White Bin,BIN_03,397.1,0.78,Correctly Segregated,,No
+REC0253,2026-10-01 17:05:00,OPD,Floor 1,Surgical Waste,Yellow Bin,BIN_02,1040.8,0.73,Correctly Segregated,83.0,No
+REC0254,2026-10-12 03:18:00,ICU,Floor 3,Used Bandages,yellow bin,BIN_08,435.3,0.77,Correct,11.0,No
+REC0255,2026-10-23 22:23:00,Pediatrics,Floor 1,Urine/Body Fluids,Red Bin,BIN_12,56.5,0.87,Correctly Segregated,22.0,No
+REC0256,2026-10-11 18:45:00,Pediatrics,Floor 1,Hazardous Chemicals,White Bin,BIN_11,129.4,0.85,Correctly Segregated,46.0,no
+REC0257,2026-10-08 23:17:00,Radiology,Floor 4,Office Trash,Black Bin,BIN_08,525.1,0.71,Correctly Segregated,80.0,No
+REC0258,2026-10-15 12:08:00,radiology,F3,Paper Wrappers,Black Bin,BIN_03,108.2,0.79,Correctly Segregated,72.0,No
+REC0259,2026-10-14 16:29:00,OT,Floor 3,IV Bags/Tubes,Red Bin,BIN_01,271.8,0.86,Correct,33.0,No
+REC0260,2026-10-12 14:31:00,OPD,Floor 2,Office Trash,Black Bin,BIN_11,354.1,0.72,Correctly Segregated,36.0,No
+REC0261,2026-10-09 16:03:00,ICU,Floor 2,Needles,Green Bin,BIN_07,90.8,0.9,Correctly Segregated,97.0,YES
+REC0262,2026-10-26 10:24:00,OPD,Floor 3,Used Bandages,Yellow Bin,BIN_04,181.7,0.95,Correctly Segregated,80.0,No
+REC0263,2026-10-09 15:33:00,Emergency,Floor 3,Non-Infectious Waste,Black Bin,BIN_04,14.3,0.9,Correctly Segregated,32.0,no
+REC0264,2026-10-13 21:10:00,Radiology,Floor 3,,Red Bin,BIN_09,84.0,0.89,Correctly Segregated,,No
+REC0265,2026-10-22 05:00:00,Emergency,Floor 3,Chemical Containers,Blue Bin,BIN_06,155.7,0.97,Correct,68.0,
+REC0266,2026-10-07 15:23:00,ICU,Floor 2,Paper Wrappers,White Bin,BIN_09,70.2,0.97,Correctly Segregated,33.0,No
+REC0267,2026-10-16 00:18:00,OPD,Floor 3,Hazardous Chemicals,White Bin,BIN_10,703.4,0.94,Correctly Segregated,30.0,No
+REC0268,2026-10-12 17:04:00,Laboratory,Floor 3,Syringes,Green Bin,BIN_08,60.7,0.75,Correctly Segregated,48.0,No
+REC0269,2026-10-09 09:01:00,ICU,Floor 4,Paper Wrappers,Black Bin,BIN_01,134.0,0.94,Correctly Segregated,67.0,No
+REC0270,2026-10-19 18:26:00,Operation Theater,Floor 1,Cotton Swabs,Yellow Bin,BIN_02,211.6,0.91,Correctly Segregated,5.0,No
+REC0271,2026-10-28 08:23:00,Radiology,,Urine/Body Fluids,Red Bin,BIN_06,49.2,0.76,Correctly Segregated,26.0,No
+REC0272,2026-10-14 01:08:00,ICU,Floor 4,Expired Medications,Blue Bin,BIN_12,60.4,0.9,Correctly Segregated,73.0,No
+REC0273,2026-10-11 23:12:00,OPD,Fourth Floor,IV Bags/Tubes,Red Bin,BIN_09,483.2,0.77,Correctly Segregated,24.0,No
+REC0274,2026-10-19 11:29:00,Laboratory,Fourth Floor,Paper Wrappers,Black Bin,BIN_04,192.1,0.99,Correctly Segregated,52.0,No
+REC0275,2026/10/12 08:15,ICU,Ground,Glassware,Blue Bin,BIN_07,86.9,0.81,Correctly Segregated,15.0,No
+REC0276,2026-10-08 19:11:00,,Floor 3,Expired medication,White Bin,BIN_07,275.8,0.89,,94.0,Yes
+REC0277,2026-10-25 00:53:00,ICU,Floor 1,Non-Infectious Waste,Black Bin,BIN_04,223.5,0.96,Correctly Segregated,17.0,No
+REC0278,2026-10-13 18:14:00,ICU,Floor 1,Hazardous Chemicals,Yellow Bin,BIN_06,117.9,0.7,Correctly Segregated,92.0,Yes
+REC0279,2026-10-19 03:02:00,Emergency,Floor 2,Urine/Body Fluids,Red Bin,BIN_03,201.5,0.86,Correct,96.0,Yes
+REC0280,2026-10-16 02:20:00,Radiology,Floor 1,Hazardous Chemicals,White Bin,BIN_12,140.0,0.91,Correctly Segregated,74.0,No
+REC0281,2026-10-20 21:25:00,OPD,Ground,Blades,Green Bin,BIN_06,208.7,0.88,Correctly Segregated,17.0,No
+REC0282,2026-10-13 10:32:00,Lab,Floor 3,Food Waste,Black Bin,BIN_04,323.7,0.8,Misclassified / Override Required,86.0,Yes
+REC0283,2026-10-18 07:08:00,ER,Floor 4,Food Waste,Black Bin,BIN_05,677.8,0.93,Correctly Segregated,89.0,Yes
+REC0284,2026-10-29 20:23:00,OT,Floor 3,Cotton Swabs,Yellow Bin,BIN_06,70.8,0.8,Correct,96.0,Yes
+REC0285,2026-10-13 06:39:00,Emergency,,Cotton Swabs,Yellow Bin,BIN_02,1049.9,0.75,Correct,51.0,No
+REC0286,2026-10-02 04:41:00,Emergency,Floor 2,Needles,green,BIN_09,40.0,0.73,Correct,18.0,No
+REC0287,2026-10-04 20:30:00,opd,Floor 4,Non-Infectious Waste,Red Bin,BIN_09,168.8,0.75,Correctly Segregated,54.0,No
+REC0288,2026-10-23 10:37:00,OT,Ground,Food Waste,Black Bin,BIN_03,305.1,0.83,Correctly Segregated,39.0,No
+REC0289,2026-10-12 10:55:00,OPD,F3,Office Trash,Black Bin,BIN_10,238.6,0.88,Correctly Segregated,51.0,No
+REC0290,2026-10-16 02:52:00,Radiology,Floor 2,Needles,Green Bin,BIN_08,115.8,,Correctly Segregated,55.0,No
+REC0291,2026-10-10 03:23:00,Laboratory,Floor 2,Contaminated Recyclable Plastics,RED BIN,BIN_03,161.3,0.98,Correctly Segregated,93.0,YES
+REC0292,2026-10-27 05:00:00,OPD,Floor 2,Non-Infectious Waste,Black Bin,BIN_07,128.5,0.78,Correctly Segregated,67.0,No
+REC0293,2026-10-27 22:52:00,Operation Theater,Floor 4,Food Waste,Black Bin,BIN_01,118.9,N/A,Correctly Segregated,30.0,No
+REC0294,2026-10-04 03:32:00,Radiology,F3,Needles,Green Bin,BIN_03,376.0,0.88,Correctly Segregated,42.0,No
+REC0295,2026-10-18 03:46:00,Emergency,Floor 3,Glassware,Blue,BIN_10,253.6,0.84,Correctly Segregated,59.0,no
+REC0296,2026-10-20 00:53:00,ICU,Floor 2,Food Waste,Black Bin,BIN_12,109.5,0.96,Correctly Segregated,93.0,Yes
+REC0297,2026-10-12 07:08:00,General Ward,Floor 1,Expired medication,White Bin,BIN_11,391.4,0.88,Correctly Segregated,18.0,No
+REC0298,2026-10-16 02:11:00,,ground floor,Hazardous Chemicals,White Bin,BIN_01,243.7,0.73,Misclassified,56.0,Yes
+REC0299,2026-10-27 04:18:00,OPD,Floor 3, Glassware ,Blue Bin,BIN_06,365.1,0.81,Correctly Segregated,79.0,No
+REC0300,2026-10-22 23:18:00,Emergency,Floor 2,Hazardous Chemicals,White Bin,BIN_07,315.4,0.97,Correct,8.0,No
+REC0301,2026-10-16 20:28:00,Pediatrics,Floor 2,Cotton Swabs,Yellow Bin,BIN_08,98.2,0.93,Correctly Segregated,23.0,No
+REC0302,2026-10-21 14:11:00,General Ward,Ground,Blades,Green Bin,BIN_05,121.7,0.71,Correctly Segregated,61.0,No
+REC0303,2026-10-08 11:31:00,OPD,Fourth Floor,Surgical Waste,Yellow Bin,BIN_03,346.5,0.86,Correctly Segregated,18.0,No
+REC0304,2026-10-19 10:25:00,OT,,Non-Infectious Waste,Black Bin,BIN_11,310.5,0.89,Correct,34.0,No
+REC0305,2026-10-21 11:03:00,Radiology,Floor 3,Food Waste,Black Bin,BIN_01,187.4,0.9,Correctly Segregated,30.0,no
+REC0306,2026-10-27 06:37:00,Emergency,Floor 4,Urine/Body Fluids,Red Bin,,209.3,0.81,Correct,13.0,No
+REC0307,2026-10-25 00:24:00, General Ward ,Floor 4,Urine/Body Fluids,Red Bin,BIN_07,529.6,0.88,Correctly Segregated,67.0,No
+REC0308,2026-10-29 02:19:00,OT,Floor 2,Hazardous Chemicals,White Bin,BIN_10,118.7,0.87,Correctly Segregated,63.0,No
+REC0309,2026-10-09 07:56:00,General Ward,Floor 1,Contaminated Recyclable Plastics,Red Bin,BIN_09,295.2,0.81,Correctly Segregated,19.0,No
+REC0310,2026-10-29 22:08:00,,Floor 4,Contaminated Recyclable Plastics,Red Bin,BIN_03,162.1,0.84,Correctly Segregated,67.0,No
+REC0311,2026-10-03 10:33:00,General Ward,Ground,Contaminated Recyclable Plastics,Red Bin,BIN_08,160.1,0.74,Correct,84.0,no
+REC0312,2026-10-19 14:53:00,Laboratory,F3,Food Waste,Black Bin,BIN_12,459.0,0.94,Misclassified / Override Required,68.0,Yes
+ REC0313 ,2026-10-14 07:02:00,ICU,Floor 2,Syringes,Green Bin,BIN_04,368.8,0.86,Correctly Segregated,33.0,No
+REC0314,2026-10-26 00:26:00,Emergency,Fourth Floor,IV Bags / Tubes,Red Bin,BIN_02,365.3,0.78,Correctly Segregated,68.0,No
+REC0315,2026-10-21 02:05:00,OPD,Floor 3,Expired Medications,White Bin,BIN_02,541.5,0.91,Correctly Segregated,10.0,no
+REC0316,2026-10-12 23:03:00,General Ward,Ground,Glassware,Blue Bin,BIN_08,193.8,0.95,Correctly Segregated,62.0,No
+REC0317,2026-10-27 18:10:00,General Ward,Floor 4,Surgical Waste,yellow bin,BIN_11,328.8,0.82,Correctly Segregated,99.0,Yes
+REC0318,2026-10-26 22:40:00,General Ward,Floor 4,Contaminated Recyclable Plastics,Red Bin,BIN_05,148.7,0.87,Correctly Segregated,12.0,No
+REC0319,2026-10-27 01:34:00,Pediatrics,Floor 4,IV Bags/Tubes,Red Bin,BIN_11,247.0,0.94,Correctly Segregated,42.0,No
+REC0320,2026-10-13 14:54:00,Operation Theater,Floor 1,Contaminated Recyclable Plastics,Red Bin,BIN_04,171.7,0.74,Misclassified,12.0,Yes
+REC0321,2026-10-18 20:56:00,Laboratory,Floor 1,Non-Infectious Waste,Black Bin,BIN_10,205.9,0.88,Correctly Segregated,91.0,Yes
+REC0322,2026-10-19 08:01:00,Pediatrics,floor-2,Office Trash,Black Bin,BIN_08,306.8,0.98,Correctly Segregated,16.0,No
+REC0323,2026-10-05 05:44:00,Laboratory,Floor 2,Non-Infectious Waste,Black Bin ,BIN_02,99.0,0.93,Correctly Segregated,98.0,YES
+REC0324,2026-10-23 12:21:00,Pediatrics,Floor 2,Food Waste,Black Bin,BIN_05,1016.3,0.8,Correctly Segregated,32.0,No
+REC0325,2026-10-03 04:52:00,ICU,Ground,Hazardous Chemicals,White Bin,BIN_11,85.2,0.93,Correctly Segregated,48.0,No
+REC0326,2026-10-21 02:00:00,Laboratory,Ground,Needles,Green Bin,BIN_07,72.1,0.76,Correctly Segregated,25.0,No
+REC0327,2026-10-05 05:57:00,General Ward,Floor 2,Contaminated Recyclable Plastics,RED BIN,BIN_02,481.3,0.81,Correctly Segregated,40.0,No
+REC0328,2026-10-11 15:44:00,Radiology,Ground,IV Bags/Tubes,RED BIN,BIN_12,359.0,0.73,Correctly Segregated,97.0,Yes
+REC0329,2026-10-24 15:22:00,Lab,Ground,Urine/Body Fluids,RED BIN,BIN_01,314.0,0.9,Correct,33.0,No
+REC0330,2026-10-22 17:46:00,Emergency,Floor 1,Surgical Waste,Yellow Bin,BIN_07,315.0,0.73,Misclassified / Override Required,21.0,Yes
+REC0331,2026-10-22 10:59:00,ICU,Floor 3,Contaminated Recyclable Plastics,RED BIN,BIN_10,239.5,0.77,Correctly Segregated,67.0,No
+REC0332,2026-10-30 13:59:00,OT,Floor 3,Contaminated Recyclable Plastics,Red Bin,BIN_06,93.0,0.91,Correctly Segregated,83.0,No
+REC0333,2026-10-10 21:17:00,Emergency,Ground,Contaminated Recyclable Plastics,Red Bin,BIN_03,202.5,0.92,Correctly Segregated,61.0,No
+REC0392,2026-10-15 07:31:00,OT,Floor 1,Hazardous Chemicals,White Bin,BIN_05,110.9,0.89,Correct,59.0,No
+REC0335,2026-10-13 23:12:00,ICU,Floor 2,Glassware,Blue Bin,BIN_04,415.8,0.85,Correctly Segregated,82.0,no
+REC0336,2026-10-03 11:36:00,OPD,F3,Blades,Green Bin,BIN_07,169.4,0.73,Correctly Segregated,87.0,Yes
+REC0337,2026-10-17 10:24:00, General Ward ,Floor 1,Syringes,Green Bin,BIN_07,98.5,0.95,Correct,6.0,No
+REC0338,2026-10-22 10:28:00,ER,Ground,Hazardous Chemicals,White Bin,BIN_10,147.4,0.72,Correctly Segregated,27.0,No
+REC0339,2026-10-24 01:21:00,Pediatrics,Floor 4,Metallic & Plastic Waste,Blue Bin,BIN_07,265.2,0.82,Correct,55.0,No
+REC0340,2026-10-07 22:46:00,Pediatrics,Ground,Food Waste,Black Bin,BIN_05,121.4,0.72,Correctly Segregated,83.0,No
+REC0341,2026-10-18 18:46:00,Emergency,Floor 2,Urine/Body Fluids,Red Bin,BIN_12,98.7,0.83,Misclassified / Override Required,46.0,Yes
+REC0342,2026-10-06 06:41:00,Laboratory,Floor 4,Glassware,Blue Bin,BIN_10,231.6,0.72,Correct,60.0,No
+REC0343,2026-10-01 12:23:00,OT,Floor 3,IV Bags/Tubes,Red Bin,BIN_06,231.8,0.85,Correctly Segregated,94.0,Yes
+REC0344,2026-10-06 08:56:00,ICU,Floor 2,Metallic & Plastic Waste,Blue,BIN_07,127.0,0.78,Correctly Segregated,39.0,No
+REC0345,2026-10-04 12:10:00,Laboratory,Floor 3,Cotton swab,Yellow Bin,BIN_09,130.7,0.8,Correctly Segregated,85.0,No
+REC0346,2026-10-12 14:39:00,ER,Floor 4,Syringes,Green Bin,BIN_11,229.4,0.91,Correctly Segregated,25.0,no
+REC0347,2026-10-03 02:13:00,Laboratory,,Glassware,Yellow Bin,BIN_07,59.8,0.97,Correctly Segregated,36.0,No
+REC0348,2026-10-30 20:12:00,Radiology,Floor 1,IV Bags/Tubes,Red Bin,BIN_06,61.8,0.77,Correctly Segregated,75.0,no
+REC0349,2026-10-06 10:25:00,ICU,Floor 1,Non infectious waste,Black Bin,BIN_04,107.3,0.93,Correct,52.0,No
+REC0350,2026-10-13 20:21:00,Paediatrics,Floor 2,Used Bandages,Yellow Bin,BIN_02,160.7,0.86,Misclassified / Override Required,64.0,Yes
+REC0351,2026-10-29 08:10:00,OPD,Floor 3,Anatomical Waste,Yellow Bin,BIN_06,244.4,0.87,Correctly Segregated,43.0,No
+REC0352,2026-10-25 20:59:00,OPD,Floor 1,Syringes,Green Bin,BIN_01,620.4,0.97,Misclassified / Override Required,98.0,Yes
+REC0353,2026-10-01 10:28:00,General Ward,Ground,,Yellow Bin,BIN_11,378.5,0.81,Correctly Segregated,93.0,Yes
+REC0354,2026-10-20 02:33:00,Laboratory,Ground,Chemical Containers,Blue Bin,BIN_03,167.7,0.91,Correctly Segregated,35.0,
+REC0355,2026-10-19 19:10:00, General Ward ,Floor 3,Cotton Swabs,Yellow Bin,BIN_12,187.7,0.72,Correctly Segregated,71.0,No
+REC0356,2026-10-04 09:44:00,ICU,Floor 3,Surgical Waste,Yellow Bin, BIN_11 ,85.5,0.98,Correctly Segregated,55.0,no
+REC0357,2026-10-15 20:21:00,General Ward,Floor 3,Glassware,Blue Bin,BIN_05,187.8,0.77,Correctly Segregated,55.0,No
+REC0358,2026-10-08 01:44:00,Emergency,Floor 1,Urine/Body Fluids,Red Bin,BIN_08,151.3,0.84,Correct,18.0,no
+REC0359,2026-10-21 13:36:00,Pediatrics,F3,Office Trash,Black Bin,BIN_05,246.7,0.95,Correctly Segregated,31.0,No
+REC0360,2026-10-28 10:58:00,ICU,Floor 1,Cotton Swabs,Yellow Bin,BIN_06,98.3,0.74,Correctly Segregated,,Yes
+REC0361,2026-10-14 14:24:00,Paediatrics,Floor 1,Glassware,Blue Bin,BIN_01,288.7,0.98,Misclassified / Override Required,11.0,Yes
+REC0362,2026-10-22 00:40:00, Emergency ,Floor 1,Needles,Green Bin,BIN_02,649.5,0.7,Correct,17.0,No
+REC0363,2026-10-29 16:27:00,Emergency,Floor 4,Glassware,Blue Bin,BIN_10,174.7,0.78,Correctly Segregated,52.0,No
+REC0364,2026-10-21 04:20:00,OT,Ground,Cotton Swabs,Yellow Bin,BIN_06,262.8,0.74,Correct,87.0,YES
+REC0365,2026-10-18 23:26:00,Laboratory,Ground,Needles,Green Bin,BIN_07,331.0,0.9,Correctly Segregated,60.0,No
+REC0366,2026-10-13 17:40:00,Laboratory,Floor 1,IV Bags / Tubes,Red Bin,BIN_01,138.2,0.88,Correctly Segregated, 72 ,No
+REC0367,2026-10-22 19:13:00,,Ground,Glassware,Blue,BIN_05,228.0,0.81,Correctly Segregated,75.0,No
+REC0368,2026-10-12 08:08:00,ICU,Floor 3,Office Trash,Black Bin,BIN_12,192.5,0.8,Correctly Segregated,72.0,No
+REC0369,2026-10-23 20:44:00,General Ward,Floor 3,Expired Medications,WHITE BIN,BIN_05,206.1,0.75,Correctly Segregated,77.0,No
+REC0370,2026-10-03 15:59:00,Laboratory,Floor 4,Non-Infectious Waste,Green Bin,BIN_06,102.7,0.92,Correctly Segregated,40.0,No
+REC0371,2026-10-11 23:24:00,Pediatrics,Floor 4,Glassware,Blue Bin,BIN_12,194.3,0.72,Misclassified / Override Required,,Yes
+REC0372,2026-10-17 03:32:00,Operation Theater,Floor 1,Glassware,Blue Bin,BIN_04,283.8,,Correct,54.0,No
+REC0373,2026-10-26 20:01:00,OT,Fourth Floor,Paper Wrappers,Green Bin,BIN_04,608.5,0.94,Correctly Segregated,50.0,No
+REC1058,2026-10-05 02:35:00,ICU,Floor 1,Syringes,Green Bin,BIN_10,410.5,0.76,Correctly Segregated,9.0,No
+REC0375,2026-10-10 04:03:00,OT,Floor 2, Blades ,Green Bin,BIN_12,1066.9,0.75,Correct,83.0,no
+REC0376,2026-10-07 10:43:00,Emergency,Floor 4,Non-Infectious Waste,Black Bin ,BIN_06,103.1,0.98,Correctly Segregated,95.0,Yes
+REC0377,2026-10-05 14:21:00,General Ward,Floor 2,Paper Wrappers,Black Bin,BIN_06,382.9,0.74,Correctly Segregated,80.0,No
+REC0378,2026-10-23 04:09:00,General Ward,Floor 1,IV Bags / Tubes,Red Bin,BIN_12,220.7,0.98,Correctly Segregated,86.0,Yes
+REC0379,2026-10-18 05:17:00,Pediatrics,Floor 2,Paper Wrappers,Black Bin,BIN_03,1098.7,0.75,Correctly Segregated,27.0,No
+REC0380,2026-10-16 20:28:00,Pediatrics,Floor 2,Cotton Swabs,Yellow Bin,BIN_08,98.2,0.93,Correctly Segregated,23.0,No
+REC0381,2026-10-07 09:37:00,General Ward,Ground,Glassware,Blue Bin, BIN_04 ,97.3,0.8,Correctly Segregated,68.0,No
+REC0382,2026-10-30 02:04:00,General Ward,Floor 3,Non infectious waste,Black Bin ,BIN_01,118.0,0.78,Correctly Segregated,16.0,No
+REC0383,2026-10-01 01:23:00,ICU,Floor 3,Glassware,Blue Bin,BIN_08,,0.91,Correct,18.0,No
+REC0384,2026-10-16 23:38:00,Radiology,Ground,IV Bags/Tubes,Red Bin,BIN_08,125.1,0.93,Correctly Segregated,53.0,No
+REC0385,2026-10-21 12:55:00,Emergency,Ground,Hazardous Chemicals,White Bin, BIN_05 ,103.8,0.71,Correctly Segregated,25.0,No
+REC0386,2026-10-18 02:06:00,OT,Ground,Metallic & Plastic Waste,Blue Bin,BIN_09,214.9,0.97,Misclassified / Override Required,26.0,YES
+REC0387,2026-10-02 09:51:00,radiology,1st Floor,Cotton Swabs,Yellow Bin,BIN_10,250.5,0.96,Correctly Segregated,66.0,No
+REC0388,2026-10-19 15:02:00,Pediatrics,Floor 2,IV Bags/Tubes,Red Bin,BIN_05,854.9,0.77,Correctly Segregated,29.0,
+REC0389,2026-10-07 23:45:00,ICU,Floor 2,Used Bandages,Yellow Bin,BIN_01,407.6,0.82,Correctly Segregated,67.0,No
+REC0390,2026-10-10 02:05:00,Emergency,Ground,Chemical Containers,Blue Bin,BIN_04,120.1,0.75,Correct,66.0,No
+REC0391,2026-10-15 00:48:00,Radiology,Floor 3,Chemical Containers,Blue Bin,BIN_08,92.9,0.96,Misclassified / Override Required,19.0,Yes
+REC0392,2026-10-17 21:15:00,Radiology,floor-2,Metallic & Plastic Waste,Blue Bin,BIN_03,282.5,0.83,Correctly Segregated,28.0,No
+REC0393,2026-10-26 16:18:00,ICU,Floor 1, Metallic & Plastic Waste ,Blue Bin,BIN_12,66.3,0.89,Correctly Segregated,39.0,No
+REC0394,2026-10-27 20:08:00, OPD ,Floor 4,Cotton Swabs,Yellow Bin,BIN_01,824.8,0.94,Correctly Segregated,57.0,No
+REC0395,2026-10-27 01:33:00,opd,F3,Blades,Green Bin,BIN_05,489.6,0.72,Correctly Segregated,65.0,No
+REC0396,2026-10-29 05:30:00,OT,Ground,Used Bandages,Yellow Bin,BIN_08,130.9,0.75,Correctly Segregated,78.0,No
+REC0397,2026-10-02 22:36:00,Radiology,, IV Bags/Tubes ,Red Bin,BIN_11,48.4,0.83,Misclassified / Override Required,21.0,YES
+REC0398,2026-10-04 01:11:00,Emergency,Floor 3,Contaminated Recyclable Plastics,Red Bin,BIN_09,562.9,0.82,Correctly Segregated,98.0,Yes
+REC0399,2026-10-29 08:32:00,Radiology,Ground,Non-Infectious Waste,Black Bin,BIN_07,173.9,0.74,Correctly Segregated,6.0,No
+REC0400,2026-10-05 19:22:00,Emergency,floor-2,Hazardous Chemicals,White Bin, BIN_09 ,513.0,0.96,Correctly Segregated,17.0,No
+REC0401,2026-10-28 17:08:00,Laboratory,Ground,Office Trash,Black Bin ,BIN_03,53.2,0.78,Correctly Segregated,78.0,no
+REC0402,2026-10-02 18:21:00,Radiology,Floor 2,Contaminated Recyclable Plastics,Red Bin,BIN_12,118.0,0.77,Correctly Segregated,56.0,No
+REC0403,2026-10-16 09:02:00,Pediatrics,Floor 2,Syringes,Green Bin,BIN_05,191.4,0.94,Correctly Segregated,7.0,no
+REC0404,2026-10-21 03:59:00,General Ward,Floor 2,Surgical Waste,Yellow Bin,BIN_12,197.9,0.82,Misclassified / Override Required,43.0,Yes
+ REC0405 ,2026-10-23 01:09:00,General Ward,Ground,Cotton Swabs,Yellow Bin,BIN_09,132.9,0.93,Correctly Segregated,57.0,No
+REC0406,2026-10-24 20:39:00,icu,Floor 1,,Yellow Bin,BIN_04,313.7,0.95,Correctly Segregated,22.0,No
+REC0407,2026-10-03 07:13:00,General Ward,Floor 1,Urine/Body Fluids,Red Bin,BIN_05,81.1,0.81,Correctly Segregated,63.0,
+REC0408,2026-10-02 09:22:00,OPD,Floor 2,Needles,Green Bin,BIN_08,170.1,0.87,Correctly Segregated,20.0,No
+REC0409,2026-10-16 22:01:00, General Ward ,Floor 1,IV Bags/Tubes,Red Bin,BIN_05,209.8,0.92,Misclassified / Override Required,75.0,Yes
+REC0410,2026-10-27 01:03:00,OPD,Floor 1,Cotton swab,Yellow Bin,BIN_11,287.6,0.77,Correctly Segregated,25.0,No
+REC0411,2026-10-01 09:43:00,Laboratory,,Urine/Body Fluids,Red Bin, BIN_11 ,336.7,0.75,Correctly Segregated,7.0,No
+ REC0412 ,2026-10-30 06:02:00,Pediatrics,Floor 3,Anatomical Waste,Yellow Bin,BIN_07,77.5,0.95,Correctly Segregated,44.0,No
+REC0413,2026-10-24 16:40:00,Radiology,Floor 4,Needles,Green Bin,BIN_02,55.9,0.7,Correctly Segregated,91.0,Yes
+REC0414,2026-10-14 14:00:00,Emergency,Floor 3,Paper Wrappers,Black Bin,BIN_02,529.6,0.8,Correctly Segregated,41.0,no
+REC0415,2026-10-30 20:39:00,Pediatrics,1st Floor,Metallic & Plastic Waste,Blue Bin,BIN_03,248.6,0.85,Correct,38.0,No
+REC0416,2026-10-19 09:22:00,General Ward,Floor 1,Glassware,Blue Bin,BIN_12,104.7,0.71,Correctly Segregated,81.0,No
+REC0417,2026-10-19 09:55:00,Radiology,Ground,Syringes,Green Bin,BIN_10,659.1,0.91,Misclassified / Override Required,58.0,YES
+REC0418,2026-10-11 02:52:00,Laboratory,Floor 2,Hazardous Chemicals,White Bin,BIN_09,209.0,0.79,Correct,96.0,Yes
+REC0419,2026-10-14 08:53:00,Emergency,,IV Bags/Tubes,Red Bin,BIN_03,489.5,0.91,Correctly Segregated,28.0,No
+REC0420,2026-10-16 06:36:00,Emergency,Floor 1,Expired Medications,White Bin,BIN_06,201.1,0.76,Correctly Segregated,92.0,Yes
+REC0421,2026-10-12 20:36:00,Pediatrics,Floor 3,Chemical Containers,Blue Bin,,990.9,0.84,Correctly Segregated,52.0,No
+REC0422,2026-10-09 20:29:00,Emergency,Floor 3,Hazardous Chemicals,WHITE BIN,BIN_09,776.1,0.79,Correctly Segregated,65.0,No
+REC0423,2026-10-16 14:17:00,radiology,Floor 4,Used Bandages,Yellow Bin,BIN_08,156.2,0.74,Correctly Segregated,30.0,No
+REC0424,2026-10-09 01:08:00,General Ward,Ground,IV Bags/Tubes,Red Bin,BIN_01,414.6,0.83,Correctly Segregated,85.0,no
+REC0425,2026-10-23 06:44:00,ER,Floor 1,Urine/Body Fluids,RED BIN,BIN_10,319.4,0.83,Correctly Segregated,25.0,no
+REC0426,2026-10-01 05:05:00,icu,Floor 4,Office Trash,Black Bin,BIN_04,569.6,0.91,Correct,54.0,No
+ REC0427 ,2026-10-09 16:09:00,ICU,ground floor,Anatomical Waste,Yellow Bin,BIN_11,88.1,0.91,Correctly Segregated,72.0,No
+REC0428,2026-10-03 17:35:00,icu,Floor 2,Syringes,Green Bin,BIN_11,143.9,0.74,Correctly Segregated,85.0,No
+REC0429,2026-10-21 17:59:00,General Ward,Floor 3,Cotton Swabs,Yellow Bin,BIN_11,444.4,0.99,Correctly Segregated,42.0,No
+REC0430,2026-10-08 12:05:00,Radiology,Ground,,Black Bin,BIN_04,46.7,0.77,Misclassified / Override Required,29.0,Yes
+REC0431,2026-10-17 16:24:00,ICUU,F3,Contaminated Recyclable Plastics,Blue Bin,BIN_11,74.0,0.77,Correctly Segregated,20.0,No
+REC0432,2026-10-05 22:05:00,ICU,Ground,Expired medication,White Bin,BIN_12,37.3,0.73,Correctly Segregated,11.0,No
+REC0433,2026-10-07 23:15:00,OPD,ground floor,Needles,Green Bin,BIN_05,153.6,0.82,Correct,65.0,no
+REC0434,2026-10-07 05:49:00,radiology,Ground,Surgical Waste,Yellow Bin,BIN_09,338.3,0.91,Correctly Segregated,82.0,No
+REC0435,2026-10-10 00:58:00,OPD,Floor 2,Surgical Waste,Yellow Bin,,633.9,0.98,Correct,68.0,No
+REC0436,2026-10-25 22:42:00,Laboratory,Floor 1,Paper Wrappers,Black Bin,BIN_12,202.2,0.97,Correct,10.0,No
+REC0437,2026-10-27 03:07:00,Laboratory,Floor 1,Non-Infectious Waste,Yellow Bin,BIN_02,701.3,0.93,Correctly Segregated,19.0,No
+REC0438,2026-10-30 07:47:00,OPD,Floor 3,Cotton Swabs,Yellow Bin,BIN_05,63.2,0.78,Correctly Segregated,37.0,no
+REC0439,2026-10-14 05:22:00,General Ward,Floor 2,Used Bandages,yellow bin,BIN_07,48.8,0.91,Correctly Segregated,10.0,No
+REC0440,2026-10-07 07:09:00,OT,floor-2,Surgical Waste,Yellow Bin,BIN_06,182.3,0.96,Correctly Segregated,6.0,No
+REC0441,2026-10-09 07:44:00,Emergency,Floor 3,Metallic & Plastic Waste,Blue Bin,BIN_07,259.1,0.98,Correctly Segregated,48.0,No
+REC0442,2026-10-20 04:39:00,OT,Ground,Metallic & Plastic Waste,Blue Bin,BIN_03,185.6,0.9,Correct,66.0,No
+REC0443,2026-10-19 22:24:00,Laboratory,Floor 4,Used Bandages,Yellow Bin,BIN_11,36.5,0.83,Misclassified / Override Required,18.0,Yes
+REC0444,2026-10-06 22:42:00,Laboratory,Floor 3,Food Waste,Black Bin, BIN_02 ,177.5,0.96,Correctly Segregated,92.0,Yes
+REC0445,2026-10-01 13:30:00,OPD,Floor 2,Needles,Green Bin,BIN_09,67.1,0.85,Correctly Segregated,45.0,No
+REC0446,2026-10-16 17:39:00,Radiology,Floor 1,Surgical Waste,yellow bin,BIN_09,325.6,0.96,Correct,66.0,No
+REC0447,2026-10-22 08:35:00,Laboratory,Floor 1,Used Bandages,yellow bin,BIN_02,255.5,0.92,Correctly Segregated,69.0,No
+REC0448,2026-10-24 01:42:00,OPD,Floor 4,Non-Infectious Waste,Black Bin ,BIN_11,89.8,0.81,Correctly Segregated,11.0,No
+REC0449,2026-10-21 09:26:00,Emergency,F3,Glassware,Blue Bin,BIN_08,126.3,0.79,Correctly Segregated,78.0,No
+REC0450,2026-10-02 15:08:00,ICU,Ground,Syringes,Black Bin,BIN_10,81.7,0.98,Correctly Segregated,57.0,no
+REC0451,2026-10-21 18:18:00,General Ward,Floor 2,Chemical Containers,Blue Bin,BIN_01,181.2,0.94,Correct,88.0,Yes
+REC0452,2026-10-22 12:47:00,General Ward,Floor 3,Needles,green,BIN_02,409.2,0.73,Correctly Segregated,81.0,No
+REC0453,2026-10-14 06:55:00,General Ward,Ground,Glassware,Blue Bin,BIN_01,86.6,0.96,Correctly Segregated,86.0,YES
+REC0454,2026-10-19 14:58:00,Emergency,Floor 2,Syringes,Green Bin,BIN_10,285.2,0.76,Correctly Segregated,97.0,Yes
+REC0455,2026-10-09 16:09:00,General Ward,Ground,Surgical Waste,Yellow Bin,BIN_07,124.7,0.71,Correctly Segregated,63.0,No
+REC0456,2026-10-30 23:12:00,OT,Floor 3,Hazardous Chemicals,White Bin,BIN_01,101.1,0.85,Correctly Segregated,63.0,No
+REC0457,2026-10-22 23:29:00,OT,Floor 4,Used Bandages,Yellow Bin,BIN_03,174.9,0.91,Correctly Segregated,79.0,No
+REC0458,2026-10-15 15:32:00,Radiology,Floor 3,Contaminated Recyclable Plastics,Red Bin,BIN_10,83.2,0.97,Correctly Segregated,82.0,No
+REC0459,2026-10-21 14:37:00,OT,Floor 1,Glassware,Blue,BIN_07,122.4,0.87,Correct,42.0,No
+REC0460,2026-10-26 04:39:00, OPD ,Floor 1,Blades,Green Bin,BIN_04,73.1,0.88,Correctly Segregated,45.0,No
+REC0461,2026-10-30 14:04:00,OT,Floor 4,Chemical Containers,Blue,BIN_09,917.6,0.9,Correctly Segregated,21.0,no
+REC0462,2026-10-22 20:41:00,Radiology,Floor 4,Non-Infectious Waste,Black Bin,BIN_05,196.0,,Correctly Segregated,76.0,No
+REC0463,2026-10-18 08:00:00,OT,Ground,Office Trash,Black Bin ,BIN_11,108.9,0.72,Correctly Segregated,8.0,No
+REC0464,2026-10-12 09:40:00,OT,Ground,Metallic & Plastic Waste,Blue,BIN_12,226.1,0.93,Correctly Segregated,41.0,No
+REC0465,2026-10-29 00:57:00,OPD,Floor 4,Urine/Body Fluids,White Bin,BIN_07,174.2,0.77,Correctly Segregated,18.0,No
+REC0466,2026-10-19 23:00:00,General Ward,Floor 4,Chemical Containers,Green Bin,BIN_01,159.7,0.7,Correctly Segregated,54.0,No
+REC0467,2026-10-11 06:21:00, General Ward ,Floor 4,Metallic & Plastic Waste,Blue,BIN_09,311.5,0.91,Correctly Segregated,61.0,No
+REC0468,2026-10-21 10:13:00,OT,Ground,Urine/Body Fluids,Red Bin,BIN_03,349.3,0.98,Correctly Segregated,42.0,No
+REC0469,2026-10-13 00:37:00,OT,1st Floor,Blades,Blue Bin,BIN_10,124.7,0.95,Correctly Segregated,76.0,No
+REC0470,2026-10-02 19:37:00,Operation Theater,Floor 2,Anatomical Waste,Yellow Bin,BIN_10,120.2,0.71,Correctly Segregated,24.0,no
+REC0471,2026-10-04 07:36:00,General Ward,Floor 4,Chemical Containers,Blue Bin,BIN_04,152.9,0.98,Correctly Segregated,50.0,No
+REC0472,2026-10-25 17:11:00,Radiology,Ground,Blades,Green Bin,BIN_06,30.2,0.76,Correct,58.0,No
+REC0473,2026-10-10 22:36:00,Laboratory,Fourth Floor,Urine/Body Fluids,Red Bin,BIN_11,56.7,0.7,Correctly Segregated,42.0,No
+REC0474,2026-10-20 04:39:00,OT,Ground,Metallic & Plastic Waste,Blue Bin,BIN_03,185.6,0.9,Correct,66.0,No
+REC0475,2026-10-12 16:15:00,Pediatrics,ground floor,Food Waste,Black Bin,BIN_09,710.5,0.94,Correctly Segregated,54.0,No
+REC0476,2026-10-02 23:53:00,Pediatrics,Floor 1,Paper Wrappers,Black Bin,BIN_06,156.1,0.85,Correctly Segregated,67.0,No
+REC0477,2026-10-25 06:24:00,ICU,Ground,Surgical Waste,Yellow Bin,BIN_04,302.2,0.89,Correctly Segregated,73.0,No
+REC0478,2026-10-10 08:32:00,radiology,Ground,Urine/Body Fluids,Red Bin,BIN_12,244.4,0.9,Correctly Segregated,18.0,No
+REC0479,2026-10-04 08:00:00,ICU,Floor 1,Anatomical Waste,Yellow Bin,BIN_05,2237.5,0.86,Correctly Segregated,16.0,No
+REC0480,2026-10-18 15:50:00,Laboratory,Floor 3,Hazardous Chemicals,White Bin,BIN_07,466.7,0.79,Correctly Segregated,57.0,no
+REC0481,2026-10-29 03:24:00,Emergency,Floor 4,Food Waste,Black Bin,BIN_01,172.0,0.9,Correctly Segregated,87.0,Yes
+REC0482,2026-10-14 17:09:00,Emergency,Floor 2,Cotton Swabs,Yellow Bin,BIN_08,88.7,0.81,Correctly Segregated,42.0,No
+REC0483,2026-10-18 19:04:00,Paediatrics,Floor 1,Anatomical Waste,Yellow Bin,BIN_05,52.7,0.9,Correctly Segregated,22.0,No
+REC0484,2026-10-07 10:25:00,Emergency,Ground,Paper Wrappers,White Bin,BIN_01,224.3,0.87,Misclassified / Override Required,76.0,Yes
+REC0485,2026-10-10 13:26:00,General Ward,Floor 1,Food Waste,Black Bin,BIN_07,,0.96,Correctly Segregated,44.0,No
+REC0486,2026-10-12 12:03:00,OPD,Ground,Blades,Green Bin,BIN_03,61.1,0.89,Correctly Segregated,83.0,No
+REC0487,2026-10-21 23:49:00,Emergency,Floor 2,Hazardous Chemicals,White Bin,BIN_11,113.6,0.72,Correctly Segregated,75.0,No
+REC0488,2026-10-17 06:05:00,Operation Theater,Floor 1,Surgical Waste,Yellow Bin,BIN_02,80.2,0.78,Correctly Segregated,47.0,No
+REC0489,2026-10-15 22:38:00,Pediatrics,Floor 4,Cotton Swabs,Yellow Bin,BIN_03,734.9,0.86,Correctly Segregated,62.0,No
+REC0490,2026-10-01 05:16:00, General Ward ,1st Floor,Paper Wrappers,Black Bin,BIN_04,385.8,0.91,Correctly Segregated,,No
+REC0491,2026-10-16 02:09:00,Laboratory,Floor 3,Office Trash,Black Bin,BIN_08,189.4,0.8,Correct,,Yes
+REC0492,2026-10-28 14:35:00,Emergency,Floor 2,Chemical Containers,Blue Bin,BIN_03,622.6,0.96,Correctly Segregated,87.0,Yes
+REC0493,2026-10-23 20:44:00,General Ward,Floor 3,Expired Medications,WHITE BIN,BIN_05,206.1,0.75,Correctly Segregated,77.0,No
+REC0494,2026-10-02 16:02:00,Pediatrics,Floor 4,Hazardous Chemicals,White Bin,BIN_09,95.7,0.84,Correctly Segregated,32.0,No
+REC0495,2026-10-14 05:50:00,OT,Floor 3,Contaminated Recyclable Plastics,Red Bin,BIN_09,644.5,0.85,Correctly Segregated,80.0,no
+REC0496,2026-10-08 13:08:00,OT,Floor 3,Food Waste,Yellow Bin,BIN_03,293.3,0.75,Correctly Segregated,83.0,no
+REC0497,2026-10-23 00:06:00,General Ward,Ground,Hazardous Chemicals,White Bin,BIN_04,83.1,0.92,Correctly Segregated,99.0,YES
+REC0498,2026-10-10 09:51:00,General Ward,Floor 3,Glassware,Blue Bin, BIN_08 ,163.6,0.97,Correctly Segregated,10.0,No
+REC0499,2026-10-24 17:28:00,Pediatrics,Floor 2,Used Bandages,yellow bin,BIN_10,94.6,0.86,Correctly Segregated,18.0,No
+REC0500,2026-10-30 17:37:00,Emergency,Floor 4,IV Bags/Tubes,Red Bin,BIN_05,63.0,0.81,Correctly Segregated,80.0,No
+REC0501,2026-10-23 03:46:00,Laboratory,Floor 4,Glassware,Blue,BIN_01,399.8,0.85,Correct,49.0,No
+REC0502,2026-10-30 06:50:00,Pediatrics,1st Floor,Contaminated Recyclable Plastics,Red Bin,BIN_03,877.9,0.75,Correctly Segregated,70.0,No
+REC0503,2026-10-11 11:35:00,Radiology,Floor 2,Paper Wrappers,Black Bin,BIN_12,62.2,0.73,Correctly Segregated,-10.0,Yes
+REC0504,2026-10-19 16:48:00,ICU,Floor 1,Syringes,green,BIN_01,299.0,0.74,Correctly Segregated,87.0,Yes
+REC0505,2026-10-27 01:04:00,Operation Theater,Ground,Hazardous Chemicals,White Bin,BIN_03,113.2,0.77,Correctly Segregated,10.0,No
+REC0506,2026-10-30 00:27:00,ICU,Floor 2,IV Bags/Tubes,Red Bin,BIN_02,129.1,0.76,Correct,77.0,No
+REC0507,2026-10-28 08:16:00,OT,Floor 4,Syringes,Green Bin,BIN_03,118.6,0.88,Correctly Segregated,57.0,No
+REC0508,2026-10-21 15:18:00,ER,Floor 1,Blades,Green Bin,BIN_07,95.5,0.81,Correctly Segregated,48.0,No
+REC0509,2026-10-20 02:31:00,Operation Theater,Floor 4,Surgical Waste,Yellow Bin,BIN_02,198.1,,Correctly Segregated,69.0,No
+REC0510,2026-10-05 05:47:00,Laboratory,Floor 1,Used Bandages,Yellow Bin,BIN_10,98.0,0.86,Correctly Segregated,20.0,No
+REC0511,2026-10-20 15:18:00,Radiology,Floor 2,,Yellow Bin,BIN_01,236.6,0.9,Correctly Segregated,88.0,Yes
+REC0512,2026-10-16 22:51:00,ER,Floor 3,Office Trash,Black Bin,BIN_03,183.1,0.77,Correctly Segregated,,No
+ REC0513 ,2026-10-25 17:53:00,Radiology,Floor 2, Glassware ,Blue,BIN_04,157.4,0.7,Correctly Segregated,81.0,No
+REC0514,2026-10-18 01:37:00,OPD,Floor 2,Anatomical Waste,yellow bin,BIN_07,92.2,0.81,Correctly Segregated,5.0,No
+REC0515,2026-10-25 09:34:00,radiology,Floor 4,Contaminated Recyclable Plastics,RED BIN,BIN_06,,0.88,Correct,38.0,No
+REC0516,2026-10-22 22:59:00,OT,Floor 2,Food Waste,Black Bin,BIN_09,348.7,0.86,Correctly Segregated,76.0,No
+REC0517,2026-10-19 02:51:00,OT,Ground,Metallic & Plastic Waste,Blue Bin,BIN_12,284.5,0.77,Misclassified / Override Required,95.0,YES
+REC0518,2026-10-26 01:22:00,ICU,Floor 1,IV Bags/Tubes,Red Bin,BIN_07,87.2,0.98,Correctly Segregated,48.0,No
+REC0519,2026-10-28 07:37:00,Radiology,Ground,Anatomical Waste,Yellow Bin,BIN_02,206.3,0.78,Correctly Segregated,65.0,No
+REC0520,2026-10-28 22:36:00,Paediatrics,Floor 4,Paper Wrappers,Red Bin,BIN_01,347.6,0.97,Correctly Segregated,56.0,No
+REC0521,2026-10-30 21:29:00,Paediatrics,Floor 1,IV Bags/Tubes,Red Bin,BIN_01,50.1,0.93,Correctly Segregated,30.0,no
+REC0522,2026-10-02 15:23:00,General Ward,Floor 1,Blades,green,BIN_11,294.3,0.7,Correct,26.0,no
+REC0523,2026-10-17 01:42:00,Radiology,Floor 3,Medical Waste,Red Bin,BIN_10,112.2,0.76,,56.0,No
+REC0524,2026-10-26 00:18:00,Pediatrics,Floor 4,Anatomical Waste,Yellow Bin,BIN_10,300.8,0.8,Correctly Segregated,16.0,No
+REC0525,2026-10-19 09:13:00,icu,floor-2,Metallic & Plastic Waste,Blue Bin,BIN_03,103.5,0.82,Correct,63.0,No
+REC0526,2026-10-06 07:48:00,Pediatrics,Floor 4,Surgical Waste,Yellow Bin,BIN_10,45.0,0.77,Correctly Segregated,48.0,No
+REC0527,2026-10-16 11:00:00,Laboratory,Floor 3,Needles,Green Bin,BIN_10,51.8,0.95,Misclassified / Override Required,36.0,Yes
+REC0528,2026-10-11 00:42:00,OPD,floor-2,Syringes,Green Bin,BIN_07,198.0,0.98,Correctly Segregated,86.0,Yes
+REC0529,2026-10-12 07:09:00,Pediatrics,Ground,Blades,Green Bin,BIN_07,234.6,0.9,Correctly Segregated,38.0,No
+REC0530,2026-10-15 06:49:00,General Ward,Floor 1,Non infectious waste,Black Bin ,BIN_10,92.4,0.78,Correctly Segregated,65.0,No
+REC0531,2026-10-12 00:23:00,Pediatrics,Floor 1,Urine/Body Fluids,Red Bin,BIN_04,317.6,0.76,Correctly Segregated,99.0,Yes
+REC0532,2026-10-06 10:56:00,Emergency,F3,Glassware,Blue,BIN_10,50.4,0.7,Correctly Segregated,18.0,No
+REC0533,2026-10-29 05:56:00,General Ward,Floor 3,Expired medication,White Bin,BIN_10,180.8,0.95,Misclassified / Override Required,52.0,Yes
+REC0534,2026-10-13 18:07:00,Radiology,Floor 1,Syringes,Green Bin,BIN_10,72.3,0.74,Correct,70.0,No
+REC0535,2026-10-02 11:34:00, General Ward ,,Blades,Green Bin,BIN_11,113.1,0.93,Correct,74.0,No
+REC0536,2026-10-15 08:46:00,icu,Ground,Needles,Green Bin,BIN_11,197.9,0.76,Misclassified,63.0,Yes
+REC0537,2026-10-09 12:25:00,Paediatrics,Floor 1,Hazardous Chemicals,White Bin,BIN_05,95.7,0.84,Correctly Segregated,38.0,No
+REC0538,2026-10-20 01:45:00,General Ward,Floor 2,Non-Infectious Waste,Black Bin ,BIN_07,140.1,0.78,Correctly Segregated,31.0,No
+REC0539,2026-10-11 09:39:00,ER,Floor 2,IV Bags/Tubes,Red Bin,BIN_04,426.3,0.86,Correctly Segregated,92.0,Yes
+REC0540,2026-10-07 19:20:00,Laboratory,Ground,Food Waste,Black Bin,BIN_03,120.1,0.82,Correctly Segregated,99.0,Yes
+REC0541,2026-10-25 07:15:00,General Ward,Floor 3,Contaminated Recyclable Plastics,Red Bin,BIN_05,371.9,0.77,Misclassified,71.0,Yes
+REC0542,2026-10-03 17:34:00,OPD,Floor 2,Hazardous Chemicals,White Bin,BIN_08,77.2,0.94,Correctly Segregated,25.0,No
+REC0543,2026-10-17 09:33:00,Pediatrics,Floor 2,Surgical Waste,Yellow Bin,BIN_01,291.2,0.82,Correct,51.0,
+REC0544,2026-10-27 06:04:00,OT,Floor 2,Paper Wrappers,Black Bin,BIN_06,603.8,0.79,Correct,30.0,No
+REC0545,2026-10-18 08:13:00,Pediatrics,,Blades,Green Bin,BIN_11,26.4,0.98,Correctly Segregated,15.0,No
+REC0546,2026-10-29 17:31:00,Radiology,Ground,IV Bags/Tubes,Red Bin,BIN_02,100.7,0.75,Correctly Segregated,58.0,No
+REC0547,2026-10-13 04:09:00,Radiology,Floor 2,Glassware,Blue Bin,BIN_08,302.4,0.93,Correct,95.0,YES
+REC0548,2026-10-19 20:11:00,OT,1st Floor,Paper Wrappers,Black Bin,BIN_01,162.0,0.74,Correctly Segregated,62.0,no
+REC0549,2026-10-04 15:27:00,OPD,Floor 1,Glassware,Blue Bin,BIN_07,256.4,0.73,Correctly Segregated,94.0,YES
+REC0550,2026-10-02 04:47:00,Radiology,Floor 4,Cotton Swabs,Yellow Bin,BIN_02,117.5,0.73,Correctly Segregated,11.0,No
+REC0551,2026-10-15 01:54:00,OPD,1st Floor,Contaminated Recyclable Plastics,Red Bin,BIN_12,204.2,0.78,Correctly Segregated,54.0,No
+REC0552,2026-10-02 14:23:00,General Ward,Floor 2,Contaminated Recyclable Plastics,Red Bin,BIN_08,168.3,0.84,Correctly Segregated,8.0,No
+REC0553,2026-10-25 13:02:00,OT,Floor 4,Expired medication,White Bin,BIN_10,485.0,0.83,Correctly Segregated,22.0,No
+REC0554,2026-10-15 02:13:00,General Ward,F3, Hazardous Chemicals ,WHITE BIN,BIN_09,233.6,0.77,Correctly Segregated,73.0,No
+REC0555,2026-10-08 02:05:00,Pediatrics,Ground,Cotton Swabs,Yellow Bin,BIN_01,249.7,0.85,Correctly Segregated,38.0,No
+REC0556,2026-10-23 09:19:00,Laboratory,Floor 2,Contaminated Recyclable Plastics,RED BIN,BIN_01,137.1,0.92,Correctly Segregated,6.0,No
+REC0557,2026-10-18 00:07:00,OPD,Floor 3,Chemical Containers,Blue Bin,BIN_09,129.0,0.83,Correctly Segregated,75.0,No
+REC0558,2026-10-18 05:16:00,OPD,Floor 2,Glassware,Blue,BIN_02,134.8,0.82,Correctly Segregated,54.0,No
+REC0559,2026-10-13 08:56:00,Pediatrics,Floor 4,Glassware,Blue Bin,BIN_05,261.3,0.82,Correctly Segregated,83.0,No
+REC0560,2026-10-21 17:21:00,Lab,Floor 2,Cotton Swabs,Yellow Bin,BIN_12,136.1,0.88,Correctly Segregated,86.0,Yes
+REC0561,2026-10-02 00:10:00,OT,Ground,Urine/Body Fluids,Red Bin,BIN_05,240.3,0.78,Correctly Segregated,73.0,No
+REC0562,2026-10-17 03:32:00,Operation Theater,Floor 1,Glassware,Blue Bin,BIN_04,283.8,,Correct,54.0,No
+REC0563,2026-10-16 00:43:00,Emergency,Floor 1,Syringes,Green Bin,BIN_01,382.6,0.78,Misclassified,9.0,
+REC0564,2026-10-12 09:09:00,Radiology,Ground,Food Waste,Black Bin,,146.8,0.98,Correctly Segregated,29.0,no
+REC0565,2026-10-02 12:36:00,OPD,Floor 3,,Blue Bin,BIN_12,498.2,0.92,Correctly Segregated,36.0,No
+REC0566,2026-10-15 04:54:00,General Ward,Floor 1,Blades,Green Bin,,137.5,0.91,Correctly Segregated,54.0,no
+REC0567,2026-10-14 14:23:00,OPD,Floor 2,Expired Medications,White Bin,BIN_01,37.3,0.95,Correctly Segregated,86.0,Yes
+REC0568,2026-10-15 18:27:00,ICU,Floor 1,Urine/Body Fluids,Red Bin,BIN_05,85.1,0.87,Misclassified / Override Required,60.0,Yes
+REC0569,2026-10-22 15:07:00,OT,Floor 2,Food Waste,yellow bin,BIN_02,42.7,0.77,Correctly Segregated,79.0,No
+REC0570,2026-10-03 17:35:00,icu,Floor 2,Syringes,Green Bin,BIN_11,143.9,0.74,Correctly Segregated,85.0,No
+REC0571,2026-10-15 09:57:00, General Ward ,Floor 3,Expired medication,White Bin,BIN_12,193.4,0.76,Correctly Segregated,34.0,no
+REC0572,2026-10-23 02:04:00,Laboratory,Floor 4,Food Waste,Black Bin,BIN_05,728.6,0.86,Correct,10.0,No
+REC0573,2026-10-15 17:32:00,Laboratory,Floor 2,Syringes,Green Bin,,247.5,0.97,Correct,49.0,No
+REC0574,2026-10-14 10:57:00,Pediatrics,Floor 4,Expired Medications,WHITE BIN,BIN_06,159.9,0.83,Correctly Segregated,62.0,No
+ REC0575 ,2026-10-29 04:54:00,General Ward,Floor 4,Blades,green,BIN_04,370.0,0.79,Correctly Segregated,7.0,No
+REC0576,2026-10-09 15:23:00,Laboratory,Floor 4,Cotton Swabs,Yellow Bin,BIN_03,32.5,0.88,Correctly Segregated,54.0,no
+REC0577,2026-10-24 19:28:00,Emergency,Ground,Non-Infectious Waste,Black Bin,BIN_03,230.1,0.75,Correct,17.0,No
+REC0578,2026-10-02 10:45:00,Radiology,Floor 3,Used Bandages,Yellow Bin,BIN_09,353.1,0.88,Correctly Segregated,17.0,No
+REC0579,2026-10-04 05:24:00,ICU,Floor 1,Hazardous Chemicals,White Bin,BIN_11,58.4,0.84,Correctly Segregated,82.0,No
+REC0580,2026-10-26 09:30:00,Radiology,Floor 2,Cotton Swabs,Yellow Bin,BIN_12,475.8,0.72,Correctly Segregated,51.0,No
+REC0581,2026-10-04 13:07:00,OPD,Floor 4,,Blue Bin,BIN_02,249.8,0.73,Correctly Segregated,43.0,No
+REC0582,2026-10-30 21:29:00,OPD,Floor 4,Glassware,Blue Bin,BIN_11,136.7,0.97,Correctly Segregated,72.0,No
+REC0583,2026-10-30 01:32:00,General Ward,Floor 3,Expired medication,White Bin,BIN_12,316.2,0.89,Correct,18.0,No
+ REC0584 ,2026-10-23 23:15:00,General Ward,Floor 1,Surgical Waste,Yellow Bin,BIN_09,1172.1,0.99,Correct,56.0,No
+REC0585,2026-10-15 18:36:00,General Ward,Floor 3,Needles,Green Bin,BIN_11,220.4,0.82,Correct,75.0,No
+REC0586,2026-10-18 01:40:00,Pediatrics,Floor 2,Non-Infectious Waste,Black Bin,BIN_08,232.4,0.83,Correctly Segregated,32.0,No
+REC0587,2026-10-01 17:48:00,OT,Floor 2,Food Waste,Red Bin,BIN_01,132.0,0.79,Correct,81.0,No
+REC0588,2026-10-13 13:25:00,OT,ground floor,Glassware,Blue Bin,BIN_01,96.6,0.83,Correctly Segregated,93.0,Yes
+REC0589,2026-10-12 08:54:00,opd,Floor 2,Contaminated Recyclable Plastics,Red Bin,BIN_05,370.3,0.73,Correct,79.0,No
+REC0590,2026-10-15 18:39:00,Laboratory,Floor 1,Food Waste,Black Bin ,,96.1,0.94,Correctly Segregated,14.0,No
+ REC0591 ,2026-10-14 16:06:00,ICU,Floor 4,Hazardous Chemicals,White Bin,BIN_07,201.8,0.72,Correct,87.0,Yes
+REC0592,2026-10-19 22:57:00,,Floor 1,used bandages,Yellow Bin,BIN_12,130.0,0.89,Correctly Segregated,60.0,No
+REC0593,2026-10-14 20:54:00,ICU,Floor 2,Anatomical Waste,Yellow Bin,BIN_09,279.6,0.86,Correctly Segregated,11.0,No
+REC0594,2026-10-18 21:07:00,Lab,Floor 4,Non-Infectious Waste,Black Bin,BIN_10,248.9,0.85,Correctly Segregated,11.0,No
+REC0595,2026-10-07 00:23:00,General Ward,Ground,Glassware,Blue Bin,BIN_08,437.0,0.87,Correctly Segregated,23.0,no
+REC0596,2026-10-23 20:07:00,Radiology,Floor 1,Used Bandages,Yellow Bin,BIN_03,126.7,0.84,Correctly Segregated,56.0,No
+REC0597,2026-10-26 12:56:00,opd,Floor 1,Urine/Body Fluids,Red Bin,BIN_02,153.6,0.78,Correctly Segregated,30.0,No
+REC0598,2026-10-06 02:54:00,Radiology,Floor 3, Office Trash ,Black Bin,BIN_06,87.1,0.8,Correctly Segregated,16.0,No
+REC0599,2026-10-08 16:52:00,General Ward,Floor 4,Non-Infectious Waste,Black Bin,BIN_08,133.6,0.88,Correctly Segregated,44.0,No
+REC0600,2026-10-18 00:18:00,OT,ground floor,Needles,Green Bin, BIN_02 ,257.7,0.91,Correctly Segregated,30.0,No
+REC0601,2026-10-01 15:00:00,General Ward,Ground,Glassware,Blue Bin,BIN_05,349.2,0.83,Correctly Segregated,41.0,No
+REC0602,2026-10-10 06:36:00,Pediatrics,Floor 4,Anatomical Waste,Yellow Bin,BIN_08,91.1,0.88,Correctly Segregated,32.0,No
+REC0603,2026-10-27 12:47:00,icu,Floor 2,Contaminated Recyclable Plastics,Red Bin,BIN_03,382.1,0.72,Correct,53.0,No
+REC0604,2026-10-22 03:51:00,ICU,Ground,Urine/Body Fluids,Red Bin,BIN_07,563.7,0.89,Correctly Segregated,11.0,No
+REC0605,2026-10-18 14:11:00,OPD,Floor 3,Paper Wrappers,White Bin,BIN_09,265.3,0.98,Correctly Segregated,88.0,Yes
+REC0606,2026-10-25 04:36:00,Emergency,Floor 1,Surgical Waste,Yellow Bin,BIN_04,855.3,0.85,Correctly Segregated,81.0,No
+REC0607,2026-10-12 06:13:00,Pediatrics,floor-2,Needles,Green Bin,BIN_08,102.6,0.81,Correctly Segregated,10.0,no
+REC0608,2026-10-29 10:55:00,Pediatrics,Floor 1,IV Bags/Tubes,Red Bin,BIN_09,70.4,0.78,Correctly Segregated,50.0,No
+REC0609,2026-10-26 06:08:00,Pediatrics,Floor 1,Used Bandages,Yellow Bin,BIN_03,45.9,0.8,Correctly Segregated,8.0,no
+REC0610,2026-10-24 16:45:00,OPD,Floor 3,Food Waste,Black Bin,BIN_04,630.7,0.87,Correctly Segregated,53.0,no
+REC0611,2026-10-21 10:36:00,OT,Floor 1,Office Trash,Black Bin,BIN_11,321.7,0.74,Misclassified / Override Required,47.0,YES
+REC0612,2026-10-15 01:30:00,OT,Floor 3,Expired Medications,White Bin,BIN_03,182.3,0.89,Correctly Segregated,22.0,no
+REC0613,2026-10-25 06:08:00,Emergency,Floor 1,Hazardous Chemicals,White Bin, BIN_06 ,238.4,0.94,Correctly Segregated,76.0,No
+REC0614,2026-10-19 17:11:00,Pediatrics,Floor 3,Contaminated Recyclable Plastics,Red Bin,BIN_12,77.4,0.97,Correctly Segregated,57.0,No
+REC0615,2026-10-09 09:47:00,ICU,Floor 4,Metallic & Plastic Waste,Blue Bin,BIN_10,1348.3,0.78,Correctly Segregated,21.0,No
+REC0616,2026-10-02 04:29:00,General Ward,Ground,Hazardous Chemicals,White Bin,BIN_12,211.3,0.93,Correctly Segregated,34.0,No
+REC0617,2026-10-30 13:30:00,  General Ward  ,Floor 1,Contaminated Recyclable Plastics,Red Bin,BIN_07,208.0,0.84,Correctly Segregated,96.0,Yes
+REC0618,2026-10-01 16:23:00,Paediatrics,Floor 3,Contaminated Recyclable Plastics,Red Bin,BIN_04,340.6,0.92,Correctly Segregated,57.0,No
+REC0619,2026-10-29 01:59:00,Laboratory,Floor 2,Urine/Body Fluids,Red Bin,BIN_08,280.0,0.96,Correctly Segregated,61.0,No
+REC0620,2026-10-15 05:46:00,Radiology,Floor 4,Office Trash,Green Bin,BIN_12,227.9,0.87,Correctly Segregated,53.0,No
+REC0621,2026-10-24 16:41:00,Emergency,Floor 3,Expired Medications,WHITE BIN,BIN_08,101.3,0.94,Correctly Segregated,9.0,No
+REC0622,2026-10-19 00:06:00,ICU,Floor 4,Used Bandages,Yellow Bin,BIN_07,,0.85,Correctly Segregated,73.0,No
+REC0623,2026-10-14 00:17:00,Laboratory,Floor 1,used bandages,yellow bin,BIN_07,858.9,0.79,Correctly Segregated,43.0,No
+REC0624,2026-10-30 09:42:00,Laboratory,Ground,Used Bandages,Yellow Bin,BIN_12,559.1,0.85,Correct,64.0,No
+REC0625,2026-10-25 20:49:00,OT,Floor 3,IV Bags/Tubes,Red Bin,BIN_07,681.7,0.79,Correctly Segregated,94.0,Yes
+REC0626,2026-10-10 04:33:00,Laboratory,Ground,Anatomical Waste,Yellow Bin,BIN_05,126.6,0.79,Correctly Segregated,96.0,Yes
+REC0627,2026-10-21 10:51:00,General Ward,Ground,IV Bags/Tubes,Red Bin,BIN_09,86.3,0.91,Correctly Segregated,19.0,No
+REC0628,2026-10-18 07:43:00,ICU,Floor 1,Blades,Green Bin,BIN_06,"1,250",0.86,Correctly Segregated,75.0,no
+REC0629,2026-10-03 08:02:00,Radiology,floor-2,Contaminated Recyclable Plastics,Red Bin,BIN_05,199.3,0.91,,96.0,Yes
+REC0630,2026-10-10 05:34:00, ICU ,Floor 4,Needles,Green Bin,BIN_05,457.3,0.7,Correctly Segregated,21.0,No
+REC0631,2026-10-28 16:04:00,Lab,Floor 1,Syringes,Green Bin,BIN_04,49.2,0.87,Correctly Segregated,5.0,no
+REC0632,2026-10-28 07:28:00,ICU,Floor 1,Syringes,green,BIN_09,647.8,0.78,Correctly Segregated,81.0,no
+REC0633,2026-10-07 17:56:00,ICU,Floor 2,Expired Medications,White Bin,BIN_01,167.9,0.74,Correctly Segregated,28.0,No
+REC0634,2026-10-16 01:39:00,Emergency,Ground,used bandages,yellow bin,BIN_02,135.4,0.82,Correctly Segregated,43.0,no
+REC0635,2026-10-28 01:51:00,OT,Floor 3,IV Bags/Tubes,Red Bin,BIN_12,84.8,0.87,Correctly Segregated,89.0,Yes
+REC0636,2026-10-18 05:54:00,Emergency,Floor 3,Used Bandages,yellow bin,BIN_09,50.7,0.72,Correctly Segregated,52.0,No
+REC0637,2026-10-15 23:35:00,Radiology,Floor 4,Syringes,Green Bin,BIN_04,368.2,0.9,Correctly Segregated,40.0,No
+REC0638,2026-10-25 01:45:00,Emergency,Floor 3,Used Bandages,Yellow Bin,BIN_12,202.1,0.9,Correctly Segregated,85.0,no
+REC0639,2026-10-24 21:52:00,General Ward,Floor 1,Chemical Containers,Blue Bin,BIN_10,67.9,0.86,Correct,38.0,No
+REC0640,2026-10-28 17:38:00,OPD,Floor 2,Blades,green,BIN_04,67.6,0.7,Correctly Segregated,28.0,No
+REC0641,2026-10-10 10:27:00,Radiology,Floor 3,Anatomical Waste,Yellow Bin,BIN_01,145.7,0.8,Correctly Segregated,,Yes
+REC0642,2026-10-10 03:45:00,,Floor 2,Expired medication,White Bin,BIN_02,724.3,0.79,Correctly Segregated,86.0,Yes
+REC0643,2026-10-16 04:02:00,General Ward,Floor 3,Blades,Green Bin,BIN_12,154.8,0.86,Correctly Segregated,19.0,No
+REC0644,2026-10-22 19:18:00,Laboratory,Ground,Anatomical Waste,Yellow Bin,BIN_11,57.3,0.74,Correctly Segregated,48.0,No
+REC0645,2026-10-16 06:01:00,Laboratory,F3,Contaminated Recyclable Plastics,Red Bin,BIN_12,,0.72,Correctly Segregated,73.0,No
+REC0646,2026-10-26 06:24:00,ICU,1st Floor,Blades,Green Bin,BIN_10,153.2,0.9,Correctly Segregated,45.0,No
+REC0647,2026-10-16 10:26:00,Radiology,Floor 4,Paper Wrappers,Black Bin,BIN_03,22.0,0.87,Correctly Segregated,8.0,No
+REC0648,2026-10-15 07:31:00,ICU,Floor 2,Food Waste,Black Bin,BIN_07,182.5,0.73,Correctly Segregated,44.0,No
+REC0649,2026-10-10 20:04:00,Pediatrics,Floor 1,Glassware,Blue Bin,BIN_02,158.4,0.81,Correct,43.0,No
+REC0650,2026-10-24 00:40:00,ICU,Floor 3,Used Bandages,Yellow Bin,BIN_09,332.6,0.74,Correctly Segregated,61.0,No
+REC0651,2026-10-15 02:59:00,General Ward,Floor 1,Non-Infectious Waste,Black Bin ,BIN_02,836.4,0.94,Correctly Segregated,72.0,No
+REC0652,2026-10-02 15:55:00,Laboratory,Floor 3,Blades,green,BIN_12,469.3,0.95,Correct,97.0,Yes
+REC0653,2026-10-28 01:07:00,Emergency,Floor 2,Surgical Waste,Yellow Bin,BIN_08,153.7,0.96,Correctly Segregated,92.0,Yes
+REC0654,2026-10-02 00:33:00,Pediatrics,Floor 1,Surgical Waste,Yellow Bin,BIN_06,78.6,0.76,Correctly Segregated,44.0,No
+REC0655,2026-10-06 08:30:00,Paediatrics,Floor 1,Chemical Containers,Blue Bin,BIN_03,1493.2,0.78,Correctly Segregated,61.0,No
+REC0656,2026-10-10 09:38:00,General Ward,Floor 4,Anatomical Waste,Yellow Bin,BIN_06,199.8,0.78,Misclassified / Override Required,18.0,Yes
+REC0657,2026-10-28 21:50:00,General Ward,Floor 4,Chemical Containers,Blue Bin,BIN_08,192.7,0.71,Correctly Segregated,44.0,No
+REC0658,2026-10-18 10:59:00,ICU,Ground,Anatomical Waste,Yellow Bin,BIN_07,186.9,0.81,Correctly Segregated,18.0,No
+REC0659,2026-10-29 01:10:00,General Ward,Floor 2, Hazardous Chemicals ,White Bin,BIN_06,223.3,0.94,Correctly Segregated,62.0,No
+REC0660,2026-10-26 20:10:00,OT,ground floor,Expired Medications,White Bin,BIN_12,169.8,0.84,Correct,64.0,No
+REC0661,2026-10-22 09:57:00,OPD,1st Floor,Needles,Green Bin,BIN_03,120.4,0.95,Correctly Segregated,64.0,No
+REC0662,2026-10-16 00:48:00,General Ward,Floor 3,Metallic & Plastic Waste,Blue Bin,BIN_08,123.0,0.71,Correctly Segregated,94.0,Yes
+REC0663,2026-10-13 20:18:00,General Ward,Floor 4,Syringes,Green Bin,BIN_10,185.6,0.74,Correctly Segregated,26.0,no
+REC0664,2026-10-15 19:56:00,ER,Floor 2,Surgical Waste,Yellow Bin,BIN_09,123.4,0.83,Correctly Segregated,18.0,No
+REC0665,2026-10-08 05:41:00,,Floor 3,Hazardous Chemicals,White Bin,BIN_02,107.7,0.8,Correctly Segregated,75.0,No
+REC0666,2026-10-16 13:46:00,OPD,Floor 1,Hazardous Chemicals,White Bin,BIN_11,207.5,0.89,Correctly Segregated,77.0,no
+REC0667,2026-10-22 01:37:00, General Ward ,Floor 4,Hazardous Chemicals,White Bin,BIN_02,155.4,0.94,Correctly Segregated,81.0,No
+REC0668,2026-10-05 22:46:00,Radiology,Floor 2,IV Bags/Tubes,Red Bin,BIN_08,634.7,0.89,Correctly Segregated,81.0,No
+REC0669,2026-10-29 22:49:00,ICU,1st Floor,Used Bandages,Yellow Bin,BIN_11,22.9,0.74,Correctly Segregated,79.0,No
+REC0670,2026-10-09 21:43:00,OPD,Floor 2,Expired Medications,WHITE BIN,BIN_05,456.3,0.87,Correctly Segregated,62.0,No
+REC0671,2026-10-16 16:01:00,Emergency,Floor 4,Chemical Containers,Blue Bin,BIN_01,516.4,,Correctly Segregated,96.0,YES
+REC0672,2026-10-03 20:10:00,General Ward,Floor 4,Blades,green,BIN_01,36.3,0.7,Correctly Segregated,42.0,No
+REC0673,2026-10-02 10:03:00,opd,Floor 3,Expired Medications,WHITE BIN, BIN_12 ,144.9,0.87,Correctly Segregated,41.0,No
+REC0674,2026-10-25 19:24:00,OPD,Floor 1,Non infectious waste,Black Bin,BIN_08,141.6,0.74,Correctly Segregated,60.0,No
+REC0675,2026-10-08 00:30:00,Pediatrics,Floor 1,Expired Medications,White Bin,BIN_03,61.8,0.7,Correctly Segregated,58.0,No
+REC0676,2026-10-20 21:01:00,OT,Ground,Anatomical Waste,Yellow Bin,BIN_03,102.3,0.89,Correctly Segregated,89.0,Yes
+REC0677,2026-10-28 12:11:00,Radiology,Floor 4,Office Trash,Black Bin,BIN_03,78.4,0.83,Correctly Segregated,94.0,Yes
+REC0678,2026-10-11 06:34:00,OT,Floor 3,Office Trash,Black Bin,BIN_10,774.2,0.7,Correctly Segregated,50.0,No
+REC0679,2026-10-13 06:05:00,radiology,Floor 4,Syringes,Green Bin,BIN_10,402.8,0.81,Correctly Segregated,69.0,No
+REC0680,2026-10-27 09:48:00,Laboratory,Ground,Used Bandages,Yellow Bin,BIN_03,527.0,0.91,Correctly Segregated,19.0,No
+REC0681,2026-10-22 03:50:00,Emergency,Floor 4,Blades,Green Bin,BIN_10,339.5,0.73,Misclassified / Override Required,40.0,Yes
+REC0682,2026-10-04 13:17:00,Pediatrics,,Syringes,Green Bin,BIN_01,77.2,0.96,Correct,90.0,Yes
+REC0683,2026-10-22 08:31:00,General Ward,Floor 3,Expired Medications,White Bin,BIN_06,125.3,0.98,Correctly Segregated,70.0,No
+REC0684,2026-10-26 15:43:00,Pediatrics,Ground,Chemical Containers,Black Bin,BIN_11,281.9,0.84,Correctly Segregated,98.0,Yes
+REC0685,2026-10-29 09:55:00,ICU,floor-2,IV Bags/Tubes,Red Bin,BIN_08,71.7,0.72,Correctly Segregated,0.0,No
+REC0686,2026-10-07 00:46:00,Paediatrics,floor-2,Blades,green,BIN_05,337.1,0.7,Correctly Segregated,37.0,No
+REC0687,2026-10-07 21:04:00,Laboratory,Floor 2,Surgical Waste,Yellow Bin,BIN_03,unknown,0.78,Correctly Segregated,99.0,Yes
+REC0688,2026-10-16 14:28:00,Emergency,Floor 1,Glassware,Blue Bin,BIN_10,141.2,0.97,Correctly Segregated,9.0,No
+REC0689,2026-10-18 10:31:00,OPD,Floor 3,Contaminated Recyclable Plastics,Red Bin,BIN_12,336.6,0.88,,57.0,no
+REC0690,2026-10-30 05:31:00,Pediatrics,Ground,Urine/Body Fluids,Red Bin,BIN_01,271.9,0.75,Correctly Segregated,11.0,No
+REC0691,2026-10-11 15:13:00,Radiology,Floor 3,Food Waste,Black Bin,BIN_08,142.8,0.78,Correctly Segregated,73.0,No
+REC0692,2026-10-15 08:48:00,ICU,Ground,Blades,White Bin,BIN_09,481.8,0.88,Correctly Segregated,53.0,No
+REC0693,2026-10-16 05:52:00,Pediatrics,Floor 2,Office Trash,Black Bin,BIN_02,80.3,0.77,Correct,39.0,No
+REC0694,2026-10-12 00:06:00,OPD,Floor 4,Hazardous Chemicals,White Bin,BIN_06,311.9,0.9,Correctly Segregated,100.0,Yes
+REC0695,2026-10-01 13:03:00,Radiology,Ground,IV Bags/Tubes,Yellow Bin,BIN_09,306.3,0.73,Correctly Segregated,13.0,No
+REC0696,2026-10-09 18:53:00,ICU,Ground,Needles,Green Bin,BIN_10,-25.0,0.73,Correct,37.0,No
+REC0697,2026-10-06 11:02:00,Emergency,Floor 4,Urine/Body Fluids,RED BIN,BIN_03,247.4,0.81,Misclassified / Override Required,95.0,Yes
+REC0698,2026-10-09 09:15:00,,Floor 2,Hazardous Chemicals,White Bin,BIN_08,70.0,0.89,Correct,19.0,no
+REC0699,2026-10-20 10:22:00,General Ward,Floor 2,Cotton Swabs,Yellow Bin,BIN_03,399.1,0.93,Correctly Segregated,40.0,No
+REC0700,2026-10-03 17:36:00,Pediatrics,Floor 2,Metallic & Plastic Waste,Blue Bin,BIN_03,164.4,0.83,Correctly Segregated,,No
+REC0701,2026-10-09 02:54:00,Laboratory,Ground,Syringes,Green Bin,BIN_03,125.4,0.86,Misclassified / Override Required,55.0,Yes
+REC0702,2026-10-12 18:53:00,Emergency,Ground,Office Trash,Black Bin,BIN_02,441.1,0.72,Correctly Segregated,61.0,No
+REC0703,2026-10-30 17:06:00,ICU,Ground,Metallic & Plastic Waste,White Bin,BIN_11,108.5,0.81,Correctly Segregated,24.0,No
+REC0704,2026-10-01 04:02:00,Laboratory,Floor 3,Contaminated Recyclable Plastics,Red Bin,BIN_07,61.8,0.82,Correctly Segregated,78.0,No
+REC0705,2026-10-06 12:23:00,General Ward,Floor 2,Cotton Swabs,Green Bin,BIN_11,54.9,0.79,Correctly Segregated,66.0,No
+REC0706,2026-10-17 15:03:00, General Ward ,Ground,Used Bandages,Yellow Bin,,309.5,0.92,Correctly Segregated,16.0,No
+REC0707,2026-10-18 11:36:00,OPD,floor-2,Chemical Containers,Blue Bin,BIN_12,68.4,0.81,Correctly Segregated,10.0,No
+REC0708,2026-10-29 19:10:00,Laboratory,Floor 1,Surgical Waste,Yellow Bin,BIN_03,775.8,0.71,Correctly Segregated,15.0,No
+REC0709,2026-10-18 16:38:00,Emergency,Floor 4,Anatomical Waste,Yellow Bin,BIN_11,36.0,0.79,Correct,67.0,No
+REC0710,2026-10-02 16:27:00,General Ward,Ground,Expired Medications,White Bin,BIN_06,740.4,0.93,Misclassified / Override Required,7.0,Yes
+REC0711,2026-10-24 19:23:00,Lab,Fourth Floor,Used Bandages,Yellow Bin,BIN_03,225.6,0.91,Correctly Segregated,88.0,Yes
+REC0712,2026-10-30 18:09:00,ICU,Floor 3,Glassware,Red Bin,BIN_10,176.4,0.71,Correctly Segregated,full,No
+REC0713,2026-10-05 10:16:00,Laboratory,Fourth Floor,Contaminated Recyclable Plastics,Red Bin,BIN_03,123.2,0.94,Correctly Segregated,44.0,No
+REC0714,2026-13-40 25:61:00,OPD,Ground,Cotton Swabs,Yellow Bin,BIN_04,262.3,-0.2,Correctly Segregated,,No
+REC0715,2026-10-25 20:15:00,OT,Floor 2,Food Waste,Black Bin,BIN_04,184.9,0.92,Correctly Segregated,78.0,No
+REC0716,2026-10-07 10:16:00,Radiology,Floor 1,Hazardous Chemicals,White Bin,BIN_12,460.7,0.81,Correctly Segregated,40.0,No
+REC0717,2026-10-07 01:40:00,Emergency,Floor 4,IV Bags/Tubes,RED BIN,BIN_07,208.8,0.93,Correctly Segregated,10.0,No
+REC0718,2026-10-09 03:58:00,Emergency,Floor 4,Anatomical Waste,Yellow Bin,BIN_05,214.9,0.82,Correctly Segregated,5.0,No
+REC0719,2026-10-13 07:56:00,Laboratory,Floor 3,Syringes,Green Bin,BIN_04,142.5,0.97,Correctly Segregated,86.0,Yes
+REC0720,2026-10-05 00:08:00,Paediatrics,floor-2,Used Bandages,Yellow Bin,BIN_07,182.1,0.7,Correctly Segregated,83.0,No
+REC0721,2026-10-29 04:01:00,General Ward,Floor 4,Glassware,Blue Bin,BIN_09,243.8,0.76,Correctly Segregated,17.0,No
+REC0722,2026-10-22 14:11:00,Laboratory,1st Floor,Urine/Body Fluids,Red Bin,BIN_03,48.5,0.89,Correctly Segregated,24.0,No
+REC0723,2026-10-20 18:46:00,Pediatrics,Floor 2,used bandages,Yellow Bin,BIN_10,64.8,0.93,Correctly Segregated,,No
+REC0851,2026-10-09 00:06:00,Operation Theater,Ground,Needles,Green Bin,BIN_08,345.4,0.85,Correctly Segregated,73.0,No
+REC0725,2026-10-27 09:15:00,General Ward,Floor 3,Cotton Swabs,Yellow Bin,BIN_04,218.5,0.92,Correctly Segregated,80.0,No
+REC0726,2026-10-05 11:06:00,OPD,Floor 3,Non-Infectious Waste,Black Bin,BIN_04,164.5,0.81,Correct,34.0,no
+REC0727,2026-10-20 20:04:00,OT,Floor 1,Glassware,Blue Bin,BIN_10,193.4,0.83,Correct,11.0,No
+REC0728,2026-10-29 18:20:00,General Ward,Floor 2,Food Waste,Black Bin,BIN_04,251.7,0.8,Correctly Segregated,29.0,No
+REC0729,2026-10-06 01:21:00,Laboratory,Floor 3,used bandages,Yellow Bin,BIN_07,123.7,0.75,Correctly Segregated,22.0,No
+REC0730,2026-10-30 00:51:00,OT,Floor 4,Non-Infectious Waste,Black Bin,BIN_09,102.2,0.95,Correctly Segregated,25.0,No
+REC0731,2026-10-27 22:09:00,Laboratory,F3,Cotton Swabs,Yellow Bin,BIN_05,222.9,0.7,Correctly Segregated,32.0,No
+REC0732,2026-10-20 18:18:00,OPD,Floor 4,Office Trash,Black Bin,BIN_03,87.1,0.96,Correctly Segregated,46.0,No
+REC0733,2026-10-23 22:44:00,ICU,Floor 3,Anatomical Waste,Black Bin,BIN_09,264.2,0.81,Correctly Segregated,98.0,Yes
+REC0734,2026-10-01 13:34:00, Radiology ,Floor 1,Surgical Waste,Yellow Bin,BIN_03,48.8,0.8,Correctly Segregated,76.0,No
+REC0735,2026-10-14 20:57:00,OT,Floor 3,Glassware,Blue,BIN_10,434.1,0.92,Correctly Segregated,66.0,No
+REC0736,2026-10-19 10:45:00,OT,Floor 2,Anatomical Waste,Yellow Bin,BIN_11,278.1,0.83,Misclassified / Override Required,22.0,Yes
+REC0737,2026-10-16 03:37:00,ICU,Basement,Anatomical Waste,Yellow Bin,BIN_07,233.9,0.92,Correctly Segregated,93.0,Yes
+REC0738,2026-10-04 16:25:00,General Ward,Ground,Expired Medications,White Bin,BIN_09,418.3,0.97,Correct,92.0,Yes
+REC0739,2026-10-22 04:17:00,icu,floor-2,Paper Wrappers,Black Bin,BIN_06,722.3,0.75,Correctly Segregated,51.0,no
+REC0740,2026-10-07 07:10:00,General Ward,1st Floor,Expired Medications,White Bin,BIN_09,429.0,0.73,Correctly Segregated,31.0,no
+REC0741,2026-10-10 13:09:00,OPD,Floor 2,Syringes,Green Bin,BIN_06,43.7,0.96,Correctly Segregated,94.0,YES
+REC0742,2026-10-17 23:12:00,General Ward,Floor 3,Blades,Green Bin,BIN_08,68.5,0.85,Correctly Segregated,13.0,No
+REC0743,2026-10-14 07:13:00,Laboratory,Floor 4,Surgical Waste,Yellow Bin,BIN_06,115.6,0.93,Correctly Segregated,73.0,No
+REC0334,2026-10-04 15:34:00,Radiology,Floor 1,Cotton Swabs,Yellow Bin,BIN_05,194.6,0.98,Correctly Segregated,16.0,No
+REC0745,2026-10-07 10:16:00,Radiology,Floor 1,Hazardous Chemicals,White Bin,BIN_12,460.7,0.81,Correctly Segregated,40.0,No
+REC0746,2026-10-07 00:12:00,Laboratory,Floor 2,Anatomical Waste,Yellow Bin,BIN_07,106.6,0.83,Correctly Segregated,74.0,No
+REC0747,2026-10-24 15:33:00,General Ward,Floor 3,Anatomical Waste,yellow bin,BIN_10,221.3,0.8,Correctly Segregated,34.0,No
+REC0748,2026-10-25 23:04:00,Laboratory,Floor 3,Non-Infectious Waste,Black Bin,BIN_05,104.1,0.86,Correctly Segregated,72.0,No
+REC0749,2026-10-17 22:12:00,Pediatrics,Ground,,Blue Bin,BIN_03,116.8,0.8,Correctly Segregated,66.0,No
+REC0750,2026-10-25 08:42:00,Pediatrics,Floor 1,Needles,Green Bin,BIN_03,61.8,0.94,Misclassified / Override Required,25.0,Yes
+REC0751,2026-10-27 03:32:00,OT,Floor 3,Contaminated Recyclable Plastics,Red Bin,BIN_05,91.1,0.81,Correctly Segregated,45.0,No
+REC0752,2026-10-07 17:35:00,General Ward,Floor 3,Urine/Body Fluids,Black Bin,BIN_09,64.6,0.98,Correctly Segregated,49.0,No
+REC0753,2026-10-23 17:29:00,OT,Floor 3,Expired Medications,White Bin,BIN_06,87.3,0.75,,56.0,No
+REC0754,2026-10-14 10:49:00,Laboratory,Floor 2,Expired Medications,White Bin,BIN_10,442.7,0.89,Misclassified / Override Required,95.0,Yes
+REC0755,2026-10-06 02:40:00,Lab,ground floor,Hazardous Chemicals,White Bin,BIN_03,89.2,0.9,Correctly Segregated,48.0,No
+REC0756,2026-10-21 07:07:00, General Ward ,Ground,Surgical Waste,Yellow Bin,BIN_06,1565.4,0.72,Correctly Segregated,,No
+REC0757,2026-10-09 21:46:00, ICU ,Ground,Urine/Body Fluids,RED BIN,BIN_09,282.8,0.95,Correct,40.0,no
+REC0758,2026-10-15 11:04:00,ICU,Floor 2,Cotton Swabs,Yellow Bin,BIN_07,220.9,0.74,Misclassified,67.0,Yes
+REC0759,2026-10-16 16:44:00,General Ward,Floor 2,Office Trash,Black Bin,BIN_08,95.9,0.95,Correctly Segregated,41.0,No
+REC0760,2026-10-19 21:57:00,Laboratory,Floor 2,Cotton Swabs,Yellow Bin,BIN_03,333.7,0.93,Correctly Segregated,99.0,Yes
+REC0761,2026-10-28 05:06:00,Emergency,Floor 1,Office Trash,Black Bin,BIN_04,,0.79,Correctly Segregated,80.0,No
+REC0762,2026-10-18 02:26:00,Emergency,Ground,Blades,Green Bin,BIN_07,210.1,0.89,Misclassified / Override Required,80.0,Yes
+REC0763,2026-10-26 20:18:00,OT,Floor 1,Metallic & Plastic Waste,Blue Bin,BIN_03,1477.4,0.94,Correctly Segregated,95.0,Yes
+REC0764,2026-10-14 19:57:00,Laboratory,Floor 4,Chemical Containers,Black Bin,BIN_12,,0.83,Correctly Segregated,79.0,
+REC0765,2026-10-30 03:39:00,Laboratory,Ground,Anatomical Waste,Yellow Bin,BIN_11,477.9,0.89,Correct,43.0,no
+REC0766,2026-10-30 08:16:00,opd,Ground,Chemical Containers,Blue Bin,BIN_02,108.6,0.92,Correctly Segregated,93.0,Yes
+REC0767,2026-10-17 11:08:00,Laboratory,Floor 4,Syringes,green,BIN_07,185.3,0.95,Misclassified,100.0,Yes
+REC0768,2026-10-24 07:48:00,icu,Floor 2,Syringes,Green Bin,BIN_03,785.8,0.87,Misclassified / Override Required,52.0,YES
+REC0769,2026-10-17 06:21:00,OT,Ground,Contaminated Recyclable Plastics,Red Bin,BIN_05,115.4,0.8,Correctly Segregated,22.0,No
+REC0770,2026-10-04 11:54:00,OPD,Floor 1,Paper Wrappers,Black Bin,BIN_02,812.4,0.87,Correctly Segregated,86.0,YES
+REC0771,2026-10-14 16:51:00,Pediatrics,Floor 2,IV Bags/Tubes,Red Bin,BIN_02,335.7,0.85,Correctly Segregated,92.0,Yes
+REC0772,2026-10-17 23:25:00,Laboratory,Floor 3,Paper Wrappers,Blue Bin,BIN_06,121.5,0.97,Correct,41.0,No
+REC0734,2026-10-09 13:48:00,Emergency,Floor 3,IV Bags/Tubes,RED BIN,BIN_08,316.1,0.97,Correctly Segregated,33.0,No
+REC0774,2026-10-16 20:20:00,Pediatrics,Floor 2,Surgical Waste,Yellow Bin,BIN_03,414.9,0.94,Correctly Segregated,66.0,No
+REC0775,2026-10-14 20:47:00,ICU,Ground,Blades,Green Bin,BIN_04,313.4,0.74,Correct,95.0,Yes
+REC0776,2026-10-06 22:13:00,Emergency,Floor 3,Contaminated Recyclable Plastics,Red Bin,BIN_12,54.3,0.92,Correctly Segregated,31.0,No
+REC0777,2026-10-02 22:26:00,OPD,Ground,Surgical Waste,Yellow Bin,BIN_01,106.5,0.93,Correctly Segregated,60.0,No
+REC0778,2026-10-02 23:16:00,Emergency,Floor 2,Blades,Green Bin, BIN_11 ,156.3,0.7,,37.0,No
+ REC0779 ,2026-10-27 17:49:00,OPD,Floor 1,Surgical Waste,Yellow Bin,BIN_11,179.5,0.8,Pending,31.0,No
+REC0780,2026-10-27 09:14:00,General Ward,Floor 2,Cotton Swabs,Yellow Bin,BIN_03,313.1,0.95,Correctly Segregated,40.0,No
+REC0781,2026-10-01 15:16:00,,1st Floor,Glassware,Blue Bin,BIN_05,219.7,0.75,Correctly Segregated,79.0,No
+REC0782,2026-10-23 22:42:00,Laboratory,Floor 2,Expired Medications,White Bin,BIN_12,65.5,0.87,Correctly Segregated,32.0,No
+REC0783,2026-10-18 06:38:00,,Floor 1,Needles,Green Bin,BIN_09,258.3,0.77,Correctly Segregated,50.0,No
+REC0784,2026-10-06 00:29:00,OT,Floor 3,Surgical Waste,Yellow Bin,BIN_06,310.6,0.9,Correctly Segregated,64.0,no
+REC0785,2026-10-06 06:23:00,Radiology,Floor 2,Expired medication,White Bin,BIN_08,298.2,0.87,Correctly Segregated,68.0,no
+REC0786,2026-10-26 05:01:00,Radiology,Floor 2,Chemical Containers,Blue Bin,BIN_07,452.4,0.75,Correctly Segregated,33.0,No
+REC0787,2026-10-17 17:20:00,OT,Ground,Cotton Swabs,Yellow Bin,BIN_11,371.3,0.84,Correctly Segregated,91.0,YES
+REC0788,2026-10-04 20:50:00,Emergency,1st Floor,Surgical Waste,Yellow Bin,BIN_07,275.2,0.82,Correctly Segregated,91.0,Yes
+REC0789,2026-10-03 22:40:00,General Ward,Floor 1,Hazardous Chemicals,White Bin,BIN_06,180.2,0.76,Misclassified / Override Required,26.0,Yes
+REC0790,2026-10-23 17:09:00,Pediatrics,Floor 4,Food Waste,Black Bin,BIN_10,50.5,0.78,Correctly Segregated,97.0,Yes
+REC0791,2026-10-23 01:14:00,Pediatrics,Floor 1,Food Waste,Black Bin,BIN_08,268.7,0.73,Correctly Segregated,56.0,No
+ REC0792 ,2026-10-02 08:27:00,Emergency,Ground,Metallic & Plastic Waste,Blue Bin,BIN_02,225.0,0.84,Correctly Segregated,22.0,No
+REC0793,2026-10-15 21:07:00,OT,Floor 2,Anatomical Waste,Yellow Bin,BIN_10,236.8,0.88,Misclassified / Override Required,91.0,Yes
+REC0794,2026-10-22 05:01:00,opd,Floor 2,Cotton Swabs,Yellow Bin,BIN_11,68.6,0.84,Correctly Segregated,68.0,No
+REC0795,2026-10-25 21:03:00,ICU,ground floor,Blades,Green Bin,BIN_07,80.3,0.96,Correctly Segregated,74.0,No
+REC0796,2026-10-21 03:23:00,Laboratory,Ground,Surgical Waste,Yellow Bin,BIN_01,442.5,0.75,,53.0,No
+REC0797,2026-10-07 02:53:00,Pediatrics,Floor 3,Chemical Containers,Blue Bin,BIN_08,184.6,0.92,Correctly Segregated,60.0,no
+REC0798,2026-10-25 13:09:00,Laboratory,F3,Hazardous Chemicals,White Bin,BIN_09,328.7,0.92,Correctly Segregated,92.0,Yes
+REC0799,2026-10-18 04:39:00,General Ward,Floor 2,Blades,Green Bin,BIN_06,194.9,0.72,Correctly Segregated,80.0,No
+REC0800,2026-10-27 13:50:00,ICU,Floor 2,Hazardous Chemicals,White Bin,BIN_07,195.2,0.73,Correctly Segregated,49.0,No
+REC0801,2026-10-12 02:45:00,OPD,Floor 1,Paper Wrappers,Black Bin,BIN_11,403.7,0.79,Misclassified / Override Required,12.0,Yes
+REC0802,2026-10-06 05:01:00,General Ward,Floor 1,Cotton Swabs,Yellow Bin,BIN_01,126.1,0.86,Correctly Segregated,44.0,No
+REC0803,2026-10-24 10:15:00,radiology,Floor 2,used bandages,Yellow Bin,BIN_01,205.8,0.9,Correct,77.0,No
+REC0804,2026-10-18 18:18:00,General Ward,Floor 4,Hazardous Chemicals,White Bin,BIN_02,131.7,0.93,Correctly Segregated,78.0,No
+REC0805,2026-10-23 21:09:00,General Ward,1st Floor,Surgical Waste,Yellow Bin,BIN_10,134.6,0.79,Correctly Segregated,68.0,No
+REC0806,2026-10-25 09:16:00,OPD,Floor 2,Office Trash,Black Bin,BIN_05,148.8,0.71,Correctly Segregated,14.0,No
+REC0807,2026-10-05 04:26:00,Emergency,Floor 4,Hazardous Chemicals,White Bin,BIN_06,227.6,0.78,Correctly Segregated,100.0,Yes
+REC0808,2026-10-16 19:21:00,Emergency,Floor 2,Hazardous Chemicals,White Bin,BIN_09,129.9,0.93,Correctly Segregated,31.0,No
+REC0809,2026-10-19 07:25:00,Pediatrics,Floor 4,Office Trash,Black Bin,BIN_09,520.4,0.83,Correctly Segregated,58.0,No
+REC0810,2026-10-27 06:04:00,Laboratory,Floor 1,Expired Medications,Green Bin,BIN_11,93.2,0.98,Correctly Segregated,28.0,No
+REC0811,2026-10-20 17:44:00,ICU,Floor 4,Needles,Green Bin,BIN_04,164.1,0.81,Correctly Segregated,83.0,no
+REC0812,2026-10-20 19:33:00,Radiology,Floor 2,Contaminated Recyclable Plastics,Red Bin,BIN_02,134.1,0.88,Correctly Segregated,43.0,No
+REC0813,2026-10-12 16:06:00,OPD,Floor 3,Office Trash,Black Bin,BIN_04,606.4, 0.85 ,Correctly Segregated,25.0,No
+REC0814,2026-10-22 02:59:00,Laboratory,Floor 4,Urine/Body Fluids,Red Bin,BIN_07,223.0,0.82,Correctly Segregated,44.0,No
+REC0815,2026-10-12 18:14:00,Pediatrics,Floor 4,Used Bandages,Yellow Bin,BIN_03,435.1,0.89,Correctly Segregated,8.0,No
+REC0816,2026-10-03 12:25:00,Emergency,Floor 2,Used Bandages,Yellow Bin,BIN_10,58.1,0.79,Misclassified / Override Required,7.0,Yes
+REC0817,2026-10-30 22:05:00,Emergency,Floor 3,Cotton Swabs,yellow bin,BIN_12,236.0,0.94,Correctly Segregated,51.0,No
+REC0818,2026-10-24 18:07:00,Pediatrics,Floor 3,Glassware,Blue Bin,BIN_02,388.3,0.77,Correct,20.0,No
+REC0819,2026-10-18 17:55:00,OPD,Floor 3,Surgical Waste,Yellow Bin,BIN_04,203.5,0.74,Correct,79.0,No
+REC0820,2026-10-12 13:46:00,ICU,Floor 3,IV Bags/Tubes,Red Bin,BIN_09,446.9,0.81,Correctly Segregated,57.0,Maybe
+REC0821,2026-10-12 05:04:00, Pediatrics ,1st Floor,Surgical Waste,Yellow Bin,BIN_06,126.0,0.84,Correctly Segregated,92.0,Yes
+REC0822,2026-10-02 14:01:00,ICU,Floor 1,Paper Wrappers,White Bin,BIN_05,588.4,0.86,Correctly Segregated,82.0,No
+REC0823,2026-10-06 13:18:00,OPD,Floor 3,Chemical Containers,Blue Bin,BIN_07,1198.9,0.7,Correctly Segregated,92.0,Yes
+REC0824,2026-10-05 02:34:00,OPD,Floor 2,Food Waste,Black Bin,BIN_04,142.6,0.95,Correctly Segregated,43.0,no
+REC0825,2026-10-19 11:46:00,ICU,Floor 2,IV Bags/Tubes,Red Bin,BIN_02,133.4,0.94,Correctly Segregated,87.0,Yes
+REC0826,2026-10-20 05:20:00,Emergency,1st Floor,Syringes,Green Bin,BIN_12,609.5,0.78,Correctly Segregated,47.0,No
+REC0827,2026-10-15 20:55:00,Laboratory,Ground,Cotton Swabs,Yellow Bin,BIN_01,674.3,0.89,Correctly Segregated,75.0,No
+REC0828,2026-10-01 03:21:00,Radiology,Floor 1,IV Bags/Tubes,Red Bin,BIN_11,125.4,0.79,Correctly Segregated,22.0,No
+REC0829,2026-10-30 13:04:00,OT,Floor 4,Hazardous Chemicals,White Bin,BIN_11,136.2,0.82,Correctly Segregated,71.0,No
+REC0830,2026-10-12 20:43:00,OT,Floor 4,Non infectious waste,Black Bin,BIN_06,152.1,0.93,Correctly Segregated,22.0,No
+REC0831,2026-10-18 04:08:00,OPD,Ground,Urine/Body Fluids,Red Bin,BIN_01,65.0,0.97,Correct,55.0,No
+REC0832,2026-10-12 21:56:00,OT,Ground,Glassware,Blue,BIN_07,91.4,0.88,Correct,30.0,No
+REC0833,2026-10-26 19:34:00,Emergency,Ground,Metallic & Plastic Waste,Blue Bin,BIN_12,85.3,0.85,Correctly Segregated,26.0,No
+REC0834,2026-10-10 05:53:00,OPD,floor-2,Needles,Green Bin,BIN_05,103.1,0.92,Correct,33.0,No
+REC0835,2026-10-10 19:27:00,Pediatrics,Floor 1,Food Waste,Black Bin,BIN_07,185.4,0.75,Correctly Segregated,81.0,No
+REC0836,2026-10-29 02:40:00,Laboratory,Floor 1,Contaminated Recyclable Plastics,Red Bin,BIN_06,229.8,0.87,Correctly Segregated,35.0,No
+REC0837,2026-10-19 02:14:00,OPD,Floor 3,Needles,Green Bin,BIN_12,658.8,0.82,Correctly Segregated,46.0,No
+REC0838,2026-10-16 03:34:00,OPD,Floor 3,Metallic & Plastic Waste,Blue Bin,BIN_06,85.7,0.99,Correctly Segregated,11.0,No
+REC0839,2026-10-14 18:25:00,Radiology,Floor 2,Used Bandages,Yellow Bin,BIN_03,418.8,0.98,Correctly Segregated,53.0,No
+REC0840,2026-10-23 22:13:00,Laboratory,Floor 2,Expired Medications,White Bin,BIN_08,160.6,0.74,Correctly Segregated,26.0,No
+REC0841,2026-10-06 07:37:00,General Ward,Ground,Non-Infectious Waste,Black Bin,BIN_03,183.2,0.84,Correctly Segregated,38.0,No
+REC0842,2026-10-12 23:30:00,Pediatrics,Floor 4,Metallic & Plastic Waste,Blue Bin,BIN_06,327.0,0.83,Correctly Segregated,41.0,No
+REC0843,2026-10-26 06:56:00,Laboratory,Ground,IV Bags/Tubes,RED BIN,BIN_04,77.6,0.74,Correctly Segregated,24.0,No
+REC0844,2026-10-22 06:14:00,Radiology,Ground,Glassware,Blue Bin,BIN_08,258.8,0.71,Correctly Segregated,25.0,No
+REC0845,2026-10-23 10:28:00,Emergency,Floor 1,Paper Wrappers,Black Bin,BIN_02,217.7,0.8,Misclassified,63.0,Yes
+REC0846,2026-10-24 03:40:00,Pediatrics,Floor 4,Urine/Body Fluids,Red Bin, BIN_11 ,282.6,0.87,Correctly Segregated,26.0,No
+REC0847,2026-10-04 11:55:00,OPD,Floor 3,Hazardous Chemicals,Red Bin,BIN_11,240.2,0.73,Misclassified / Override Required,58.0,YES
+ REC0848 ,2026-10-06 13:14:00,Radiology,Floor 2,Non-Infectious Waste,Black Bin,BIN_10,1358.6,0.97,Correctly Segregated,92.0,YES
+REC0849,2026-10-21 22:41:00,Laboratory,Floor 3,Surgical Waste,yellow bin,BIN_11,114.4,0.98,Correctly Segregated,15.0,No
+REC0850,2026-10-15 18:53:00,OT,Floor 1,Anatomical Waste,Black Bin ,BIN_01,124.6,0.93,Correctly Segregated,62.0,No
+REC0851,2026-10-25 21:38:00,Radiology,Ground,Chemical Containers,Blue Bin,BIN_07,115.8,0.77,Correctly Segregated,14.0,no
+REC0852,2026-10-01 22:24:00,OPD,Floor 1,Glassware,Blue Bin,BIN_07,122.2,0.93,Misclassified / Override Required,16.0,Yes
+REC0853,2026-10-06 11:43:00,Pediatrics,Floor 3,Chemical Containers,Blue Bin,BIN_07,114.4,0.91,Correctly Segregated,24.0,No
+REC0854,2026-10-05 08:58:00,General Ward,Floor 4,Chemical Containers,Blue Bin,BIN_04,493.3,0.84,Correctly Segregated,50.0,no
+REC0855,2026-10-05 02:32:00,Radiology,Floor 2,Food Waste,Black Bin,BIN_10,593.7,0.75,Correct,59.0,No
+REC0856,2026-10-11 04:55:00,Operation Theater,Floor 3,Office Trash,Black Bin,BIN_09,120.7,0.88,Correctly Segregated,64.0,No
+REC0857,2026-10-22 17:40:00,Pediatrics,Floor 1,Blades,Green Bin,BIN_03,97.9,0.9,Correctly Segregated,15.0,no
+REC0858,2026-10-26 20:59:00,ICU,Floor 4,Chemical Containers,Blue,BIN_02,277.9,0.97,Correctly Segregated,42.0,No
+REC0859,2026-10-22 03:31:00,Pediatrics,Floor 2,Blades,Green Bin,BIN_05,122.5,0.87,Correctly Segregated,17.0,No
+REC0860,2026-10-09 04:07:00,OT,Floor 3,Blades,Green Bin,BIN_01,316.2,0.72,Correctly Segregated,85%,No
+REC0861,2026-10-21 11:27:00,Pediatrics,Floor 2,Chemical Containers,Blue Bin,BIN_03,224.2,0.76,Wrong,90.0,Yes
+REC0862,2026-10-05 20:08:00,Radiology,Floor 4,Cotton Swabs,Yellow Bin,BIN_01,56.7,0.7,Correctly Segregated,91.0,Yes
+REC0863,2026-10-19 10:28:00,Laboratory,Floor 2,Surgical Waste,yellow bin,BIN_10,657.2,0.94,Correctly Segregated,63.0,No
+REC0864,2026-10-18 23:26:00,Pediatrics,ground floor,Paper Wrappers,Black Bin,,801.7,0.74,Correctly Segregated,91.0,Yes
+REC0865,2026-10-10 12:32:00,Laboratory,Floor 1,Urine/Body Fluids,Blue Bin,BIN_11,116.7,0.77,Correctly Segregated,8.0,No
+REC0866,2026-10-07 17:50:00,Laboratory,Floor 3,Expired Medications,White Bin,BIN_01,139.7,0.73,Correct,64.0,No
+REC0867,2026-10-22 10:59:00,ICU,Floor 3,Contaminated Recyclable Plastics,RED BIN,BIN_10,239.5,0.77,Correctly Segregated,67.0,No
+REC0868,not recorded,ICU,Ground,Chemical Containers,Blue Bin,BIN_11,249.0,0.95,Correctly Segregated,11.0,No
+REC0869,2026-10-27 08:03:00,Pediatrics,Ground,Office Trash,Black Bin,BIN_08,322.7,0.82,Misclassified / Override Required,99.0,Yes
+REC0870,2026-10-23 04:55:00,OPD,Ground,Blades,green,BIN_09,951.6,0.71,Correctly Segregated,91.0,Yes
+REC0871,2026-10-19 23:37:00,Laboratory,ground floor,Hazardous Chemicals,White Bin,BIN_08,,0.88,Correctly Segregated,87.0,Yes
+REC0872,2026-10-14 02:35:00,OPD,Floor 3,Paper Wrappers,Black Bin,BIN_06,100.6,0.83,Correctly Segregated,25.0,No
+REC0873,2026-10-28 09:39:00,Laboratory,Floor 1,Blades,Green Bin,BIN_05,63.2,0.91,Correctly Segregated,48.0,No
+REC0874,2026-10-30 16:42:00,General Ward,Floor 3,Food Waste,Black Bin ,BIN_03,106.2,0.88,Misclassified,91.0,Yes
+REC0875,2026-10-06 21:00:00,OT,Floor 1,Chemical Containers,Blue Bin,BIN_03,185.6,0.88,Correctly Segregated,66.0,No
+REC0876,2026-10-14 19:40:00,OPD,Floor 1,Surgical Waste,Yellow Bin,BIN_09,800.8,0.71,Correctly Segregated,68.0,No
+REC0877,2026-10-08 05:14:00,OT,Floor 4,Anatomical Waste,Yellow Bin,BIN_01,126.0,0.93,Correctly Segregated,91.0,Yes
+REC0878,2026-10-26 13:50:00,OPD,Floor 3,Non-Infectious Waste,Black Bin ,BIN_05,227.9,0.99,Correctly Segregated,20.0,no
+REC0879,2026-10-13 04:10:00,OT,Floor 4,Paper Wrappers,Black Bin,BIN_10,188.1,0.89,Correctly Segregated,76.0,No
+REC0880,2026-10-06 01:09:00,Emergency,Floor 4,Used Bandages,Yellow Bin,BIN_10,493.1,0.93,Correctly Segregated,63.0,No
+REC0881,2026-10-29 16:02:00,Emergency,Floor 1,Surgical Waste,Red Bin,BIN_06,1438.8,0.75,Correctly Segregated,26.0,No
+REC0882,2026-10-05 12:27:00,OT,Floor 2,Chemical Containers,Blue Bin,BIN_06,124.6,0.94,,68.0,No
+REC0883,2026-10-01 07:11:00,OPD,Floor 3,Surgical Waste,Yellow Bin,BIN_06,128.8,0.78,Correctly Segregated,58.0,
+REC0884,2026-10-17 09:55:00,OPD,Floor 1,IV Bags / Tubes,Red Bin,BIN_09,439.4,0.82,Correct,58.0,No
+REC1239,2026-10-21 21:04:00,General Ward,Ground,Glassware,Blue Bin,BIN_08,328.8,0.74,Correctly Segregated,57.0,No
+REC0886,2026-10-04 20:36:00, General Ward ,Floor 2,Anatomical Waste,Yellow Bin,BIN_07,834.9,0.98,Correctly Segregated,13.0,No
+REC0887,2026-10-30 04:39:00,OT,Floor 4,IV Bags/Tubes,Red Bin,BIN_01,304.0,0.98,Correctly Segregated,9.0,No
+REC0888,2026-10-26 04:41:00,Pediatrics,Floor 2,Blades,Green Bin,BIN_06,143.0,0.7,Misclassified / Override Required,92.0,Yes
+REC0889,2026-10-19 09:12:00,Laboratory,Floor 1,Metallic & Plastic Waste,Blue,BIN_09,305.7,0.88,Correctly Segregated,23.0,no
+REC0890,2026-10-19 09:49:00,OPD,Floor 2,Needles,Green Bin,BIN_02,462.6,0.71,Correctly Segregated,88.0,Yes
+REC0891,2026-10-24 16:29:00,Pediatrics,Floor 1,Non-Infectious Waste,Black Bin,BIN_02,367.4,0.85,Correctly Segregated,21.0,No
+REC0892,2026-10-02 01:34:00,ICU,Floor 4,Chemical Containers,Blue Bin,BIN_10,286.0,0.78,Correctly Segregated,25.0,No
+REC0893,2026-10-03 17:28:00,General Ward,Floor 2,Chemical Containers,Blue Bin,BIN_11,447.3,0.85,Correctly Segregated,19.0,No
+REC0894,2026-10-21 10:08:00,Pediatrics,Floor 4,Surgical Waste,Yellow Bin,BIN_12,485.6,0.7,Correctly Segregated,20.0,No
+REC0895,2026-10-26 17:46:00,OPD,Floor 2,Non-Infectious Waste,Black Bin,BIN_05,575.8,0.78,Misclassified / Override Required,79.0,YES
+REC0896,2026-10-12 06:28:00,Emergency,Floor 2,Hazardous Chemicals,White Bin,BIN_09,320.2,0.87,Correctly Segregated,71.0,No
+REC1002,2026-10-19 18:04:00,,Ground,Paper Wrappers,Black Bin,BIN_01,166.7,0.82,Correctly Segregated,59.0,No
+REC0898,2026-10-24 22:48:00,Radiology,Floor 4,Contaminated Recyclable Plastics,Red Bin, BIN_09 ,214.3,0.85,Correctly Segregated,52.0,No
+REC0899,2026-10-20 06:29:00,Lab,Floor 3,Food Waste,Black Bin,BIN_12,500.3,0.98,Correctly Segregated,86.0,Yes
+REC0900,2026-10-21 19:56:00,OT,Floor 4,IV Bags/Tubes,Red Bin,BIN_09,99.1,0.73,Correctly Segregated,96.0,Yes
+REC0901,2026-10-17 19:24:00,Emergency,Fourth Floor, Urine/Body Fluids ,Blue Bin,BIN_07,255.9,0.73,Correctly Segregated,76.0,No
+REC0902,2026-10-17 21:44:00,Pediatrics,floor-2,Paper Wrappers,Yellow Bin,BIN_05,139.1,0.79,Correctly Segregated,20.0,No
+REC0903,2026-10-20 04:40:00,ICU,Floor 2,Anatomical Waste,Yellow Bin,BIN_05,195.0,0.76,Correctly Segregated,80.0,No
+REC0904,2026-10-03 00:48:00,Radiology,Floor 3,Syringes,Green Bin,BIN_10,529.9,0.79,Correctly Segregated,13.0,No
+REC0905,2026-10-28 13:35:00,OT,Floor 1,Needles,Green Bin,BIN_09,222.0,,Correctly Segregated,65.0,no
+REC0906,2026-10-15 19:13:00,Emergency,Floor 4,Needles,Green Bin,BIN_11,197.8,0.88,Correctly Segregated,98.0,Yes
+REC0907,2026-10-03 02:02:00,Laboratory,Floor 2,Food Waste,Black Bin,BIN_11,64.2,0.73,Correctly Segregated,74.0,No
+REC0908,2026-10-15 01:20:00,ER,Floor 4,IV Bags/Tubes,RED BIN,BIN_02,346.2,0.76,Correctly Segregated,95.0,Yes
+REC0909,2026-10-22 15:44:00, ICU ,Ground,Expired Medications,Green Bin,BIN_11,319.4,0.97,Correctly Segregated,29.0,No
+REC0910,2026-10-12 03:55:00,Laboratory,ground floor,IV Bags/Tubes,Red Bin,BIN_09,1075.6,0.88,Misclassified / Override Required,31.0,YES
+REC0911,2026-10-16 11:19:00,Radiology,Floor 1,Food Waste,Black Bin,BIN_07,149.0,0.71,Correctly Segregated,7.0,no
+REC0912,2026-10-05 12:29:00,OT,Floor 2,Blades,Green Bin,BIN_03,227.1,0.75,Correctly Segregated,19.0,No
+REC0913,2026-10-08 16:48:00,ICU,Floor 4,Cotton Swabs,Yellow Bin,BIN_06,232.6,0.75,Correct,91.0,Yes
+REC0914,2026-10-19 18:54:00,General Ward,Floor 2,used bandages,Yellow Bin,BIN_07,673.1,0.97,Correctly Segregated,23.0,No
+REC0915,2026-10-27 16:06:00,OPD,Floor 3,Surgical Waste,Yellow Bin,BIN_09,176.6,0.92,Correctly Segregated,81.0,No
+REC0916,2026-10-22 03:42:00,Radiology,Ground,Food Waste,Black Bin ,BIN_08,238.2,0.71,Correct,45.0,No
+REC0917,2026-10-26 05:53:00,OT,Floor 2,Glassware,Yellow Bin,BIN_10,309.9,0.82,Correctly Segregated,36.0,No
+REC0918,2026-10-17 23:44:00,OT,Floor 1,Cotton swab,Yellow Bin,,221.2,0.98,Correctly Segregated,23.0,No
+REC0919,2026-10-14 03:56:00,OT,Ground,Expired Medications,green,BIN_01,133.3,0.97,Correctly Segregated,84.0,no
+REC0920,2026-10-18 07:13:00,General Ward,Floor 1,Syringes,Green Bin,BIN_10,222.6,0.94,Correctly Segregated,92.0,Yes
+REC0921,2026-10-04 04:23:00,Pediatrics,Ground,Chemical Containers,Blue Bin,BIN_07,449.8,0.9,Correctly Segregated,77.0,No
+REC0922,2026-10-10 14:18:00,General Ward,Floor 2,Contaminated Recyclable Plastics,RED BIN,BIN_11,83.8,0.78,Correctly Segregated,60.0,No
+REC0923,2026-10-16 13:09:00,OPD,Floor 3,Needles,Green Bin,BIN_10,212.0,0.8,Correct,46.0,No
+REC0924,2026-10-01 10:27:00,OT,Floor 3,Contaminated Recyclable Plastics,White Bin,BIN_09,,0.96,Correctly Segregated,5.0,no
+REC0925,2026-10-30 15:21:00,Emergency,Floor 4,Syringes,Green Bin,BIN_01,495.7,0.96,Correct,88.0,Yes
+REC0926,2026-10-28 08:47:00,General Ward,Floor 3,Needles,Green Bin,BIN_03,56.3,0.94,Correctly Segregated,53.0,No
+REC0927,2026-10-21 05:35:00,icu,Floor 1,Anatomical Waste,yellow bin,BIN_12,121.9,0.71,Correctly Segregated,29.0,no
+ REC0928 ,2026-10-05 02:16:00,Pediatrics,Floor 1,Metallic & Plastic Waste,Blue Bin, BIN_04 ,257.7,0.98,Correctly Segregated,29.0,No
+REC0929,2026-10-28 13:56:00,OPD,Ground,Paper Wrappers,Black Bin,BIN_04,666.8,0.99,Correctly Segregated,95.0,Yes
+REC0930,2026-10-23 11:35:00,OT,Floor 4,Food Waste,Black Bin,BIN_04,180.8,0.89,Correctly Segregated,69.0,No
+REC0931,2026-10-03 23:23:00, OT ,Ground,Hazardous Chemicals,White Bin,BIN_03,122.2,0.78,Correctly Segregated,27.0,
+REC0932,2026-10-13 11:38:00,,Ground,Hazardous Chemicals,White Bin,BIN_12,858.3,0.9,Correctly Segregated,98.0,Yes
+REC0933,2026-10-20 10:31:00,ICU,floor-2,Metallic & Plastic Waste,Blue Bin,BIN_07,59.8,0.94,Correctly Segregated,5.0,No
+REC0934,2026-10-23 13:17:00,General Ward,Floor 4,Office Trash,Black Bin,BIN_01,32.8,0.96,Correct,64.0,no
+REC0935,2026-10-21 10:16:00,General Ward,Ground,Glassware,Blue Bin,BIN_07,271.0,0.76,Correctly Segregated,73.0,No
+REC0936,2026-10-11 06:26:00,Radiology,ground floor,Cotton Swabs,Yellow,BIN_04,127.5,0.76,Correctly Segregated,99.0,Yes
+REC0937,2026-10-02 06:26:00,Laboratory,Floor 3,Non-Infectious Waste,Black Bin,BIN_01,84.2,0.87,Correctly Segregated,17.0,No
+REC0938,2026-10-11 20:21:00,General Ward,Ground,Non-Infectious Waste,Black Bin ,BIN_06,335.9,0.85,Correctly Segregated,65.0,No
+REC0939,2026-10-20 22:59:00,Emergency,Floor 3,Glassware,Blue Bin,BIN_10,231.6,0.74,Correctly Segregated,84.0,No
+REC0940,2026-10-03 23:01:00,OT,Ground,Used Bandages,Yellow Bin,BIN_08,121.4,0.72,Correctly Segregated,93.0,Yes
+REC0941,2026-10-03 09:01:00,Pediatrics,Floor 3,Office Trash,Black Bin,BIN_07,68.4,0.73,Correctly Segregated,76.0,No
+REC0942,2026-10-29 09:34:00,ICU,Floor 3,Office Trash,Black Bin,BIN_07,383.0,0.83,Correctly Segregated,89.0,Yes
+REC0943,2026-10-30 14:58:00,icu,Floor 3,Office Trash,Black Bin,BIN_09,320.6,0.8,Correctly Segregated,48.0,No
+REC0944,2026-10-09 19:28:00,OT,Fourth Floor,Urine/Body Fluids,Yellow Bin,BIN_05,176.0,0.8,Correctly Segregated,80.0,no
+REC0945,2026-10-07 06:22:00,ICU,Ground,Syringes,Green Bin,BIN_03,834.9,0.79,Correctly Segregated,36.0,no
+REC0946,2026-10-15 03:54:00,Operation Theater,Floor 1,Office Trash,Black Bin,BIN_08,81.0,0.79,Correctly Segregated,50.0,No
+REC0947,2026-10-27 16:32:00,Operation Theater,Ground,Non-Infectious Waste,Black Bin,BIN_04,56.2,0.85,Correctly Segregated,71.0,No
+REC0948,2026-10-10 02:51:00,OPD,Ground,Expired Medications,WHITE BIN,BIN_06,109.6,0.75,Correctly Segregated,30.0,No
+REC0949,2026-10-16 01:41:00,General Ward,Floor 4,Syringes,Green Bin,BIN_05,183.7,0.82,Correctly Segregated,81.0,No
+REC0950,2026-10-23 13:41:00,opd,ground floor,IV Bags/Tubes,Red Bin,BIN_11,231.5,0.76,Correctly Segregated,10.0,No
+REC0951,2026-10-16 02:06:00,Radiology,Floor 1,Glassware,Blue Bin,BIN_07,157.1,0.75,Correctly Segregated,66.0,No
+REC0952,2026-10-26 05:52:00,Emergency,Floor 1,Anatomical Waste,Yellow Bin,BIN_05,252.6,0.83,Correctly Segregated,,No
+REC0953,2026-10-10 01:29:00,OPD,Floor 2,Hazardous Chemicals,White Bin,BIN_03,70.0,0.76,Correctly Segregated,8.0,No
+REC0954,2026-10-12 04:39:00,OT,Floor 1,Metallic & Plastic Waste,Blue Bin,BIN_01,604.9,0.75,Correctly Segregated,75.0,No
+REC0955,2026-10-30 19:17:00,ER,Floor 2,Metallic & Plastic Waste,RED BIN,BIN_04,178.4,0.79,Correctly Segregated,53.0,no
+REC0956,2026-10-24 23:32:00, Radiology ,Ground,Glassware,Blue Bin,BIN_02,465.8,0.74,Correctly Segregated,,No
+REC0957,2026-10-18 00:47:00,General Ward,Floor 4,Contaminated Recyclable Plastics,Red Bin,BIN_07,250.7,0.98,Correctly Segregated,53.0,No
+REC0958,2026-10-09 14:32:00,Pediatrics,Floor 1,Glassware,Blue Bin,BIN_06,274.6,,Correctly Segregated,80.0,No
+REC0959,2026-10-23 06:06:00,OPD,Ground,Metallic & Plastic Waste,Blue Bin,BIN_08,300.6,0.93,Correctly Segregated,79.0,No
+REC0960,2026-10-24 04:08:00,General Ward,Floor 3,Cotton Swabs,Yellow Bin,BIN_09,272.6,0.83,Correct,87.0,Yes
+REC0961,2026-10-23 12:26:00,Laboratory,Floor 2,Non-Infectious Waste,Black Bin,BIN_10,,0.82,Correctly Segregated,66.0,No
+REC0962,2026-10-21 13:47:00,opd,Floor 3,Hazardous Chemicals,White Bin,BIN_04,551.9,0.79,,30.0,No
+REC0963,2026-10-12 14:00:00,ER,Floor 1,Food Waste,Black Bin,BIN_02,,0.79,Correctly Segregated,52.0,no
+REC0964,2026-10-24 07:31:00, General Ward ,Floor 3,Blades,Green Bin,BIN_08,336.0,0.84,Correctly Segregated,64.0,No
+REC0965,2026-10-18 09:39:00,ICU,Floor 1,Office Trash,Black Bin,BIN_08,177.4,0.77,Correctly Segregated,39.0,No
+REC0966,2026-10-24 08:06:00,Emergency,Floor 2,Cotton Swabs,Yellow Bin,BIN_04,603.1,0.73,Correctly Segregated,69.0,No
+REC0967,2026-10-09 22:47:00, General Ward ,Floor 2,Cotton Swabs,Yellow Bin,BIN_05,110.9,0.92,Correctly Segregated,47.0,No
+REC0968,2026-10-25 17:14:00,Paediatrics,Ground,Metallic & Plastic Waste,Blue,BIN_05,804.9,0.78,Correctly Segregated,22.0,No
+REC0969,2026-10-27 09:27:00,ICU,Floor 3,Paper Wrappers,Black Bin,BIN_11,,0.85,Correctly Segregated,56.0,no
+REC0970,2026-10-10 13:14:00,Laboratory,Floor 1,Contaminated Recyclable Plastics,Red Bin,BIN_09,60.7,0.87,Correctly Segregated,97.0,Yes
+REC0971,2026-10-16 12:05:00,Emergency,Floor 2,Expired Medications,White Bin,BIN_04,211.1,0.82,Correctly Segregated,64.0,No
+REC0972,2026-10-02 08:52:00,General Ward,Floor 1,Office Trash,Black Bin,,110.5,0.95,Correctly Segregated,76.0,No
+REC0973,2026-10-11 06:17:00,Radiology,,Chemical Containers,Green Bin,BIN_11,373.3,0.92,Correctly Segregated,48.0,No
+REC0974,2026-10-02 11:10:00,OT,1st Floor,Expired Medications,White Bin,BIN_06,113.1,0.86,,77.0,No
+REC0975,2026-10-18 18:40:00,Emergency,Floor 4,Hazardous Chemicals,WHITE BIN,BIN_07,999999.0,0.75,Correct,31.0,No
+REC0976,2026-10-14 20:45:00,Emergency,Floor 1,Surgical Waste,Yellow Bin,BIN_02,42.0,0.9,Correctly Segregated,86.0,Yes
+REC0977,2026-10-02 05:18:00,OT,Floor 1,IV Bags/Tubes,Red Bin,BIN_02,132.7,0.96,Correctly Segregated,67.0,No
+REC0978,2026-10-24 20:46:00,ER,Floor 3,Food Waste,Black Bin,BIN_01,27.4,0.81,Correctly Segregated,89.0,Yes
+REC0979,2026-10-18 19:11:00,OT,Floor 9,,Yellow Bin,BIN_03,53.7,0.86,Correctly Segregated,57.0,No
+REC0980,2026-10-06 21:55:00,OPD,Floor 2,Syringes,Green Bin,BIN_07,350.1,0.94,Correctly Segregated,31.0,No
+REC0981,2026-10-27 17:41:00,OPD,Floor 4,Syringes,Green Bin,BIN_12,357.3,0.9,Correctly Segregated,44.0,No
+REC0982,2026-10-03 21:52:00,Radiology,Floor 4,Metallic & Plastic Waste,Blue Bin,BIN_04,267.8,0.85,Correctly Segregated,62.0,No
+REC0983,2026-10-02 18:41:00,ER,Floor 2,Hazardous Chemicals,White Bin,BIN_11,87.9,0.96,Correctly Segregated,78.0,No
+REC0984,2026-10-18 19:10:00,OT,Floor 3,,Green Bin,BIN_04,183.4,0.75,Correctly Segregated,43.0,No
+REC0985,2026-10-26 21:04:00,Emergency,F3,Office Trash,Black Bin, BIN_12 ,190.0,0.97,Correctly Segregated,28.0,No
+REC0986,2026-10-25 11:21:00,Pediatrics,Ground,Glassware,Blue Bin,BIN_12,75.4,0.91,Correctly Segregated,85.0,No
+REC0987,2026-10-06 12:24:00,General Ward,ground floor,Urine/Body Fluids,Red Bin,BIN_02,634.4,0.85,Correctly Segregated,75.0,No
+REC0988,2026-10-24 00:45:00,icu,Floor 3,Non-Infectious Waste,Black Bin,BIN_01,384.5,0.72,Correctly Segregated,31.0,No
+REC0989,2026-10-19 01:16:00,ICU,Ground,Needles,Green Bin,BIN_05,159.7,0.73,Correctly Segregated,29.0,No
+REC0990,2026-10-21 23:55:00,Emergency,Ground,Contaminated Recyclable Plastics,Red Bin,BIN_09,194.7,0.89,Correctly Segregated,67.0,No
+REC0991,2026-10-08 18:19:00,ICU,Floor 4,Needles,Green Bin,BIN_02,225.1,0.75,Correct,25.0,No
+REC0992,2026-10-01 12:14:00,Pediatrics,Floor 1,Surgical Waste,yellow bin,BIN_08,37.2,0.8,Correct,14.0,No
+REC0993,2026-10-10 20:06:00,Laboratory,Ground,Urine/Body Fluids,Red Bin,BIN_11,156.4,0.94,Correctly Segregated,73.0,No
+ REC0994 ,2026-10-28 05:23:00,ICU,Ground,Surgical Waste,Yellow Bin,BIN_07,110.4,0.92,Correctly Segregated,11.0,No
+REC0995,2026-10-01 17:31:00,Radiology,,Glassware,Blue Bin,BIN_01,85.5,0.8,Correctly Segregated,16.0,No
+REC0996,2026-10-08 15:22:00,Operation Theater,ground floor,Urine/Body Fluids,RED BIN,BIN_07,152.2,0.85,Correctly Segregated,17.0,No
+REC0997,2026-10-10 10:13:00,Radiology,Floor 3,Non-Infectious Waste,Black Bin,BIN_02,802.8,0.77,Correctly Segregated,84.0,No
+REC0998,2026-10-30 18:20:00,General Ward,Ground,Surgical Waste,Yellow Bin,BIN_07,318.2,0.76,Correctly Segregated,56.0,No
+REC0999,2026-10-29 09:28:00,General Ward,Ground,Glassware,Blue Bin,BIN_02,120.7,0.96,Correctly Segregated,88.0,Yes
+REC1000,2026-10-25 09:39:00,OT,Floor 2,Office Trash,Black Bin,BIN_02,301.3,0.87,Correctly Segregated,18.0,No
+REC1001,2026-10-07 01:11:00,General Ward,1st Floor,Food Waste,Black Bin,BIN_11,583.8,0.92,,93.0,Yes
+REC1002,2026-10-16 06:01:00,ICU,Floor 4,Non-Infectious Waste,Black Bin,BIN_10,399.3,0.83,Misclassified / Override Required,13.0,Yes
+REC1003,2026-10-01 14:31:00,OPD,Ground,Blades,Green Bin,BIN_10,199.9,0.92,Correctly Segregated,80.0,No
+REC1004,2026-10-29 04:56:00,Emergency,ground floor,Surgical Waste,Yellow Bin,BIN_03,113.6,0.81,Correctly Segregated,36.0,No
+REC1005,2026-10-02 17:24:00,OPD,Floor 4,Chemical Containers,Blue Bin,BIN_08,333.1,0.91,Correctly Segregated,,Yes
+REC1006,2026-10-24 16:55:00,Radiology,floor-2,Non-Infectious Waste,Black Bin,BIN_01,261.1,0.77,Correctly Segregated,10.0,No
+REC1007,2026-10-12 07:15:00,OPD,Floor 4,Non-Infectious Waste,Black Bin,BIN_07,390.0,0.85,Correctly Segregated,11.0,No
+REC1008,2026-10-09 18:13:00,ICU,Floor 1,IV Bags/Tubes,White Bin,BIN_04,316.8,0.74,Correctly Segregated,13.0,No
+REC1009,2026-10-11 18:06:00,Emergency,Floor 3,IV Bags/Tubes,Red Bin,BIN_12,441.3,0.84,Correctly Segregated,31.0,No
+REC1010,2026-10-28 13:45:00,OPD,Floor 2,IV Bags/Tubes,Red Bin,BIN_05,124.2,0.87,Correctly Segregated,27.0,No
+REC1011,2026-10-17 08:45:00,radiology,Floor 3,Urine/Body Fluids,Red Bin,BIN_03,546.7,0.84,Correctly Segregated,15.0,No
+REC1012,2026-10-22 22:28:00,ICU,Floor 3,Office Trash,Black Bin,BIN_07,223.2,0.95,Correctly Segregated,24.0,No
+REC1013,2026-10-08 23:54:00,Pediatrics,,Chemical Containers,Blue Bin,BIN_08,1002.5,0.79,Correctly Segregated,98.0,Yes
+REC1014,2026-10-16 03:58:00,,Floor 3,Chemical Containers,Blue Bin,BIN_04,109.8,0.74,Correctly Segregated,14.0,No
+REC1015,2026-10-18 00:47:00,Laboratory,Floor 3,Urine/Body Fluids,Red Bin,BIN_07,764.2,0.97,Correct,98.0,Yes
+REC1016,2026-10-04 05:48:00,Radiology,Ground,Paper Wrappers,Black Bin,BIN_02,223.3,0.81,Correctly Segregated,80.0,No
+REC1017,2026-10-16 20:44:00,Laboratory,Floor 2,Hazardous Chemicals,White Bin,BIN_12,113.2,,Correctly Segregated,37.0,No
+REC1018,2026-10-22 17:48:00,ICU,Floor 2,Food Waste,Black Bin,BIN_11,129.4,0.9,Correctly Segregated,36.0,No
+REC1019,2026-10-28 13:17:00,Laboratory,Floor 1,Anatomical Waste,Yellow Bin,BIN_05,147.5,0.77,Correctly Segregated,38.0,No
+REC1020,2026-10-06 07:30:00,Emergency,F3,Hazardous Chemicals,White Bin,BIN_07,267.6,0.9,Misclassified / Override Required,6.0,Yes
+REC1021,2026-10-08 13:07:00,Radiology,Floor 2,Cotton Swabs,Yellow Bin,BIN_12,289.5,0.79,Correctly Segregated,59.0,No
+REC1022,2026-10-19 17:35:00,Emergency,ground floor,Expired Medications,White Bin,BIN_11,120.4,0.87,Correctly Segregated,44.0,No
+REC1023,2026-10-19 02:41:00,Pediatrics,Ground,Paper Wrappers,Black Bin,BIN_03,186.9,0.94,Correctly Segregated,31.0,No
+REC1024,2026-10-24 21:23:00,Radiology,Floor 2,Anatomical Waste,yellow bin,BIN_12,1057.7,0.82,Correctly Segregated,58.0,No
+REC1025,2026-10-23 03:21:00,OT,Floor 4,IV Bags / Tubes,Red Bin,BIN_02,759.0,0.83,Correctly Segregated,30.0,No
+REC1026,2026-10-09 17:35:00,Pediatrics,Floor 3,,RED BIN,BIN_08,270.2,0.88,Correctly Segregated,28.0,No
+REC1027,2026-10-04 21:36:00,Radiology,Ground,Surgical Waste,Yellow Bin,BIN_05,196.4,0.72,,42.0,No
+REC1028,2026-10-05 14:06:00,ICU,ground floor,Anatomical Waste,yellow bin,BIN_05,209.8,0.92,Correctly Segregated,91.0,Yes
+REC1029,2026-10-05 09:46:00,OPD,Floor 4,Anatomical Waste,yellow bin,BIN_01,311.3,0.81,Correctly Segregated,10.0,No
+REC1030,2026-10-22 12:53:00,General Ward,Floor 4,Blades,Green Bin,BIN_07,84.1,0.8,Misclassified / Override Required,67.0,Yes
+REC1031,2026-10-19 03:14:00,Radiology,Floor 4,Non-Infectious Waste,Black Bin,BIN_01,155.1,0.98,Misclassified / Override Required,51.0,Yes
+REC1032,2026-10-19 06:52:00,OT,Ground,Non-Infectious Waste,WHITE BIN,BIN_10,50.2,0.74,Correctly Segregated,94.0,Yes
+REC1033,2026-10-17 18:25:00,Laboratory,Floor 4,Blades,Green Bin,BIN_11,262.3,0.89,Correctly Segregated,36.0,No
+REC1034,2026-10-30 00:56:00,General Ward,Ground,Syringes,Green Bin,BIN_11,319.8,0.8,Correctly Segregated,5.0,no
+REC1035,2026-10-21 05:18:00,OPD,Floor 4,Used Bandages,Yellow Bin,,129.5,0.82,Misclassified / Override Required,91.0,Yes
+REC1036,2026-10-30 23:04:00,ER,Floor 3,Cotton swab,Yellow Bin,BIN_05,671.3,0.88,Correctly Segregated,,No
+REC1037,2026-10-23 23:11:00,ICU,Floor 1,Contaminated Recyclable Plastics,Red Bin,BIN_08,71.5,0.93,Correctly Segregated,96.0,YES
+REC1038,2026-10-08 15:33:00,Laboratory,Ground,Chemical Containers,Blue Bin,BIN_08,59.1,,Correctly Segregated,64.0,No
+REC1039,2026-10-05 01:41:00,Unknown,Floor 3,Glassware,Blue Bin,BIN_12,228.0,0.71,Correctly Segregated,89.0,Yes
+REC1040,2026-10-12 17:23:00,Lab,Ground,Non-Infectious Waste,Black Bin,BIN_11,440.4,0.74,Correctly Segregated,33.0,No
+REC1041,2026-10-16 03:30:00,OPD,Floor 4,Expired Medications,White Bin,BIN_10,733.0,0.72,Correctly Segregated,93.0,YES
+REC1042,2026-10-18 08:51:00,Radiology,Floor 1,Other,Black Bin,BIN_04,132.0,0.78,Correctly Segregated,99.0,Yes
+REC1043,2026-10-27 22:50:00,OPD,Ground,Chemical Containers,Blue Bin,BIN_10,451.7,0.81,Correctly Segregated,99.0,Yes
+REC1044,2026-10-15 03:28:00,ICU,Floor 4,Non-Infectious Waste,Black Bin,BIN_09,184.8,0.76,Misclassified / Override Required,5.0,Yes
+REC1045,2026-10-06 17:57:00,OPD,Ground,Food Waste,Black Bin,BIN_07,166.0,0.7,Misclassified / Override Required,51.0,Yes
+REC1046,2026-10-10 23:06:00,Lab,Floor 3,Needles,green,BIN_03,386.4,0.87,Correctly Segregated,42.0,No
+REC1047,2026-10-02 13:30:00,General Ward,Floor 2,Contaminated Recyclable Plastics,Red Bin,BIN_09,321.1,0.99,Correctly Segregated,94.0,Yes
+REC1048,2026-10-22 18:24:00,OPD,F3,Surgical Waste,yellow bin,BIN_05,54.0,0.9,Correctly Segregated,78.0,No
+REC1049,2026-10-10 14:02:00,OPD,Ground,Food Waste,Black Bin,BIN_03,620.9,0.95,Correctly Segregated,24.0,No
+REC1050,2026-10-01 23:33:00,Radiology,Floor 2,Food Waste,Black Bin ,BIN_07,574.8,0.9,Correctly Segregated,25.0,No
+REC1051,2026-10-13 21:09:00,Pediatrics,Floor 1,Paper Wrappers,Black Bin ,BIN_12,115.5,0.95,Correct,72.0,No
+REC1052,2026-10-03 11:07:00,Pediatrics,Floor 3,Food Waste,Black Bin,BIN_11,261.6,0.75,Correctly Segregated,79.0,No
+REC1053,2026-10-10 13:07:00,,Floor 1,Contaminated Recyclable Plastics,Red Bin,BIN_12,282.9,0.89,Correct,23.0,No
+REC1054,2026-10-07 17:13:00,Radiology,F3,Paper Wrappers,Black Bin,BIN_11,234.8,0.94,Correctly Segregated,91.0,YES
+REC1055,2026-10-03 09:18:00,Emergency,Floor 4,Used Bandages,Yellow Bin,BIN_11,122.7,0.8,Correctly Segregated,27.0,no
+REC1056,2026-10-12 03:36:00,ICU,Ground,Office Trash,Black Bin,BIN_04,111.4,0.82,Misclassified / Override Required,56.0,Yes
+REC1057,2026-10-18 02:00:00,Emergency,Floor 3,Chemical Containers,Blue Bin,BIN_11,186.7,0.81,Correct,88.0,Yes
+REC1058,2026-10-06 13:18:00,Laboratory,Floor 4,Needles,Green Bin,BIN_04,487.0,0.71,Correctly Segregated,15.0,no
+REC1059,2026-10-05 07:16:00,OT,F3,Hazardous Chemicals,WHITE BIN,BIN_08,294.4,0.99,Misclassified / Override Required,93.0,Yes
+REC1060,2026-10-03 21:21:00,OT,Floor 3,Office Trash,Black Bin,BIN_12,141.7,0.71,Correct,46.0,No
+REC1061,2026-10-23 05:38:00,Emergency,Floor 4,Expired Medications,WHITE BIN,BIN_10,353.3,0.86,Correctly Segregated,72.0,No
+REC1062,2026-10-14 17:04:00,Paediatrics,Ground,Anatomical Waste,Yellow Bin,BIN_03,633.4,0.77,Correct,27.0,no
+REC1063,2026-10-06 20:42:00,opd,Floor 1,Expired Medications,White Bin,BIN_02,477.7,0.86,Correctly Segregated,10.0,No
+REC1064,2026-10-17 13:06:00, OT ,Floor 3,Used Bandages,Yellow Bin,BIN_11,47.4,0.7,Correctly Segregated,43.0,No
+REC1065,2026-10-30 23:58:00,Laboratory,Floor 1,Chemical Containers,Blue Bin,,142.6,0.84,Correctly Segregated,42.0,No
+REC1066,2026-10-28 14:06:00, OPD ,Ground,Non-Infectious Waste,Black Bin,BIN_11,77.8,0.94,Correctly Segregated,50.0,No
+REC1067,2026-10-04 14:04:00,Pediatrics,Floor 4,Used Bandages,Yellow Bin,BIN_06,,0.87,Correctly Segregated,53.0,No
+REC1068,2026-10-30 13:43:00,OT,Floor 3,Office Trash,Black Bin ,BIN_08,482.3,0.72,Correctly Segregated,53.0,No
+REC1069,2026-10-25 09:21:00,,Ground,Metallic & Plastic Waste,Blue Bin,BIN_11,131.1,0.91,Correctly Segregated,23.0,No
+REC1070,2026-10-24 06:36:00,OT,Floor 3,Urine/Body Fluids,Red Bin,BIN_03,251.4,0.79,Correctly Segregated,87.0,Yes
+REC1071,2026-10-04 12:40:00,Pediatrics,Ground,Office Trash,Black Bin,BIN_09,183.5,0.73,Correctly Segregated,36.0,No
+REC1072,2026-10-17 12:17:00,General Ward,Floor 2,Expired Medications,White Bin,BIN_03,279.1,0.95,Correct,16.0,no
+REC1073,2026-10-18 05:34:00,Emergency,Ground,Glassware,Blue Bin,BIN_03,202.6,0.85,Correctly Segregated,33.0,no
+REC1074,2026-10-25 01:45:00,General Ward,Floor 4,Chemical Containers,Blue,BIN_05,68.3,0.86,Correctly Segregated,17.0,No
+REC1075,2026-10-09 05:20:00,General Ward,Floor 4,Surgical Waste,Yellow Bin,BIN_09,422.8,0.87,Correct,54.0,No
+REC1076,2026-10-24 08:57:00,OT,Floor 1,Food Waste,Black Bin,BIN_03,128.4,0.81,Correctly Segregated,6.0,No
+REC1077,2026-10-12 08:05:00,Radiology,Floor 3,Metallic & Plastic Waste,Blue Bin,BIN_03,54.9,0.83,Correctly Segregated,52.0,No
+REC1078,2026-10-20 11:14:00,OPD,Floor 2,Paper Wrappers,Black Bin,BIN_11,135.3,0.95,Correctly Segregated,40.0,No
+REC1079,2026-10-29 21:14:00,Emergency,Ground,Chemical Containers,Blue Bin,BIN_12,633.1,0.77,Correctly Segregated,16.0,No
+REC1080,2026-10-14 00:13:00,Laboratory,Ground,Cotton Swabs,Yellow Bin,BIN_07,376.2,0.9,Correctly Segregated,100.0,Yes
+ REC1081 ,2026-10-25 05:31:00,Emergency,Floor 3,Contaminated Recyclable Plastics,Red Bin,BIN_01,144.2,0.88,Correctly Segregated,91.0,Yes
+REC1082,2026-10-16 16:53:00,OPD,Floor 4,Anatomical Waste,yellow bin,BIN_11,,0.88,Correctly Segregated,100.0,Yes
+REC1083,2026-10-11 05:50:00,Operation Theater,Ground,Needles,Green Bin,BIN_06,147.3,0.94,Misclassified / Override Required,72.0,Yes
+REC1084,2026-10-08 18:12:00,General Ward,Ground,Blades,White Bin,BIN_06,1003.6,0.97,Correctly Segregated,53.0,no
+REC1085,2026-10-14 04:49:00,Pediatrics,F3,Glassware,Blue Bin,BIN_05,258.7,0.78,Correctly Segregated,20.0,no
+REC1086,2026-10-14 20:56:00,ICU,F3,Anatomical Waste,Yellow Bin,BIN_10,268.8,0.95,Correctly Segregated,32.0,no
+REC1087,2026-10-14 13:52:00,General Ward,Ground,Used Bandages,Yellow Bin,BIN_01,434.5,0.8,Correctly Segregated,47.0,No
+REC1088,2026-10-09 23:46:00,Emergency,Floor 4,IV Bags / Tubes,Green Bin,BIN_09,230.7,0.96,Correctly Segregated,67.0,No
+REC1089,2026-10-30 21:13:00,Pediatrics,Floor 1,Office Trash,Black Bin,BIN_08,154.9,0.81,Correctly Segregated,24.0,No
+REC1090,2026-10-13 06:20:00,Emergency,Floor 3,Chemical Containers,Blue Bin,BIN_11,162.9,0.94,Correctly Segregated,73.0,No
+REC1091,2026-10-17 08:22:00,opd,Ground,IV Bags/Tubes,Red Bin,BIN_04,180.0,0.78,Correctly Segregated,5.0,no
+REC1092,2026-10-08 07:06:00,OPD,Floor 3,Contaminated Recyclable Plastics,Red Bin,BIN_11,185.0,0.99,Correctly Segregated,9.0,No
+REC1093,2026-10-06 19:11:00,General Ward,Floor 3,Surgical Waste,Yellow Bin,BIN_09,341.1,0.91,Correctly Segregated,92.0,Yes
+REC1094,2026-10-06 17:45:00,OT,Floor 2,Food Waste,Black Bin,BIN_09,198.7,0.7,Correctly Segregated,7.0,No
+REC1095,2026-10-28 04:10:00,ICU,Floor 3,Glassware,Blue,BIN_08,342.4,0.78,Correctly Segregated,59.0,No
+REC1096,2026-10-07 22:33:00,OT,Floor 1,Syringes,Green Bin,BIN_05,178.6,0.92,Correct,84.0,No
+REC1097,2026-10-10 00:43:00,Laboratory,Ground,Metallic & Plastic Waste,Blue,BIN_12,202.9,0.91,Misclassified / Override Required,59.0,YES
+REC1098,2026-10-29 21:01:00,Operation Theater,1st Floor,IV Bags/Tubes,Red Bin,BIN_02,38.5,0.74,Correctly Segregated,85.0,No
+REC1099,2026-10-20 09:38:00,ICU,,Used Bandages,Yellow Bin,BIN_04,396.7,0.73,,23.0,No
+REC1100,2026-10-29 19:44:00,OPD,Floor 1,Used Bandages,Yellow Bin,BIN_06,251.4,0.82,Correctly Segregated,94.0,Yes
+REC1101,2026-10-06 00:12:00,Pediatrics,Floor 2,Used Bandages,Yellow Bin,BIN_05,423.4,0.97,Correctly Segregated,43.0,No
+REC1102,2026-10-02 20:39:00,ICU,Ground,Office Trash,Black Bin,BIN_11,18.8,0.92,Correctly Segregated,28.0,No
+REC1103,2026-10-05 14:03:00,Radiology,Floor 1,Urine/Body Fluids,Red Bin,BIN_05,1013.0,0.98,Correctly Segregated,82.0,No
+REC1104,2026-10-01 14:55:00,OT,Floor 2,Paper Wrappers,Black Bin,BIN_06,170.4,0.91,Correctly Segregated,90.0,Yes
+REC1105,2026-10-17 21:52:00,OPD,Floor 2,Paper Wrappers,Black Bin,BIN_04,462.5,0.87,Correctly Segregated,82.0,No
+REC1106,2026-10-28 09:21:00,ER,Ground,Cotton Swabs,yellow bin,BIN_10,82.9,0.98,Correctly Segregated,100.0,Yes
+REC1107,2026-10-04 09:47:00,General Ward,Floor 2,Urine/Body Fluids,RED BIN,BIN_12,311.1,0.84,Correctly Segregated,17.0,No
+REC1108,2026-10-09 17:23:00,Radiology,Floor 4,Urine/Body Fluids,RED BIN,BIN_12,82.0,0.77,Correctly Segregated,21.0,No
+REC1109,2026-10-29 15:58:00,Emergency,F3,Expired Medications,White Bin,BIN_02,115.7,0.84,Misclassified / Override Required,62.0,Yes
+REC1110,2026-10-08 14:20:00,Paediatrics,Floor 1,Blades,Green Bin,BIN_05,881.1,0.71,Correctly Segregated,7.0,No
+REC1111,2026-10-19 02:10:00,Laboratory,Floor 4,Hazardous Chemicals,White Bin,BIN_09,163.6,0.98,Correctly Segregated,29.0,No
+REC1112,2026-10-18 18:15:00,Radiology,Floor 4,IV Bags / Tubes,Red Bin,BIN_05,226.8,0.76,Correct,76.0,No
+REC1113,2026-10-01 09:40:00,Laboratory,Fourth Floor,Anatomical Waste,Yellow Bin,BIN_12,382.2,0.91,Correctly Segregated,94.0,Yes
+REC1114,2026-10-13 05:17:00,Emergency,Floor 1,Metallic & Plastic Waste,Blue Bin,BIN_04,283.3,0.71,Correctly Segregated,95.0,Yes
+REC1115,2026-10-07 01:14:00,Pediatrics,Ground,Glassware,Blue Bin,BIN_11,214.9,0.98,Correctly Segregated,40.0,No
+REC1116,2026-10-28 12:59:00, General Ward ,Floor 2,Urine/Body Fluids,Green Bin,BIN_02,255.2,0.97,Correctly Segregated,85.0,No
+REC1117,2026-10-14 10:06:00,General Ward,Ground,Expired Medications,White Bin,BIN_11,1303.4,0.94,Correctly Segregated,83.0,No
+REC1118,2026-10-12 15:36:00,icu,Floor 4,Paper Wrappers,Black Bin,BIN_11,182.0,0.98,,27.0,No
+REC1119,2026-10-30 18:09:00,Pediatrics,Fourth Floor, Hazardous Chemicals ,White Bin,BIN_09,223.8,0.76,Correctly Segregated,53.0,No
+REC1120,2026-10-29 15:54:00,Radiology,1st Floor,Needles,Green Bin,BIN_08,441.7,0.77,Correctly Segregated,79.0,No
+REC1121,2026-10-23 13:43:00,OT,Floor 3,Office Trash,Black Bin,BIN_03,461.5,0.94,Correctly Segregated,16.0,No
+REC1122,2026-10-09 05:03:00,Pediatrics,Ground,IV Bags / Tubes,Red Bin,BIN_05,492.6,0.75,Correctly Segregated,98.0,Yes
+REC1123,2026-10-04 03:51:00,OT,Ground,IV Bags/Tubes,Red Bin,BIN_07,317.7,0.77,Correctly Segregated,29.0,No
+REC1124,2026-10-01 12:52:00,ER,Floor 3,Food Waste,Black Bin ,BIN_07,76.4,0.71,Correctly Segregated,98.0,Yes
+REC1125,2026-10-07 00:22:00,OPD,Ground,Anatomical Waste,Yellow Bin,BIN_05,704.0,0.74,Correct,10.0,No
+REC1126,2026-10-25 16:24:00,General Ward,Ground,Anatomical Waste,Green Bin,BIN_04,76.2,0.74,Correct,18.0,No
+REC1127,2026-10-16 02:21:00,Laboratory,Floor 1,Hazardous Chemicals,White Bin,BIN_04,242.8,0.72,Correctly Segregated,44.0,No
+REC1128,2026-10-05 16:18:00,Pediatrics,Ground,Metallic & Plastic Waste,Blue Bin,BIN_09,104.2,0.96,Correctly Segregated,10.0,No
+REC1129,2026-10-11 07:35:00,Radiology,Floor 3, Office Trash ,Black Bin,BIN_03,181.0,0.8,Correct,8.0,No
+REC1130,2026-10-06 02:46:00,Laboratory,Floor 1,Chemical Containers,Blue Bin,BIN_02,247.9,0.77,Correctly Segregated,54.0,No
+REC0250,2026-10-17 09:45:00,Emergency,Ground,Chemical Containers,Blue Bin,BIN_10,246.4,0.74,Correctly Segregated,20.0,No
+REC1132,2026-10-20 08:28:00,OT,Floor 2,Office Trash,Black Bin,BIN_10,267.1,0.94,Correctly Segregated,91.0,Yes
+REC1133,2026-10-17 19:10:00,Pediatrics,Ground,Paper Wrappers,Black Bin,BIN_01,693.0,0.95,Correctly Segregated,68.0,No
+REC1134,2026-10-18 18:38:00,Laboratory,Floor 3,Contaminated Recyclable Plastics,Red Bin,BIN_02,273.9,0.73,Correct,23.0,no
+REC1135,2026-10-15 16:51:00,OT,1st Floor,Office Trash,Black Bin,BIN_07,156.8,0.8,Misclassified / Override Required,16.0,YES
+REC1136,2026-10-28 09:15:00,General Ward,1st Floor,Syringes,green,BIN_11,412.1,0.97,Correctly Segregated,57.0,No
+REC1137,2026-10-23 10:03:00,OPD,Floor 3,Food Waste,Black Bin,BIN_02,493.5,0.87,Correctly Segregated,73.0,No
+REC1138,2026-10-10 23:34:00,Emergency,Floor 1,Office Trash,Black Bin,BIN_06,71.4,0.7,Correctly Segregated,100.0,Yes
+REC1139,2026-10-06 00:19:00,ICU,Floor 2,Anatomical Waste,Yellow Bin,BIN_06,307.3,0.95,Correctly Segregated,22.0,No
+REC1140,2026-10-20 03:55:00,OPD,Floor 1,Contaminated Recyclable Plastics,Red Bin,BIN_04,333.9,0.72,Correct,75.0,No
+REC1141,2026-10-18 04:17:00,ICU,F3,Contaminated Recyclable Plastics,Red Bin,BIN_06,150.2,0.72,Correctly Segregated,23.0,No
+REC1142,2026-10-08 04:46:00,ICU,Floor 1,Surgical Waste,Yellow Bin,BIN_06,572.8,0.74,,81.0,No
+REC1143,2026-10-07 19:31:00,OT,F3,Glassware,Blue Bin,BIN_12,169.0,0.74,Correctly Segregated,58.0,No
+REC1144,2026-10-16 08:27:00,Laboratory,Ground,Blades,Green Bin,BIN_05,210.7,0.73,Correctly Segregated,57.0,no
+REC1145,2026-10-23 21:43:00,OT,Ground,Used Bandages,Green Bin,BIN_07,165.9,0.94,Correct,27.0,No
+REC1146,2026-10-23 20:10:00,Paediatrics,Floor 1, Needles ,Green Bin,BIN_07,193.0,0.97,Correctly Segregated,78.0,No
+REC1147,2026-10-10 15:24:00,radiology,Floor 4,Metallic & Plastic Waste,Blue Bin,BIN_01,79.3,0.76,Misclassified / Override Required,21.0,Yes
+REC1148,2026-10-04 12:19:00,Laboratory,F3,IV Bags/Tubes,Red Bin,BIN_06,60.2,0.89,Correctly Segregated,82.0,
+REC1149,2026-10-30 10:18:00,Radiology,Floor 1,Food Waste,Black Bin , BIN_05 ,682.4,0.73,Correctly Segregated,52.0,No
+REC1150,2026-10-02 06:38:00,OPD,Floor 2,Cotton Swabs,yellow bin,BIN_03,96.8,0.86,Correctly Segregated,47.0,No
+REC1151,2026-10-09 13:03:00,OPD,Ground,Cotton Swabs,WHITE BIN,BIN_04,86.2,0.78,Correctly Segregated,44.0,No
+REC1152,2026-10-13 09:40:00,OT,Floor 2,Expired Medications,White Bin,BIN_08,347.8,0.98,Correctly Segregated,69.0,No
+REC1153,2026-10-23 18:22:00,OPD,floor-2,Anatomical Waste,Yellow Bin,BIN_07,114.3,0.91,Misclassified / Override Required,55.0,Yes
+REC1154,2026-10-23 22:02:00,Emergency,Floor 4,Contaminated Recyclable Plastics,RED BIN,BIN_03,66.1,0.71,Correctly Segregated,57.0,No
+REC1155,2026-10-14 04:53:00,OT,Floor 1,Food Waste,Black Bin ,BIN_11,708.8,0.83,Correct,9.0,No
+REC1156,2026-10-30 18:34:00,OT,Floor 1,Cotton Swabs,Yellow Bin,BIN_09,427.5,0.85,Misclassified / Override Required,32.0,YES
+REC1157,2026-10-16 10:18:00,Pediatrics,Floor 2,Blades,Green Bin,BIN_10,109.9,0.95,Correctly Segregated,21.0,No
+REC1158,2026-10-18 15:23:00,opd,Floor 1,Office Trash,Black Bin ,BIN_10,1155.1,0.88,Correctly Segregated,92.0,Yes
+REC1159,2026-10-01 16:19:00,OT,Floor 2,Contaminated Recyclable Plastics,Red Bin,BIN_09,418.0,0.95,Correctly Segregated,17.0,No
+REC1160,2026-10-14 10:52:00,OT,Ground,Cotton Swabs,Yellow Bin,BIN_05,147.0,0.87,Correct,26.0,No
+REC1161,2026-10-12 17:44:00,Laboratory,Floor 2,Paper Wrappers,Black Bin,BIN_08,25.8,,Correctly Segregated,63.0,No
+REC1162,2026-10-02 19:14:00,General Ward,Floor 2,Contaminated Recyclable Plastics,Red Bin,BIN_07,1191.2,0.82,Correctly Segregated,67.0,No
+REC1163,2026-10-15 06:35:00,General Ward,Ground,Contaminated Recyclable Plastics,Red Bin,BIN_11,62.7,0.82,Correct,84.0,No
+REC1164,2026-10-02 22:36:00,ICU,Floor 1,Needles,green,BIN_12,51.1,0.94,Correctly Segregated,92.0,Yes
+REC1165,2026-10-08 04:48:00,Radiology,Ground,Anatomical Waste,yellow bin,BIN_04,431.8,0.81,Correctly Segregated,53.0,No
+REC1166,2026-10-30 05:45:00,Laboratory,Ground,Needles,Green Bin,BIN_02,1341.8,0.75,Correctly Segregated,64.0,No
+REC1167,2026-10-10 01:52:00,Radiology,Floor 2,Surgical Waste,Yellow Bin,BIN_02,576.8,0.79,Correctly Segregated,60.0,no
+REC1168,2026-10-13 16:03:00,Laboratory,Ground,Syringes,Green Bin,BIN_09,299.2,0.75,Correctly Segregated,19.0,no
+REC1169,2026-10-02 10:12:00,Radiology,ground floor,Syringes,Green Bin,BIN_06,306.7,0.93,Correctly Segregated,77.0,No
+REC1170,2026-10-20 05:56:00,Pediatrics,Floor 2,Syringes,Green Bin,BIN_11,377.2,0.75,Correctly Segregated,7.0,No
+REC1171,2026-10-21 13:04:00,Radiology,Fourth Floor,Contaminated Recyclable Plastics,Red Bin,BIN_04,349.7,0.89,Correctly Segregated,43.0,No
+REC1172,2026-10-14 12:17:00,OT,Floor 1,Metallic & Plastic Waste,Green Bin,BIN_06,238.6,0.97,Correctly Segregated,48.0,No
+REC1173,2026-10-20 21:05:00,General Ward,Fourth Floor,Syringes,green,BIN_07,207.1,0.94,Correctly Segregated,25.0,No
+REC1174,2026-10-27 07:51:00,OT,Floor 2,Expired Medications,White Bin,BIN_11,181.3,0.99,Correctly Segregated,14.0,no
+REC1175,2026-10-23 17:31:00,General Ward,Ground,Non infectious waste,Black Bin,BIN_11,104.3,0.82,Correctly Segregated,23.0,No
+REC1176,2026-10-29 20:49:00,,Floor 4,Blades,Green Bin,BIN_02,152.2,0.71,Correctly Segregated,21.0,No
+REC1177,2026-10-28 08:23:00,Radiology,,Urine/Body Fluids,Red Bin,BIN_06,49.2,0.76,Correctly Segregated,26.0,No
+REC1178,2026-10-17 20:25:00,General Ward,ground floor,Urine/Body Fluids,Red Bin,BIN_05,176.1,0.96,Misclassified / Override Required,6.0,Yes
+REC1179,2026-10-30 12:47:00,Laboratory,Floor 3,Blades,Green Bin,BIN_07,86.4,0.8,Correctly Segregated,180.0,No
+REC1180,2026-10-06 03:50:00,OT,Floor 3,Expired Medications,White Bin,BIN_07,78.8,0.81,Correct,47.0,no
+REC1181,2026-10-13 23:19:00,Radiology,Floor 2,Expired Medications,White Bin,BIN_12,220.1,0.88,Correctly Segregated,53.0,No
+REC1182,2026-10-05 01:54:00,ICU,Floor 4,Surgical Waste,Yellow Bin,BIN_07,580.3,0.73,Misclassified / Override Required,18.0,YES
+REC1183,2026-10-02 11:38:00,Pediatrics,Floor 3,Expired Medications,WHITE BIN,BIN_04,397.3,0.76,Correctly Segregated,79.0,No
+REC1184,2026-10-06 15:55:00, General Ward ,,Needles,Green Bin, BIN_07 ,54.2,0.96,Correctly Segregated,65.0,No
+REC1185,2026-10-24 02:23:00,Pediatrics,Floor 2,Food Waste,Black Bin,BIN_11,86.3,0.78,Correctly Segregated,33.0,No
+REC1186,2026-10-02 11:41:00,ICU,ground floor,Office Trash,WHITE BIN,BIN_03,404.5,0.93,Correctly Segregated,58.0,no
+REC1187,2026-10-08 18:08:00,Radiology,1st Floor,Blades,green,BIN_09,86.8,0.98,Correct,47.0,No
+REC1188,2026-10-27 07:10:00,Radiology,Floor 1,Urine/Body Fluids,Red Bin,BIN_11,159.2,0.81,Correctly Segregated,11.0,No
+REC1189,2026-10-20 21:45:00,OPD,,IV Bags/Tubes,Red Bin,BIN_12,295.9,0.93,Correctly Segregated,25.0,No
+REC1190,2026-10-29 13:11:00,Pediatrics,Floor 4,Blades,Green Bin,BIN_03,87.8,0.98,Correctly Segregated,55.0,No
+REC1191,2026-10-28 00:01:00,OT,Ground,Urine/Body Fluids,Yellow Bin,BIN_10,207.3,0.91,Correctly Segregated,85.0,No
+REC1192,2026-10-21 15:34:00,General Ward,Floor 1,Cotton Swabs,Green Bin,BIN_04,65.5,0.89,Correctly Segregated,21.0,No
+REC1193,2026-10-18 04:59:00,Paediatrics,Ground,Glassware,Blue Bin,BIN_05,117.8,0.72,Correctly Segregated,36.0,No
+REC1194,2026-10-05 16:57:00,Emergency,Floor 3,Contaminated Recyclable Plastics,Red Bin,BIN_10,246.1,0.74,Correctly Segregated,79.0,No
+REC1195,2026-10-04 12:31:00,Laboratory,Floor 2,Contaminated Recyclable Plastics,Red Bin,BIN_04,53.3,0.81,Correctly Segregated,16.0,No
+REC1196,2026-10-29 11:24:00,Emergency,Floor 1,Syringes,Green Bin,BIN_11,271.1,0.82,Correctly Segregated,67.0,No
+REC1197,2026-10-09 04:23:00,Pediatrics,Ground,Non-Infectious Waste,Black Bin,BIN_03,187.6,0.89,Correctly Segregated,25.0,No
+ REC1198 ,2026-10-23 00:33:00,ICU,Floor 1,Used Bandages,Yellow Bin,BIN_09,296.5,0.92,Correctly Segregated,49.0,No
+REC1199,2026-10-24 06:57:00,OT,Floor 1,Surgical Waste,Red Bin,BIN_06,228.0,0.73,Correctly Segregated,71.0,No
+REC1200,2026-10-06 18:15:00,Pediatrics,Floor 2,Urine/Body Fluids,Red Bin,,567.5,0.76,Correctly Segregated,15.0,No
+REC1201,2026-10-22 06:08:00,Laboratory,Floor 3,Cotton Swabs,Yellow Bin,BIN_09,210.6,0.97,Correctly Segregated,42.0,No
+REC1202,2026-10-13 19:01:00,Radiology,ground floor,Urine/Body Fluids,Red Bin,BIN_10,135.2,0.93,Correctly Segregated,96.0,Yes
+REC1203,2026-10-23 04:50:00,Radiology,Floor 3,Hazardous Chemicals,White Bin,BIN_07,210.2,0.87,Correctly Segregated,97.0,Yes
+REC1204,2026-10-18 10:23:00,Radiology,Floor 1,Metallic & Plastic Waste,Blue Bin,BIN_10,294.3,0.8,Correctly Segregated,82.0,No
+REC1205,2026-10-12 12:24:00,Radiology,Floor 2,Cotton Swabs,Yellow Bin,BIN_10,198.2,0.94,Correctly Segregated,70.0,No
+REC1206,2026-10-20 13:00:00,OT,Floor 2,Blades,Red Bin,BIN_04,196.9,0.72,Correctly Segregated,46.0,no
+REC1207,2026-10-01 10:31:00,General Ward,Ground,Paper Wrappers,Black Bin,BIN_12,108.7,0.8,Correct,20.0,No
+REC1208,2026-10-26 13:27:00,Emergency,Floor 3,Needles,Green Bin,BIN_05,112.1,0.87,Correctly Segregated,34.0,No
+REC1209,2026-10-28 15:59:00,Emergency,Floor 4,Blades,Green Bin,BIN_11,62.0,0.82,Correctly Segregated,96.0,Yes
+REC1210,2026-10-03 06:14:00,Laboratory,F3, Office Trash ,Black Bin,BIN_01,772.5,0.99,Correctly Segregated,30.0,No
+REC1211,2026-10-15 21:02:00,Radiology,Floor 1,Office Trash,Black Bin,BIN_10,70.5,0.71,Correctly Segregated,81.0,No
+REC1212,2026-10-22 00:22:00,Pediatrics,Floor 1,Anatomical Waste,yellow bin,BIN_07,109.5,0.71,Correctly Segregated,5.0,No
+REC1213,2026-10-22 09:14:00,ER,Floor 3,Expired Medications,Yellow Bin,BIN_12,107.3,0.79,Correctly Segregated,13.0,No
+REC1214,2026-10-15 06:04:00,Laboratory,Floor 4,Non-Infectious Waste,Black Bin ,BIN_01,389.9,0.81,Correctly Segregated,76.0,No
+REC1215,2026-10-18 00:24:00,Emergency,Ground,Needles,Green Bin,,150.5,0.71,Correctly Segregated,20.0,No
+REC1216,2026-10-20 19:52:00,opd,Floor 1,Anatomical Waste,Yellow Bin,BIN_02,517.1,0.76,Correctly Segregated,93.0,Yes
+REC1217,2026-10-03 09:20:00,Pediatrics,Ground,Paper Wrappers,Black Bin,BIN_02,111.2,0.71,Correctly Segregated,5.0,no
+REC1218,2026-10-18 06:34:00,Pediatrics,Floor 1,Chemical Containers,Blue Bin,BIN_03,238.2,0.87,Correctly Segregated,83.0,No
+REC1219,2026-10-19 19:25:00,Laboratory,Ground,Surgical Waste,Yellow Bin,BIN_09,97.7,0.85,Correctly Segregated,79.0,No
+REC1220,2026-10-15 15:36:00,Laboratory,Floor 1,Hazardous Chemicals,White Bin,BIN_02,1060.1,0.78,Correctly Segregated,40.0,No
+REC1221,2026-10-30 10:50:00,opd,Ground,Chemical Containers,Blue Bin,BIN_02,73.7,0.98,Correctly Segregated,36.0,No
+REC1222,2026-10-18 12:35:00,OPD,Floor 3,Used Bandages,Yellow Bin,BIN_02,244.2,0.8,Correctly Segregated,64.0,No
+REC1223,2026-10-15 04:35:00,Laboratory,Floor 1,Hazardous Chemicals,White Bin,BIN_09,316.4,0.73,Correctly Segregated,45.0,No
+REC1224,2026-10-29 05:43:00,OPD,Floor 3,Contaminated Recyclable Plastics,Red Bin,BIN_04,265.3,0.72,Correctly Segregated,62.0,No
+REC1225,2026-10-30 12:12:00,Emergency,Floor 1,Office Trash,Black Bin,BIN_08,164.3,0.95,Correctly Segregated,78.0,No
+REC1226,2026-10-13 03:22:00,icu,Floor 3,Surgical Waste,Yellow Bin,BIN_11,171.8,0.85,Correctly Segregated,28.0,No
+REC1227,2026-10-17 03:07:00,Radiology,Floor 1,Paper Wrappers,Black Bin,BIN_03,,0.82,Correctly Segregated,15.0,No
+REC1228,2026-10-05 10:50:00,ICU,Floor 3,Office Trash,Red Bin,BIN_12,169.4,0.97,Correctly Segregated,52.0,No
+REC1229,2026-10-13 13:23:00,Laboratory,Floor 4,Urine/Body Fluids,Red Bin,BIN_07,412.0,0.73,Correctly Segregated,81.0,No
+REC1230,2026-10-06 05:48:00,,Ground,Used Bandages,Yellow Bin,BIN_10,1117.0,0.78,Correctly Segregated,33.0,No
+REC1231,2026-10-19 09:53:00,Radiology,Floor 3,Cotton swab,Yellow Bin,BIN_02,122.0,0.76,Correctly Segregated,84.0,No
+REC1232,2026-10-16 19:42:00,Paediatrics,Fourth Floor, Metallic & Plastic Waste ,Blue Bin,BIN_05,63.7,0.91,Correct,31.0,no
+REC1233,2026-10-22 16:44:00,Pediatrics,Floor 1,Surgical Waste,Yellow Bin,BIN_03,177.6,0.79,Correctly Segregated,84.0,No
+REC1234,2026-10-07 10:55:00,ICU,Floor 3,Cotton Swabs,Yellow Bin,BIN_07,1500.8,0.8,Correctly Segregated,63.0,No
+REC1235,2026-10-01 10:37:00, General Ward ,Floor 3,IV Bags/Tubes,Red Bin,BIN_10,100.2,0.7,Misclassified / Override Required,26.0,Yes
+REC1236,2026-10-14 05:28:00,opd,Floor 4,Glassware,Yellow Bin,BIN_09,707.2,0.75,Correctly Segregated,77.0,No
+REC1237,2026-10-16 06:38:00,Laboratory,Floor 3,Contaminated Recyclable Plastics,RED BIN,BIN_12,729.4,0.8,Correctly Segregated,99.0,Yes
+REC1238,2026-10-21 21:04:00,ICU,Floor 2,Expired Medications,WHITE BIN,BIN_05,122.4,0.91,Correct,51.0,No
+REC1239,2026-10-23 01:02:00,Emergency,Floor 2,Blades,Green Bin,BIN_11,300.4,0.85,Correctly Segregated,81.0,No
+REC1240,2026-10-07 10:42:00,General Ward,Floor 3,Anatomical Waste,Yellow Bin,,701.1,0.77,Correctly Segregated,33.0,No
+REC1241,2026-10-18 04:38:00,Emergency,floor-2,Office Trash,Black Bin,BIN_11,140.7,0.9,Correctly Segregated,29.0,No
+REC1242,2026-10-13 01:47:00,General Ward,Floor 2,,Green Bin,BIN_07,161.9,0.87,Misclassified / Override Required,27.0,Yes
+REC1243,2026-10-06 14:18:00,Radiology,Floor 3,Metallic & Plastic Waste,Black Bin,BIN_10,119.7,0.98,Correctly Segregated,83.0,No
+REC1244,2026-10-07 16:42:00,Laboratory,Floor 1,Paper Wrappers,Black Bin,BIN_09,84.6,0.98,Correctly Segregated,68.0,No
+REC1245,2026-10-03 22:34:00,Paediatrics,Ground,Expired Medications,White Bin,BIN_08,113.4,0.71,Correctly Segregated,41.0,No
+REC1246,2026-10-14 22:02:00,ICU,Floor 3,Chemical Containers,Blue Bin,,71.6,0.89,Correct,67.0,No
+REC1247,2026-10-23 20:18:00,OT,Ground,Anatomical Waste,Yellow Bin,BIN_12,195.8,0.78,Correctly Segregated,41.0,No
+REC1248,2026-10-10 23:03:00,icu,Floor 3,Urine/Body Fluids,Red Bin,BIN_06,102.9,0.77,Correctly Segregated,42.0,No
+REC1249,2026-10-12 21:21:00,Pediatrics,Floor 4,Food Waste,Black Bin,BIN_05,229.8,0.75,Correct,17.0,no
+REC1250,2026-10-07 08:01:00,OPD,Floor 2,Office Trash,Black Bin,BIN_03,54.9,0.82,Correctly Segregated,79.0,No
+REC1251,2026-10-29 14:17:00,Lab,Fourth Floor,Urine/Body Fluids,Red Bin,BIN_03,248.3,0.81,Correctly Segregated,77.0,no
+REC1252,2026-10-15 06:09:00,General Ward,Floor 3,Office Trash,Black Bin,BIN_06,371.2,0.82,Correctly Segregated,93.0,Yes
+REC1253,2026-10-02 04:51:00,radiology,Ground,Office Trash,Black Bin,BIN_03,,0.88,Misclassified / Override Required,76.0,Yes
+REC1254,2026-10-06 19:01:00,Pediatrics,Ground,Chemical Containers,Blue Bin,BIN_07,257.0,0.74,Correctly Segregated,52.0,no
+REC1255,2026-10-21 22:41:00,ICU,Ground,Anatomical Waste,Yellow Bin,BIN_01,508.8,0.78,Correctly Segregated,71.0,no
+REC1256,2026-10-26 17:36:00,Laboratory,Floor 2,Surgical Waste,yellow bin,BIN_01,72.4,0.74,Correctly Segregated,42.0,No
+REC1257,2026-10-10 07:59:00,OT,Floor 4,Hazardous Chemicals,White Bin,BIN_12,726.4,0.98,Correctly Segregated,11.0,
+REC1258,2026-10-14 16:39:00, Pediatrics ,ground floor,Contaminated Recyclable Plastics,Red Bin,BIN_08,266.5,0.88,Correctly Segregated,24.0,No
+REC0430,2026-10-05 09:48:00,OPD,Floor 1,Urine/Body Fluids,Yellow Bin,BIN_02,108.4,0.84,Correctly Segregated,71.0,No
+REC1260,2026-10-14 15:35:00,Radiology,Floor 3,Blades,Green Bin,BIN_03,182.3,0.94,Correctly Segregated,20.0,No
+REC1261,2026-10-30 22:53:00,Emergency,Floor 3,Expired Medications,White Bin,BIN_03,297.9,0.88,Correctly Segregated,61.0,No
+ REC1262 ,2026-10-08 18:31:00,OPD,Floor 3,IV Bags/Tubes,Red Bin,BIN_08,202.5,0.78,Correctly Segregated,35.0,No
+REC1263,2026-10-13 12:34:00,radiology,Floor 3,Surgical Waste,Yellow Bin,BIN_12,293.2,0.93,Misclassified / Override Required,90.0,Yes
+REC1264,2026-10-13 21:34:00,Laboratory,Ground,Needles,Green Bin,BIN_10,91.2,0.81,Correctly Segregated,8.0,No
+REC1265,2026-10-29 05:04:00,Laboratory,Ground,Hazardous Chemicals,White Bin,BIN_06,218.2,0.98,Correctly Segregated,89.0,Yes
+REC1266,2026-10-08 04:55:00,General Ward,Fourth Floor,Needles,Green Bin,BIN_09,61.5,0.76,Correctly Segregated,6.0,No
+REC1267,2026-10-07 21:22:00,General Ward,Floor 4,Blades,Green Bin,BIN_06,174.3,0.83,Correctly Segregated,88.0,Yes
+REC1268,2026-10-18 22:16:00,Emergency,Floor 3,Contaminated Recyclable Plastics,Red Bin,BIN_07,92.5,0.98,Correctly Segregated,43.0,No
+REC1269,2026-10-24 21:54:00,Pediatrics,Floor 1,IV Bags/Tubes,Red Bin,BIN_12,,0.79,Correctly Segregated,89.0,YES
+REC1270,2026-10-04 01:48:00,ICU,Ground,Hazardous Chemicals,White Bin,BIN_12,512.3,0.75,Correctly Segregated,56.0,No
+REC1271,2026-10-22 16:22:00, General Ward ,Floor 1,Surgical Waste,Yellow Bin,BIN_12,456.3,0.93,Correctly Segregated,91.0,Yes
+REC1272,2026-10-20 02:48:00,Emergency,Ground,Surgical Waste,Yellow Bin,BIN_10,310.2,0.77,Correctly Segregated,54.0,No
+REC1273,2026-10-28 14:29:00,ICU,Floor 1,Used Bandages,Yellow Bin,BIN_06,79.5,0.73,Correctly Segregated,52.0,No
+REC1274,2026-10-26 07:48:00,OPD,Floor 1,Needles,Green Bin,BIN_05,147.9,0.84,Correctly Segregated,78.0,no
+REC1275,2026-10-25 01:17:00,OPD,Ground,Chemical Containers,Blue,BIN_10,502.9,0.71,Correctly Segregated,60.0,No
+REC1276,2026-10-17 08:44:00,Radiology,Floor 4,Surgical Waste,Yellow Bin,BIN_09,213.4,,Correctly Segregated,5.0,No
+REC1277,2026-10-30 05:29:00,Lab,1st Floor,Non infectious waste,Black Bin,BIN_04,1218.6,0.87,Correctly Segregated,98.0,Yes
+REC1278,2026-10-07 06:35:00,Emergency,Floor 3,Syringes,Green Bin,BIN_07,261.0,0.88,Correctly Segregated,76.0,No
+REC1279,2026-10-14 13:44:00,Emergency,Ground,Cotton swab,Yellow Bin, BIN_08 ,222.2,0.77,Correctly Segregated,71.0,No
+REC1280,2026-10-12 10:34:00,Radiology,Floor 2,Expired medication,White Bin,BIN_02,148.8,0.95,Correctly Segregated,42.0,no
+REC1281,2026-10-11 23:40:00,Pediatrics,Floor 3,IV Bags / Tubes,RED BIN,BIN_10,212.1,0.72,Misclassified / Override Required,78.0,Yes
+REC1282,2026-10-30 17:30:00,ICU,Ground,Surgical Waste,Yellow Bin,BIN_06,168.7,0.82,Correctly Segregated,38.0,No
+REC1283,2026-10-10 07:04:00,General Ward,ground floor,Urine/Body Fluids,Red Bin,BIN_04,335.8,0.84,Correctly Segregated,22.0,No
+REC1284,2026-10-16 17:45:00,Emergency,Floor 3,Hazardous Chemicals,White Bin,BIN_10,409.7,0.91,Correct,9.0,No
+REC1285,2026-10-13 07:28:00,ICU,Ground,Cotton Swabs,Yellow Bin,BIN_01,101.6,0.84,Correctly Segregated,21.0,No
+REC1286,2026-10-11 08:46:00,ICU,Ground,Glassware,Blue Bin,BIN_01,65.7,0.92,Correctly Segregated,43.0,No
+REC1287,2026-10-01 19:45:00,Laboratory,Ground,Urine/Body Fluids,RED BIN,BIN_07,43.9,0.92,Correctly Segregated,92.0,Yes
+REC1288,2026-10-06 06:14:00,Laboratory,Ground,Contaminated Recyclable Plastics,Red Bin,BIN_10,286.1,0.98,Correctly Segregated,22.0,No
+REC1289,2026-10-11 20:08:00,OPD,ground floor,,Black Bin,BIN_10,78.8,0.7,Correctly Segregated,12.0,No
+REC1290,2026-10-26 20:27:00,icu,ground floor,Office Trash,Black Bin,BIN_12,34.0,0.77,Correctly Segregated,73.0,No
+REC1291,2026-10-13 20:40:00,ICU,floor-2,Used Bandages,Yellow Bin, BIN_06 ,260.0,0.87,Correctly Segregated,28.0,No
+REC1292,2026-10-22 18:52:00,ER,Ground,Glassware,Blue Bin,BIN_02,1400.2,0.77,Misclassified / Override Required,55.0,YES
+REC1293,2026-10-11 00:36:00,Lab,Floor 2,Expired Medications,White Bin,BIN_06,189.6,0.93,Correctly Segregated,50.0,no
+REC1294,2026-10-25 00:53:00,ICU,Floor 1,Non-Infectious Waste,Black Bin,BIN_04,223.5,0.96,Correctly Segregated,17.0,No
+REC1295,2026-10-24 17:03:00,OPD,Floor 2,Syringes,Green Bin,BIN_12,203.5,0.86,Correctly Segregated,22.0,no
+REC1296,2026-10-02 15:10:00,OPD,F3,Surgical Waste,Yellow Bin,BIN_11,176.1,0.92,Correctly Segregated,125.0,
+REC1297,2026-10-13 15:36:00,Radiology,Floor 2,Surgical Waste,Yellow Bin,BIN_02,397.5,0.72,Correctly Segregated,39.0,No
+REC1298,2026-10-21 04:59:00,ICU,Floor 1,Food Waste,Black Bin,BIN_04,151.1,0.81,Correctly Segregated,54.0,No
+REC1299,2026-10-25 15:30:00,General Ward,ground floor, Office Trash ,Black Bin,BIN_10,236.0,0.92,Correctly Segregated,9.0,No
+REC0247,2026-10-10 20:31:00,ICU,Floor 2,Non-Infectious Waste,Black Bin,BIN_12,246.5,0.94,Correctly Segregated,80.0,No
+REC1301,2026-10-03 14:23:00,Emergency,Floor 4,Office Trash,Black Bin,BIN_07,111.7,0.98,Correctly Segregated,99.0,Yes
+REC1302,2026-10-20 06:56:00,Pediatrics,Floor 1,Chemical Containers,Blue Bin,BIN_07,421.4,0.84,Correctly Segregated,,No
+REC1303,2026-10-12 08:59:00,Pediatrics,Floor 2,Glassware,Black Bin,BIN_10,165.7,0.81,Correctly Segregated,15.0,No
+REC1304,2026-10-28 16:05:00,ICU,Ground,Metallic & Plastic Waste,Blue Bin,,104.1,0.86,Correctly Segregated,88.0,Yes
+REC1305,2026-10-22 01:25:00,,Floor 3,Non-Infectious Waste,Black Bin,BIN_01,292.7,0.84,Correctly Segregated,61.0,No
+REC1306,2026-10-19 14:18:00,ICU,Floor 4,Paper Wrappers,Black Bin,BIN_02,92.9,0.78,Correctly Segregated,32.0,No
+REC1307,2026-10-12 17:48:00,Pediatrics,Floor 2,Expired Medications,White Bin,BIN_08,194.9,0.74,Correctly Segregated,28.0,No
+REC1308,2026-10-11 14:08:00,,Ground,IV Bags/Tubes,Red Bin,BIN_03,189.2,0.9,Correctly Segregated,11.0,No
+REC1309,2026-10-19 12:27:00,Laboratory,Floor 3,Contaminated Recyclable Plastics,Red Bin,BIN_11,226.6,0.76,Correct,25.0,no
+REC1310,2026-10-05 23:14:00,Emergency,Floor 4,Paper Wrappers,Yellow Bin,BIN_08,278.6,0.73,Correctly Segregated,49.0,No
+REC1311,2026-10-19 22:20:00,Emergency,Floor 3,Cotton Swabs,Yellow Bin,BIN_05,186.8,0.74,Correctly Segregated,52.0,No
+REC1312,2026-10-30 16:08:00,General Ward,Floor 3,Non-Infectious Waste,Black Bin,BIN_05,366.6,0.88,Correctly Segregated,57.0,No
+REC1313,2026-10-27 21:46:00,ICU,Ground,IV Bags/Tubes,Red Bin,BIN_10,579.5,0.76,Correctly Segregated,24.0,No
+REC1314,2026-10-27 11:08:00,General Ward,Floor 1,Non-Infectious Waste,Black Bin, BIN_07 ,297.7,0.94,Correct,70.0,No
+REC1315,2026-10-04 13:40:00,Emergency,1st Floor,Used Bandages,Yellow Bin,BIN_10,192.2,0.85,Correctly Segregated,88.0,Yes
+REC1316,2026-10-06 12:25:00,ICU,Fourth Floor,Hazardous Chemicals,White Bin,BIN_08,66.7,0.89,Correctly Segregated,73.0,No
+REC1317,2026-10-14 08:06:00,OPD,floor-2,Blades,Green Bin,BIN_04,81.3,0.93,Correctly Segregated,78.0,No
+REC1318,2026-10-07 10:43:00,Emergency,Floor 4,Non-Infectious Waste,Black Bin ,BIN_06,103.1,0.98,Correctly Segregated,95.0,Yes
+REC1319,2026-10-23 00:49:00,opd,F3,Expired Medications,White Bin,BIN_07,117.0,0.77,Correctly Segregated,88.0,Yes
+REC1320,2026-10-27 14:42:00,OT,Floor 4,Contaminated Recyclable Plastics,Red Bin,BIN_05,164.1,0.93,Correct,57.0,No
+REC1321,2026-10-23 23:37:00,OT,Floor 4,Non-Infectious Waste,Black Bin,BIN_08,199.4,0.88,Correctly Segregated,58.0,No
+REC1322,2026-10-08 14:09:00,Emergency,Floor 3,Urine/Body Fluids,Red Bin,BIN_05,291.1,0.92,Correctly Segregated,6.0,No
+REC1323,2026-10-20 15:13:00,ICU,Floor 1,Syringes,Green Bin,BIN_02,180.1,0.74,Correctly Segregated,9.0,No
+REC1324,2026-10-06 19:12:00,Radiology,Floor 4,Blades,Green Bin,BIN_04,281.2,0.91,Correctly Segregated,50.0,No
+REC1325,2026-10-27 22:03:00,Emergency,Ground,Surgical Waste,Yellow Bin,BIN_02,200.7,0.91,Correctly Segregated,48.0,No
+REC1326,2026-10-21 11:15:00,Radiology,Floor 2,Paper Wrappers,Black Bin,BIN_08,39.2,0.9,Correctly Segregated,85.0,No
+REC1484,07/10/2026 14:30,OT,Ground,IV Bags/Tubes,Red Bin,BIN_10,89.9,0.87,Correctly Segregated,70.0,No
+REC1328,2026-10-27 18:20:00,Pediatrics,Ground,Needles,Green Bin,BIN_04,169.8,0.79,Correct,70.0,No
+REC1329,2026-10-27 09:19:00,Radiology,Floor 2,Non-Infectious Waste,Black Bin,BIN_06,72.4,0.81,Correctly Segregated,72.0,No
+REC1330,2026-10-24 15:02:00,Paediatrics,Floor 4,IV Bags/Tubes,Blue Bin,BIN_10,308.0,0.79,Misclassified / Override Required,60.0,Yes
+REC1331,2026-10-23 03:32:00,Laboratory,Floor 1,Paper Wrappers,Black Bin,BIN_03,648.5,0.78,Correct,40.0,No
+REC1332,2026-10-13 16:20:00,,Ground,Metallic & Plastic Waste,Blue Bin,BIN_04,505.2,0.86,Misclassified / Override Required,34.0,Yes
+REC1333,2026-10-25 11:32:00,OPD,Ground,Blades,Yellow Bin,BIN_08,160.7,0.94,Correctly Segregated,74.0,No
+REC1334,2026-10-20 09:51:00,,Floor 4,Anatomical Waste,Yellow Bin,BIN_03,628.0,0.94,Correctly Segregated,78.0,No
+REC1335,2026-10-21 05:24:00,radiology,Floor 3,Chemical Containers,Blue Bin,BIN_05,214.6,0.73,Correctly Segregated,20.0,No
+REC1336,2026-10-17 02:21:00,Emergency,Floor 1,Contaminated Recyclable Plastics,Red Bin,BIN_12,145.5,0.72,Misclassified / Override Required,19.0,Yes
+REC1337,2026-10-24 08:09:00,Emergency,Floor 2,IV Bags/Tubes,Red Bin,BIN_01,116.7,0.83,,85.0,No
+REC1338,2026-10-29 11:50:00,ICU,Ground,Blades,Green Bin,BIN_04,149.6,0.74,Correctly Segregated,89.0,Yes
+REC1339,2026-10-13 01:45:00,Laboratory,Floor 1,Food Waste,Black Bin,BIN_08,139.7,0.94,Correctly Segregated,30.0,No
+REC1340,2026-10-24 11:56:00,OPD,ground floor,Syringes,Green Bin,BIN_07,218.4,0.72,Correctly Segregated,16.0,No
+REC1341,2026-10-20 00:44:00,Pediatrics,Floor 4, Expired Medications ,White Bin,BIN_07,216.7,0.88,Correctly Segregated,9.0,No
+REC1342,2026-10-09 04:40:00,Pediatrics,Floor 1,Glassware,Blue,BIN_05,191.0,0.89,Correctly Segregated,89.0,Yes
+REC1343,2026-10-25 17:33:00,Laboratory,Floor 2,Syringes,Green Bin,BIN_02,270.3,0.76,Correctly Segregated,50.0,No
+REC1344,2026-10-20 08:03:00,Emergency,Floor 1,Chemical Containers,Blue Bin,BIN_08,494.0,0.98,Correctly Segregated,36.0,no
+REC1345,2026-10-23 00:22:00,Lab,Floor 4,Surgical Waste,Yellow Bin,BIN_07,407.3,0.9,Correct,21.0,No
+REC1346,2026-10-03 18:24:00,General Ward,Floor 2,Anatomical Waste,yellow bin,BIN_11,58.1,0.79,Correctly Segregated,57.0,no
+REC1347,2026-10-03 11:40:00,Pediatrics,Floor 3,Food Waste,Black Bin ,BIN_12,24.7,0.76,Correctly Segregated,38.0,No
+REC1348,2026-10-08 13:54:00,OPD,Ground,Used Bandages,Yellow Bin,BIN_10,402.4,0.88,Correctly Segregated,78.0,No
+REC1349,2026-10-05 02:34:00,General Ward,Floor 2,Contaminated Recyclable Plastics,Yellow Bin,BIN_09,63.8,0.72,Correctly Segregated,53.0,No
+REC1350,2026-10-08 03:28:00,Radiology,Floor 1,Used Bandages,Yellow Bin,BIN_05,159.2,0.93,Correctly Segregated,30.0,No
+REC1351,2026-10-12 07:39:00,ICU,Ground,,Black Bin,BIN_01,74.7,0.92,Correctly Segregated,98.0,Yes
+REC1352,2026-10-02 22:11:00,OT,Floor 2,,Green Bin,BIN_05,45.1,0.71,Correctly Segregated,67.0,No
+REC1353,2026-10-30 19:44:00,radiology,Floor 1,Glassware,Blue,BIN_12,293.9,0.95,Correctly Segregated,53.0,No
+REC1354,2026-10-19 21:42:00,icu,Ground,Cotton Swabs,Yellow Bin,BIN_12,349.8,0.94,Correctly Segregated,95.0,Yes
+REC1355,2026-10-09 20:12:00,Pediatrics,Floor 2,Contaminated Recyclable Plastics,Red Bin,BIN_07,120.2,0.85,Correctly Segregated,55.0,No
+REC1356,2026-10-13 00:39:00,Laboratory,Floor 3,Anatomical Waste,Yellow Bin,BIN_05,24.0,0.82,Correctly Segregated,17.0,No
+REC1357,2026-10-13 22:39:00,OPD,Floor 3,Glassware,Blue Bin,BIN_01,123.1,0.99,Misclassified / Override Required,66.0,Yes
+REC1358,2026-10-05 22:17:00,Laboratory,Floor 1,Food Waste,Black Bin,BIN_10,260.7,0.98,Misclassified / Override Required,96.0,Yes
+REC1359,2026-10-26 15:06:00,ER,Floor 2,Food Waste,Black Bin,BIN_06,58.4,0.74,Correctly Segregated,66.0,No
+REC1360,2026-10-28 00:09:00,opd,Ground,Cotton swab,Yellow Bin,BIN_03,220.7,0.82,Correctly Segregated,67.0,No
+REC1361,2026-10-03 16:22:00,Laboratory,Floor 2,Syringes,Green Bin,BIN_07,188.2,0.79,Correctly Segregated,34.0,No
+REC1362,2026-10-28 05:58:00,Radiology,Ground,Non-Infectious Waste,Green Bin,BIN_05,302.9,0.9,Correctly Segregated,77.0,No
+REC1363,2026-10-30 16:10:00,OPD,floor-2,Expired Medications,White Bin,BIN_08,209.7,0.91,Correctly Segregated,45.0,No
+REC1364,2026-10-04 16:56:00,Emergency,Floor 3,Blades,Green Bin,BIN_12,87.5,0.72,Correctly Segregated,98.0,Yes
+REC1365,2026-10-06 12:41:00,OT,Floor 1,Contaminated Recyclable Plastics,Red Bin,BIN_08,496.3,0.95,Correctly Segregated,100.0,Yes
+REC1366,2026-10-29 11:56:00,Laboratory,Floor 1,Surgical Waste,yellow bin,BIN_12,167.9,0.95,Correctly Segregated,26.0,No
+REC1367,2026-10-14 09:22:00,Pediatrics,Floor 4,Office Trash,Black Bin,BIN_06,186.4,0.88,Correctly Segregated,60.0,No
+REC1368,2026-10-24 19:31:00,OPD,Floor 4,Paper Wrappers,Black Bin,BIN_12,90.3,0.81,Correctly Segregated,42.0,No
+REC1369,2026-10-07 03:49:00,OT,Floor 4,Metallic & Plastic Waste,Blue,BIN_12,133.7,0.94,Correctly Segregated,47.0,No
+REC1370,2026-10-04 01:14:00,ICU,Floor 2,Anatomical Waste,Yellow Bin,BIN_12,93.9,0.75,Correctly Segregated,65.0,No
+REC1371,2026-10-29 10:38:00,Laboratory,Floor 4,Surgical Waste,Yellow Bin,BIN_03,165.9,0.72,Correctly Segregated,12.0,no
+REC1372,2026-10-09 18:24:00,Pediatrics,floor-2,Expired Medications,White Bin,BIN_07,749.5,0.87,Correctly Segregated,6.0,No
+ REC1373 ,2026-10-26 12:53:00,OPD,Ground,Chemical Containers,Blue Bin,BIN_10,63.6,0.74,Correctly Segregated,37.0,no
+ REC1374 ,2026-10-06 18:23:00,radiology,floor-2,Urine/Body Fluids,Red Bin,BIN_10,52.4,0.92,Correctly Segregated,18.0,no
+ REC1375 ,2026-10-29 00:42:00,Laboratory,1st Floor,Hazardous Chemicals,White Bin,BIN_03,618.3,0.7,Correct,99.0,Yes
+REC1376,2026-10-07 16:00:00,OT,Floor 1,Glassware,Blue Bin,BIN_08,161.2,0.95,Misclassified / Override Required,83.0,Yes
+REC1377,2026-10-24 06:55:00,Laboratory,Floor 3,Non-Infectious Waste,Black Bin,BIN_11,111.6,0.84,Correctly Segregated,22.0,No
+REC1378,2026-10-18 21:31:00,Radiology,Floor 3, Chemical Containers ,Blue Bin,BIN_12,437.9,0.84,Correctly Segregated,76.0,No
+REC1379,2026-10-28 13:14:00,OPD,1st Floor,Chemical Containers,Blue Bin,BIN_11,117.4,0.94,Correctly Segregated,15.0,No
+REC1380,2026-10-12 09:39:00,,Fourth Floor,Contaminated Recyclable Plastics,Red Bin,BIN_07,821.2,0.89,Correctly Segregated,67.0,No
+REC1381,2026-10-16 17:54:00,Radiology,Floor 1,IV Bags/Tubes,Red Bin,BIN_10,,0.86,Correctly Segregated,64.0,No
+REC1382,2026-10-01 11:39:00,opd,Floor 3,Urine/Body Fluids,Red Bin,BIN_06,129.0,0.85,Correctly Segregated,100.0,Yes
+REC1383,2026-10-12 13:10:00,ICU,Floor 4,Anatomical Waste,Yellow Bin,BIN_05,1070.5,0.71,Correctly Segregated,52.0,No
+REC1384,2026-10-12 12:23:00,Pediatrics,Ground,Metallic & Plastic Waste,Blue Bin,BIN_10,,0.94,Correctly Segregated,94.0,Yes
+REC1385,2026-10-08 21:48:00,Laboratory,Fourth Floor,Syringes,Green Bin,BIN_02,345.0,0.71,Misclassified / Override Required,67.0,Yes
+REC1386,2026-10-09 01:13:00,OT,Ground,Anatomical Waste,Yellow Bin,BIN_07,242.1,0.94,Correctly Segregated,95.0,Yes
+REC1387,2026-10-15 07:13:00,Emergency,Floor 4,Surgical Waste,Yellow Bin,BIN_05,539.9,0.99,Correctly Segregated,12.0,no
+REC1388,2026-10-15 09:40:00,OT,Floor 4,Urine/Body Fluids,Red Bin,BIN_12,664.6,0.97,Correctly Segregated,47.0,No
+REC1389,2026-10-03 19:09:00,Emergency,Floor 1,Blades,green,BIN_09,195.5,0.74,Correctly Segregated,58.0,No
+REC1390,2026-10-28 16:40:00,OPD,Floor 4,Metallic & Plastic Waste,Blue Bin,BIN_07,104.3,0.75,Correctly Segregated,40.0,No
+REC1391,2026-10-16 12:57:00, Lab ,Floor 4,Anatomical Waste,Yellow Bin,BIN_12,275.3,0.72,Correctly Segregated,20.0,No
+REC1392,2026-10-04 22:23:00,OT,Floor 2,Needles,Green Bin,BIN_10,110.8,0.88,Correct,28.0,No
+REC1393,2026-10-30 00:48:00,General Ward,Floor 3,Anatomical Waste,Yellow Bin,BIN_02,954.0,0.95,Correctly Segregated,32.0,No
+REC1394,2026-10-07 00:58:00,Pediatrics,Ground,Glassware,Blue Bin,BIN_07,212.6,0.9,Correctly Segregated,29.0,No
+REC1395,2026-10-11 06:48:00,OPD,Floor 2,IV Bags/Tubes,Red Bin,BIN_04,142.3,0.75,Correctly Segregated,57.0,No
+REC1396,2026-10-23 07:05:00,General Ward,Floor 4,Chemical Containers,Blue Bin,BIN_06,,0.8,Correctly Segregated,16.0,No
+REC1397,2026-10-02 16:07:00, Radiology ,Floor 1,Blades,Green Bin,BIN_09,64.9,0.86,Correctly Segregated,26.0,No
+REC1398,2026-10-10 10:35:00,General Ward,Floor 4,Office Trash,Black Bin ,BIN_09,0.0,0.94,Correctly Segregated,41.0,No
+REC1399,2026-10-10 22:23:00,Laboratory,Floor 2,Metallic & Plastic Waste,Blue Bin,BIN_01,497.9,0.97,Correctly Segregated,38.0,No
+REC1400,2026-10-22 06:21:00,General Ward,Floor 2,Blades,Green Bin,BIN_10,112.7,0.81,Correctly Segregated,22.0,No
+REC1401,2026-10-29 15:33:00,General Ward,Ground,Hazardous Chemicals,White Bin,BIN_03,82.5,0.82,Correctly Segregated,18.0,No
+REC1402,2026-10-17 07:02:00,Pediatrics,Floor 1,Non-Infectious Waste,Black Bin,BIN_08,292.8,0.86,Correct,28.0,No
+REC1403,2026-10-27 05:06:00,Radiology,Floor 3,Anatomical Waste,Yellow Bin,BIN_08,492.0,0.94,Correctly Segregated,80.0,No
+REC1404,2026-10-19 06:09:00,Paediatrics,Ground,Metallic & Plastic Waste,Blue Bin,BIN_04,338.7,0.92,Correctly Segregated,66.0,No
+REC1405,2026-10-27 06:46:00,Radiology,Floor 4,Blades,Green Bin,BIN_01,422.8,0.75,Correctly Segregated,39.0,No
+REC0649,2026-10-24 20:26:00,OPD,Floor 4,IV Bags/Tubes,Red Bin,BIN_03,104.0,0.74,Correctly Segregated,,Yes
+REC1407,2026-10-07 10:30:00,General Ward,Floor 3,Non-Infectious Waste,Yellow Bin,BIN_07,61.1,0.75,Correctly Segregated,44.0,No
+REC1408,2026-10-14 17:04:00,Paediatrics,Ground,Anatomical Waste,Yellow Bin,BIN_03,633.4,0.77,Correct,27.0,no
+REC1409,2026-10-26 06:35:00, nan ,Ground,Urine/Body Fluids,Red Bin,BIN_08,147.2,0.75,Correctly Segregated,24.0,No
+REC1410,2026-10-10 16:05:00,Laboratory,Floor 3,Surgical Waste,Yellow Bin,BIN_08,155.9,0.9,Correctly Segregated,94.0,Yes
+REC1411,2026-10-19 04:46:00,General Ward,Floor 2,Surgical Waste,Yellow Bin,BIN_11,551.5,0.91,Correctly Segregated,22.0,No
+REC1412,2026-10-23 05:21:00,ICU,Floor 1,Office Trash,Black Bin,BIN_10,297.4,0.75,Correctly Segregated,49.0,No
+REC1413,2026-10-28 18:54:00,Radiology,Ground,Glassware,Blue Bin,BIN_11,274.4,0.77,Correctly Segregated,5.0,No
+REC1414,2026-10-05 05:25:00,General Ward,Floor 3,Syringes,Green Bin,BIN_11,1077.1,0.75,Correctly Segregated,60.0,No
+REC1415,2026-10-02 14:02:00,Paediatrics,Floor 3,Contaminated Recyclable Plastics,Red Bin,BIN_03,113.9,0.75,Correctly Segregated,66.0,No
+REC1416,2026-10-16 18:14:00,Emergency,Floor 3,Blades,green,BIN_01,400.3,0.75,Correctly Segregated,15.0,No
+REC1417,2026-10-01 12:39:00,Laboratory,Floor 3, Contaminated Recyclable Plastics ,Red Bin, BIN_07 ,199.5,0.92,Correctly Segregated,63.0,No
+REC1418,2026-10-28 11:19:00,Laboratory,Fourth Floor,,Blue Bin,BIN_06,236.2,0.93,Correctly Segregated,19.0,No
+REC1419,2026-10-09 03:20:00,Radiology,Floor 4,Non-Infectious Waste,Black Bin,BIN_07,647.3,0.95,Correctly Segregated,19.0,No
+REC1420,2026-10-27 20:36:00,Pediatrics,Floor 1,Cotton Swabs,Yellow Bin,BIN_09,286.1,0.94,Correctly Segregated,95.0,Yes
+REC1421,2026-10-06 12:45:00,Laboratory,Floor 3,Needles,Green Bin,BIN_06,293.1,0.71,Correctly Segregated,10.0,No
+REC1422,2026-10-02 01:42:00,Pediatrics,Floor 1,Paper Wrappers,Black Bin,BIN_05,449.4,0.8,Correctly Segregated,42.0,No
+REC1423,2026-10-28 02:44:00,Emergency,floor-2,Anatomical Waste,Yellow Bin,BIN_12,142.3,0.71,Correctly Segregated,9.0,No
+REC1424,2026-10-06 17:41:00,OT,Floor 3,Food Waste,Black Bin ,BIN_07,97.4,0.96,Correctly Segregated,17.0,No
+REC1425,2026-10-24 19:51:00,Laboratory,Ground,Paper Wrappers,Black Bin,BIN_02,82.6,0.79,Misclassified / Override Required,36.0,YES
+REC1426,2026-10-05 14:27:00,Radiology,Floor 4,Used Bandages,Yellow Bin,BIN_12,39.5,0.72,Correctly Segregated,86.0,Yes
+REC1427,2026-10-30 17:08:00,Emergency,Floor 3,Chemical Containers,Black Bin,BIN_02,987.3,0.93,Correctly Segregated,97.0,Yes
+REC1428,2026-10-25 12:54:00,OPD,Ground,Hazardous Chemicals,White Bin,BIN_06,78.8,0.87,Correct,70.0,No
+REC1429,2026-10-09 10:50:00,Pediatrics,Floor 4,Urine/Body Fluids,Red Bin,BIN_11,159.7,0.71,Correctly Segregated,100.0,Yes
+REC1430,2026-10-01 05:31:00,Radiology,Floor 1,Food Waste,Black Bin,BIN_01,152.7,0.93,Correctly Segregated,39.0,No
+REC1431,2026-10-15 11:30:00,Emergency,Floor 1,Contaminated Recyclable Plastics,Red Bin,BIN_04,243.7,,Correctly Segregated,86.0,Yes
+REC1432,2026-10-28 17:32:00,Lab,Floor 4,Non-Infectious Waste,Black Bin,BIN_07,366.0,0.88,Correctly Segregated,98.0,YES
+REC1433,2026-10-01 13:43:00,General Ward,Floor 2,Non-Infectious Waste,Black Bin,BIN_06,379.3,0.8,Correctly Segregated,76.0,No
+REC1434,2026-10-10 14:04:00,Operation Theater,Floor 3,Needles,Green Bin,BIN_05,119.5,0.82,Correctly Segregated,68.0,no
+REC1435,2026-10-16 17:09:00,,Floor 1,Hazardous Chemicals,White Bin,BIN_12,166.7,0.99,Misclassified / Override Required,76.0,Yes
+REC1436,2026-10-22 06:30:00,ICU,Floor 1,Paper Wrappers,Black Bin,BIN_10,238.9,0.87,Correct,62.0,No
+REC1437,2026-10-13 22:04:00,Laboratory,1st Floor,Paper Wrappers,Black Bin,BIN_07,156.2,0.97,Correctly Segregated,7.0,No
+REC1438,2026-10-05 09:55:00,Radiology,1st Floor,Contaminated Recyclable Plastics,Red Bin,BIN_04,689.4,0.99,Correctly Segregated,20.0,no
+REC1439,2026-10-19 06:07:00,Radiology,Floor 2,Hazardous Chemicals,White Bin,BIN_04,282.2,0.82,Correctly Segregated,99.0,Yes
+REC1440,2026-10-29 19:32:00,General Ward,Fourth Floor,Metallic & Plastic Waste,Blue Bin,BIN_09,343.1,0.85,Correctly Segregated,18.0,No
+REC1441,2026-10-14 00:41:00,Laboratory,1st Floor,Glassware,Blue Bin,BIN_03,323.9,0.82,Correct,64.0,No
+REC1442,2026-10-30 20:44:00,OT,Ground,Anatomical Waste,Yellow Bin,BIN_07,487.3,0.87,Correct,64.0,No
+REC1443,2026-10-02 07:43:00,OPD,Floor 1,Office Trash,Black Bin,BIN_10,220.3,0.88,Misclassified / Override Required,86.0,Yes
+REC1444,2026-10-15 19:00:00,OPD,Floor 1,Cotton Swabs,Yellow Bin,BIN_10,67.5,0.88,Correctly Segregated,7.0,No
+REC1445,2026-10-18 17:15:00,OPD,Floor 1,Cotton Swabs,Black Bin,BIN_08,262.4,0.81,Misclassified / Override Required,88.0,Yes
+REC1446,2026-10-15 16:30:00,Operation Theater,Floor 2,Glassware,Blue Bin,BIN_02,113.2,0.96,Correct,30.0,No
+REC1447,2026-10-28 10:54:00,Laboratory,Floor 1,Urine/Body Fluids,Red Bin,BIN_03,124.8,0.98,Correct,92.0,Yes
+REC1448,2026-10-08 05:57:00,OPD,Floor 3,Blades,Green Bin,BIN_12,304.6,0.98,Correctly Segregated,47.0,No
+REC1449,2026-10-24 15:43:00,Lab,Floor 3,Anatomical Waste,Yellow Bin,BIN_02,513.2,0.93,Correct,57.0,No
+REC1450,2026-10-28 14:58:00,ICU,Floor 3,Metallic & Plastic Waste,Blue Bin,BIN_08,193.8,0.94,Correctly Segregated,96.0,Yes
+REC1451,2026-10-02 19:35:00,General Ward,Floor 3,Used Bandages,yellow bin,BIN_12,244.0,0.97,Correctly Segregated,97.0,Yes
+REC1452,2026-10-12 22:43:00,Emergency,Floor 1,Needles,Green Bin,BIN_06,743.8,0.82,Correctly Segregated,23.0,No
+REC1453,2026-10-10 13:28:00,Pediatrics,Ground,Non-Infectious Waste,Black Bin,BIN_06,231.0,,,66.0,No
+REC1454,2026-10-12 19:59:00,General Ward,floor-2,Cotton Swabs,Yellow Bin,BIN_12,1527.4,0.83,Correctly Segregated,36.0,No
+REC1455,2026-10-02 15:02:00,OT,Floor 1,Needles,Green Bin,BIN_09,299.6,0.78,Correctly Segregated,81.0,No
+REC1456,2026-10-14 06:05:00,Pediatrics,Floor 1,Glassware,Blue Bin,BIN_10,46.6,0.88,Correctly Segregated,96.0,Yes
+REC1457,2026-10-06 20:24:00,OT,Floor 4,Syringes,Green Bin,BIN_05,348.2,0.95,Correctly Segregated,24.0,No
+REC1458,2026-10-14 18:54:00,OT,Floor 4,Metallic & Plastic Waste,Red Bin,,258.5,0.78,Correctly Segregated,79.0,No
+REC1459,2026-10-22 16:58:00,OT,Floor 2,Blades,Green Bin,BIN_11,534.8,0.75,Correctly Segregated,56.0,No
+REC1460,2026-10-30 12:12:00,OT,Floor 4,Blades,Green Bin,BIN_08, 450 ,0.75,Correctly Segregated,67.0,No
+REC1461,2026-10-11 05:34:00,Pediatrics,Floor 1,Food Waste,Black Bin,BIN_04,170.6,0.74,Correctly Segregated,48.0,No
+REC1462,2026-10-26 21:56:00,ICU,Floor 4,Surgical Waste,Yellow Bin,BIN_04,71.6,0.91,Correctly Segregated,63.0,No
+REC1463,2026-10-15 23:55:00,Emergency,floor-2,Paper Wrappers,Black Bin,BIN_09,161.2,0.98,Correctly Segregated,17.0,No
+REC1464,2026-10-21 07:50:00,opd,Floor 1,Expired Medications,White Bin,BIN_05,96.5,0.93,Correctly Segregated,12.0,No
+REC1465,2026-10-11 09:24:00,Lab,Floor 1,IV Bags/Tubes,Red Bin,BIN_01,119.8,0.98,Correctly Segregated,36.0,No
+REC1466,2026-10-03 21:32:00,OT,,Metallic & Plastic Waste,Blue Bin,BIN_05,305.2,0.72,Correctly Segregated,29.0,No
+REC1467,2026-10-22 03:06:00,ER,Floor 4,Glassware,Blue Bin,BIN_01,724.8,0.79,Correctly Segregated,66.0,No
+REC1468,2026-10-22 15:57:00,OPD,Ground,Cotton swab,Yellow Bin,BIN_09,261.3,0.87,Correct,15.0,No
+REC1469,2026-10-21 03:28:00,OPD,Floor 4,Syringes,Black Bin,BIN_11,73.2,0.88,Correctly Segregated,19.0,No
+REC1470,2026-10-28 08:50:00,Pediatrics,Floor 3,Needles,Green Bin,BIN_11,272.0,0.75,Misclassified,57.0,Yes
+REC1471,2026-10-14 15:17:00,Pediatrics,Floor 4,Blades,Green Bin,BIN_04,496.4,0.8,Correctly Segregated,87.0,Yes
+REC1472,2026-10-09 06:59:00,Laboratory,Ground,Expired Medications,White Bin,BIN_06,,0.96,Correctly Segregated,19.0,No
+REC1473,2026-10-20 15:52:00,Pediatrics,Ground,Blades,Green Bin,BIN_08,171.2,0.8,Correct,13.0,No
+REC1474,2026-10-11 13:11:00,OPD,Floor 2,Expired Medications,White Bin,BIN_09,192.8,0.79,Correctly Segregated,18.0,No
+REC1475,2026-10-10 13:41:00,OT,Floor 2, Blades ,green,BIN_03,101.7,0.76,Correctly Segregated,83.0,No
+REC1476,2026-10-08 03:37:00,General Ward,Floor 4,Food Waste,Black Bin,BIN_08,320.1,0.89,Correctly Segregated,83.0,No
+REC1477,2026-10-22 11:31:00,Pediatrics,Floor 2,Office Trash,Black Bin,BIN_03,173.0,0.79,Correct,38.0,No
+REC1478,2026-10-20 08:32:00,Radiology,F3,Paper Wrappers,Black Bin,BIN_01,266.6,0.92,Correctly Segregated,44.0,No
+REC1479,2026-10-07 08:50:00,Laboratory,Floor 2,Food Waste,Black Bin,BIN_01,93.7,0.94,Correctly Segregated,87.0,YES
+REC1480,2026-10-17 23:56:00,ICU,Floor 2,Urine/Body Fluids,Red Bin,BIN_07,134.3,0.93,Correctly Segregated,42.0,No
+REC1481,2026-10-29 02:32:00,Laboratory,Floor 2,Non-Infectious Waste,Black Bin,BIN_02,339.6,0.72,Correctly Segregated,32.0,No
+REC1482,2026-10-27 23:38:00,Laboratory,Ground,IV Bags/Tubes,Red Bin,BIN_11,141.4,0.81,Correct,97.0,Yes
+REC1483,2026-10-18 01:37:00,ICU,Ground,Syringes,Green Bin,BIN_01,758.7,0.89,Correct,80.0,No
+REC1484,2026-10-06 01:16:00,Laboratory,Floor 1,Metallic & Plastic Waste,Blue Bin,BIN_12,138.4,0.72,Correctly Segregated,41.0,No
+REC1485,2026-10-14 14:25:00,opd,Floor 4,Office Trash,Black Bin,BIN_02,228.1,0.83,Correctly Segregated,80.0,No
+REC1486,2026-10-26 08:02:00,Pediatrics,Ground,Non-Infectious Waste,Black Bin,BIN_03,401.8,0.92,Correctly Segregated,38.0,No
+REC1487,2026-10-15 06:55:00,General Ward,,Cotton Swabs,Yellow Bin,BIN_12,61.3,0.96,Correctly Segregated,99.0,Yes
+REC1488,2026-10-16 03:44:00,OPD,,IV Bags/Tubes,Red Bin,BIN_05,46.6,0.88,Correctly Segregated,51.0,no
+REC1489,2026-10-19 00:52:00,Laboratory,ground floor,Anatomical Waste,Yellow Bin,BIN_09,56.2,0.72,Correctly Segregated,59.0,no
+REC1490,2026-10-23 22:44:00, General Ward ,Floor 4,Blades,Green Bin,BIN_08,,0.78,Correctly Segregated,9.0,No
+REC1491,2026-10-05 04:38:00,Emergency,Fourth Floor,Non-Infectious Waste,Black Bin,BIN_03,122.5,0.93,Correctly Segregated,77.0,No
+REC1492,2026-10-09 16:30:00,ER,Floor 3,Cotton Swabs,Yellow Bin,BIN_05,1475.2,0.84,Correctly Segregated,88.0,Yes
+REC1493,2026-10-27 04:17:00,General Ward,F3,Contaminated Recyclable Plastics,Red Bin,BIN_09,121.3,0.93,Correctly Segregated,87.0,Yes
+REC1494,2026-10-01 06:56:00,Radiology,Ground,Office Trash,Black Bin,BIN_01,220.9,0.77,Correctly Segregated,42.0,No
+REC1495,2026-10-15 20:45:00,Laboratory,Floor 1,Office Trash,Black Bin,BIN_10,654.4,0.97,Correct,79.0,No
+REC1496,2026-10-15 00:56:00,OT,Ground, Hazardous Chemicals ,White Bin,BIN_01,948.5,0.85,Correctly Segregated,31.0,No
+REC1497,2026-10-15 21:40:00,General Ward,Floor 1,Used Bandages,yellow bin,BIN_11,991.5,0.76,Correctly Segregated,13.0,No
+REC1498,2026-10-10 21:16:00, General Ward ,ground floor,Chemical Containers,Blue Bin,BIN_03,501.0,0.95,Correct,34.0,No
+REC1499,2026-10-21 04:54:00,opd,Floor 3,Needles,Green Bin,BIN_01,432.4,0.83,Correctly Segregated,8.0,No
+REC1500,2026-10-06 16:09:00,Emergency,Floor 1,Food Waste,Black Bin ,BIN_09,306.1,0.96,Correctly Segregated,80.0,No
