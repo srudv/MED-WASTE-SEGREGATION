@@ -6,7 +6,7 @@ The repository is organized into six numbered stages so that the project workflo
 
 > **Dataset note:** The current dataset was supplied by a project teammate and has no independently verifiable public source. The project documentation indicates that it may be simulated. Results describe this project dataset only; they must not be presented as verified hospital measurements, regulatory-compliance evidence, or proof of real-world AI accuracy.
 
----
+
 
 ## Table of Contents
 
